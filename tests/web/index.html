@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPANYSITE Progress</title>
+    <style>
+        #progress-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 25px;
+            margin: 20px 0;
+            display: none; /* Hide progress bar initially */
+        }
+
+        #progress-bar {
+            width: 0%;
+            height: 30px;
+            background-color: #76c7c0;
+            border-radius: 25px;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>APPANYSITE Progress</h1>
+    <button id="start-create-button">Create Project</button>
+    <button id="start-android-button">Update Android Icon</button>
+    <button id="start-ios-button">Update iOS Icon</button>
+    <button id="start-splash-button">Update Splash Screen</button>
+    <div id="progress-container">
+        <div id="progress-bar">0%</div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+
+        document.getElementById('start-create-button').addEventListener('click', () => {
+            startCommand('create');
+        });
+
+        document.getElementById('start-android-button').addEventListener('click', () => {
+            startCommand('update-android');
+        });
+
+        document.getElementById('start-ios-button').addEventListener('click', () => {
+            startCommand('update-ios');
+        });
+
+        document.getElementById('start-splash-button').addEventListener('click', () => {
+            startCommand('update-splash');
+        });
+
+        function startCommand(command) {
+            console.log(`Button Clicked for ${command}`);
+            document.getElementById('progress-container').style.display = 'block'; // Show progress bar when button is clicked
+            socket.emit('startCommand', command);
+        }
+
+        socket.on('progressUpdate', (progress) => {
+            const progressBar = document.getElementById('progress-bar');
+            progressBar.style.width = progress + '%';
+            progressBar.textContent = progress + '%';
+        });
+
+        socket.on('commandComplete', (code) => {
+            console.log(`Command completed with code: ${code}`);
+        });
+
+        socket.on('commandOutput', (output) => {
+            console.log(output); // Display other command output if necessary
+        });
+
+        socket.on('commandError', (message) => {
+            console.error(message);
+            alert(`Error: ${message}`);
+        });
+
+    </script>
+</body>
+</html>
