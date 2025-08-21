@@ -1,43 +1,53 @@
-import { spawn } from 'child_process';
-import fs from 'fs';
-import path from 'path';
+import { exec } from 'child_process';
+import { promisify } from 'util';
 
-/**
- * Runs a shell command and logs the output.
- * @param {string} command - The command to run.
- * @param {Array<string>} args - The command arguments.
- * @param {Object} [options={}] - Options for running the command.
- * @returns {Promise<void>}
- */
-const runCommand = (command, args, options = {}) => {
-  return new Promise((resolve, reject) => {
-    const logFilePath = path.join(options.logDirectory || '', 'react-native.log');
-    const logStream = fs.createWriteStream(logFilePath, { flags: 'a' });
+const execAsync = promisify(exec);
 
-    const child = spawn(command, args, { stdio: ['pipe', 'pipe', 'pipe'], shell: false, ...options });
+export default async function runCommand(command, args = [], options = {}) {
+    const FN = "runCommand";
+    
+    try {
+        // Build the full command string for exec
+        const fullCommand = `${command} ${args.join(' ')}`;
+        
+        Logger.info('Executing command with exec', {
+            file: FILE,
+            function: FN,
+            command: fullCommand,
+            cwd: options.cwd || process.cwd()
+        });
 
-    if (options.input) {
-      child.stdin.write(options.input);
-      child.stdin.end();
+        // Use exec for npx compatibility (npx requires shell)
+        const { stdout, stderr } = await execAsync(fullCommand, {
+            cwd: options.cwd,
+            env: options.env || process.env
+        });
+
+        // Log output
+        if (stdout) {
+            Logger.info('Command stdout', {
+                file: FILE,
+                function: FN,
+                stdout: stdout.trim()
+            });
+        }
+
+        if (stderr) {
+            Logger.warn('Command stderr', {
+                file: FILE,
+                function: FN,
+                stderr: stderr.trim()
+            });
+        }
+
+        return { stdout, stderr };
+    } catch (error) {
+        Logger.error('Command execution failed', {
+            file: FILE,
+            function: FN,
+            error: error.message,
+            command: `${command} ${args.join(' ')}`
+        });
+        throw error;
     }
-
-    child.stdout.on('data', (data) => {
-      logStream.write(data.toString());
-    });
-
-    child.stderr.on('data', (data) => {
-      logStream.write(data.toString());
-    });
-
-    child.on('close', (code) => {
-      logStream.end();
-      if (code === 0) {
-        resolve();
-      } else {
-        reject(new Error(`Command ${command} ${args.join(' ')} failed with code ${code}. See ${logFilePath} for details.`));
-      }
-    });
-  });
-};
-
-export default runCommand;
+}
