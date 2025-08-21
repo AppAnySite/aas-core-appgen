@@ -14,7 +14,7 @@ const runCommand = (command, args, options = {}) => {
     const logFilePath = path.join(options.logDirectory || '', 'react-native.log');
     const logStream = fs.createWriteStream(logFilePath, { flags: 'a' });
 
-    const child = spawn(command, args, { stdio: ['pipe', 'pipe', 'pipe'], shell: false, ...options });
+    const child = spawn(command, args, { stdio: ['pipe', 'pipe', 'pipe'], shell: true, ...options });
 
     if (options.input) {
       child.stdin.write(options.input);
