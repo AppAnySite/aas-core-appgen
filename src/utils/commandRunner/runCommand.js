@@ -1,37 +1,43 @@
-import { exec } from 'child_process';
-import { promisify } from 'util';
-import log from '../logger';
+import { spawn } from 'child_process';
+import fs from 'fs';
+import path from 'path';
 
-const execAsync = promisify(exec);
+/**
+ * Runs a shell command and logs the output.
+ * @param {string} command - The command to run.
+ * @param {Array<string>} args - The command arguments.
+ * @param {Object} [options={}] - Options for running the command.
+ * @returns {Promise<void>}
+ */
+const runCommand = (command, args, options = {}) => {
+  return new Promise((resolve, reject) => {
+    const logFilePath = path.join(options.logDirectory || '', 'react-native.log');
+    const logStream = fs.createWriteStream(logFilePath, { flags: 'a' });
 
-export default async function runCommand(command, args = [], options = {}) {
-    const FN = "runCommand";
-    const FILE = "runCommand.js";
-    
-    try {
-        // Build the full command string for exec
-        const fullCommand = `${command} ${args.join(' ')}`;
-        
-        log('info', `Executing command with exec: ${fullCommand}`);
+    const child = spawn(command, args, { stdio: ['pipe', 'pipe', 'pipe'], shell: true, ...options });
 
-        // Use exec for npx compatibility (npx requires shell)
-        const { stdout, stderr } = await execAsync(fullCommand, {
-            cwd: options.cwd,
-            env: options.env || process.env
-        });
-
-        // Log output
-        if (stdout) {
-            log('info', `Command stdout: ${stdout.trim()}`);
-        }
-
-        if (stderr) {
-            log('warn', `Command stderr: ${stderr.trim()}`);
-        }
-
-        return { stdout, stderr };
-    } catch (error) {
-        log('error', `Command execution failed: ${error.message}`);
-        throw error;
+    if (options.input) {
+      child.stdin.write(options.input);
+      child.stdin.end();
     }
-}
+
+    child.stdout.on('data', (data) => {
+      logStream.write(data.toString());
+    });
+
+    child.stderr.on('data', (data) => {
+      logStream.write(data.toString());
+    });
+
+    child.on('close', (code) => {
+      logStream.end();
+      if (code === 0) {
+        resolve();
+      } else {
+        reject(new Error(`Command ${command} ${args.join(' ')} failed with code ${code}. See ${logFilePath} for details.`));
+      }
+    });
+  });
+};
+
+export default runCommand;
