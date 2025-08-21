@@ -1,21 +1,18 @@
 import { exec } from 'child_process';
 import { promisify } from 'util';
+import log from '../logger';
 
 const execAsync = promisify(exec);
 
 export default async function runCommand(command, args = [], options = {}) {
     const FN = "runCommand";
+    const FILE = "runCommand.js";
     
     try {
         // Build the full command string for exec
         const fullCommand = `${command} ${args.join(' ')}`;
         
-        Logger.info('Executing command with exec', {
-            file: FILE,
-            function: FN,
-            command: fullCommand,
-            cwd: options.cwd || process.cwd()
-        });
+        log('info', `Executing command with exec: ${fullCommand}`);
 
         // Use exec for npx compatibility (npx requires shell)
         const { stdout, stderr } = await execAsync(fullCommand, {
@@ -25,29 +22,16 @@ export default async function runCommand(command, args = [], options = {}) {
 
         // Log output
         if (stdout) {
-            Logger.info('Command stdout', {
-                file: FILE,
-                function: FN,
-                stdout: stdout.trim()
-            });
+            log('info', `Command stdout: ${stdout.trim()}`);
         }
 
         if (stderr) {
-            Logger.warn('Command stderr', {
-                file: FILE,
-                function: FN,
-                stderr: stderr.trim()
-            });
+            log('warn', `Command stderr: ${stderr.trim()}`);
         }
 
         return { stdout, stderr };
     } catch (error) {
-        Logger.error('Command execution failed', {
-            file: FILE,
-            function: FN,
-            error: error.message,
-            command: `${command} ${args.join(' ')}`
-        });
+        log('error', `Command execution failed: ${error.message}`);
         throw error;
     }
 }
