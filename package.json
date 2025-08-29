@@ -1,17 +1,18 @@
 {
-  "name": "my-cli-tool",
-  "version": "v00.01-RC00",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "name": "aas-core-appgen",
+  "version": "v00.03.00",
+  "keywords": ["cli", "appgen", "cookiecutter", "react-native", "clean-architecture"],
+  "author": "AAS Development Team",
+  "license": "MIT",
+  "description": "High-performance CLI tool for generating React Native apps using cookiecutter templates with Clean Architecture",
   "main": "src/index.js",
   "bin": "build/lib/index.js",
+  "type": "module",
   "scripts": {
-    "build:ncc": "ncc build index.js -o build/lib/IconSplashLib",
-    "copy-libs": "mkdir -p build/libs/IconSplashLib && cp -r ../IconSplashLib/dist/IconSplashLib/* build/libs/IconSplashLib",
-    "build:pkg": "pkg --debug --target node16-macos-arm64 -o build/APPANYSITE build/lib/index.js",
+    "build:ncc": "ncc build index.js -o build/lib",
+    "build:pkg": "pkg --debug --target node16-macos-arm64 -o build/aas-core-appgen build/lib/index.js",
     "build": "npm run build:ncc && npm run build:pkg",
+    "test": "echo \"No tests specified\" && exit 0",
     "docs": "jsdoc -c jsdoc.json"
   },
   "pkg": {
@@ -19,8 +20,7 @@
       "build/lib/**/*.js"
     ],
     "assets": [
-      "build/lib/**/*.json",
-      "build/libs/main"
+      "build/lib/**/*.json"
     ],
     "dependencies": {
       "commander": "*"
@@ -28,17 +28,16 @@
   },
   "dependencies": {
     "chalk": "^5.3.0",
-    "cli-progress": "^3.12.0",
     "commander": "^12.1.0",
-    "react-native-bootsplash": "^5.5.3",
-    "shelljs": "^0.8.5",
-    "winston": "^3.13.1",
-    "winston-daily-rotate-file": "^5.0.0"
+    "winston": "^3.13.1"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.29.2",
     "jsdoc": "^4.0.3",
     "pkg": "^5.8.1"
   },
-  "packageManager": "yarn@3.6.4"
+  "packageManager": "yarn@3.6.4",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }

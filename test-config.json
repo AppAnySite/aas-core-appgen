@@ -1,0 +1,229 @@
+{
+  "app": {
+    "name": "TestApp",
+    "version": "1.0.0",
+    "buildNumber": "1",
+    "environment": "production",
+    "bundleId": "com.test.app",
+    "androidPackageName": "com.test.app",
+    "displayName": "Test App"
+  },
+  "theme": {
+    "defaultMode": "system",
+    "light": {
+      "colors": {
+        "primary": "#007AFF",
+        "secondary": "#5856D6",
+        "background": "#FFFFFF",
+        "surface": "#F2F2F7",
+        "error": "#FF3B30",
+        "warning": "#FF9500",
+        "success": "#34C759",
+        "text": {
+          "primary": "#000000",
+          "secondary": "#8E8E93",
+          "disabled": "#C7C7CC"
+        },
+        "border": "#C6C6C8",
+        "divider": "#C6C6C8"
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#0A84FF",
+        "secondary": "#5E5CE6",
+        "background": "#000000",
+        "surface": "#1C1C1E",
+        "error": "#FF453A",
+        "warning": "#FF9F0A",
+        "success": "#30D158",
+        "text": {
+          "primary": "#FFFFFF",
+          "secondary": "#8E8E93",
+          "disabled": "#3A3A3C"
+        },
+        "border": "#38383A",
+        "divider": "#38383A"
+      }
+    }
+  },
+  "features": {
+    "analytics": {
+      "enabled": true,
+      "trackingId": "test-tracking-id",
+      "sessionTimeout": 1800000
+    },
+    "crashReporting": {
+      "enabled": false,
+      "serviceUrl": "https://crash-reporting.example.com",
+      "maxReportsPerSession": 10
+    },
+    "pushNotifications": {
+      "enabled": false,
+      "fcmSenderId": "test-fcm-sender-id",
+      "defaultChannel": "general"
+    },
+    "network": {
+      "enabled": true,
+      "enableEventListeners": true,
+      "pingInterval": 5000,
+      "qualityMonitoring": true,
+      "connectionHistory": true
+    },
+    "deepLinking": {
+      "enabled": true,
+      "enableEventListeners": true,
+      "scheme": "testapp",
+      "allowedDomains": ["testapp.com", "www.testapp.com"],
+      "redirectToBrowser": false,
+      "customScheme": "testapp",
+      "universalLinks": {
+        "enabled": false,
+        "domains": ["testapp.com"]
+      }
+    },
+    "security": {
+      "enabled": true,
+      "validateUrls": true,
+      "blockedDomains": [],
+      "allowedDomains": ["testapp.com", "www.testapp.com"],
+      "httpsEnforcement": true,
+      "certificatePinning": false,
+      "customRules": []
+    },
+    "performance": {
+      "enabled": true,
+      "enableMonitoring": true,
+      "thresholds": [
+        {
+          "type": "render_time",
+          "name": "component_render",
+          "warning": 16,
+          "critical": 33,
+          "unit": "ms"
+        },
+        {
+          "type": "network_request",
+          "name": "http_request",
+          "warning": 2000,
+          "critical": 5000,
+          "unit": "ms"
+        }
+      ]
+    },
+    "accessibility": {
+      "enabled": true,
+      "customActions": [],
+      "enableRecommendations": true,
+      "autoDetectFeatures": true
+    },
+    "offline": {
+      "enabled": true,
+      "indicator": {
+        "enabled": true,
+        "position": "top",
+        "style": "banner",
+        "autoHide": true,
+        "hideDelay": 3000
+      },
+      "sync": {
+        "enabled": true,
+        "autoSync": true,
+        "syncInterval": 30000,
+        "maxRetries": 3
+      },
+      "storage": {
+        "enabled": true,
+        "maxSize": 1000,
+        "cleanupInterval": 3600000
+      }
+    },
+    "webview": {
+      "enabled": true,
+      "url": "https://www.testapp.com/",
+      "title": "TestApp",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
+      "javaScriptEnabled": true,
+      "domStorageEnabled": true,
+      "startInLoadingState": false,
+      "scalesPageToFit": true,
+      "allowsInlineMediaPlayback": true,
+      "mediaPlaybackRequiresUserAction": false,
+      "allowsFullscreenVideo": true,
+      "mixedContentMode": "compatibility",
+      "cacheEnabled": true,
+      "cacheMode": "LOAD_DEFAULT",
+      "allowFileAccess": false,
+      "allowUniversalAccessFromFileURLs": false,
+      "allowFileAccessFromFileURLs": false,
+      "pullToRefreshEnabled": true,
+      "timeout": 30000,
+      "retryAttempts": 3,
+      "offlineMessage": "No internet connection. Please check your network settings."
+    }
+  },
+  "api": {
+    "baseUrl": "https://api.testapp.com",
+    "timeout": 10000,
+    "retryAttempts": 3,
+    "endpoints": {
+      "config": "/api/config",
+      "analytics": "/api/analytics",
+      "errors": "/api/errors"
+    }
+  },
+  "logging": {
+    "level": "info",
+    "enabled": true,
+    "maxLogs": 1000,
+    "remoteReporting": {
+      "enabled": false,
+      "endpoint": "https://logs.testapp.com",
+      "batchSize": 50,
+      "interval": 30000
+    }
+  },
+  "ui": {
+    "loading": {
+      "showSpinner": true,
+      "text": "Loading website...",
+      "color": "#007AFF"
+    },
+    "error": {
+      "showRetryButton": true,
+      "showGoBackButton": true,
+      "customMessages": {
+        "network": "No internet connection. Please check your network settings.",
+        "timeout": "Request timed out. Please try again.",
+        "server": "Server error. Please try again later."
+      }
+    },
+    "debug": {
+      "enabled": false,
+      "showControls": false,
+      "logLevel": "warn"
+    },
+    "watermark": {
+      "enabled": true,
+      "text": "Generated by TestApp",
+      "subtext": "Professional WebView App Builder",
+      "position": "bottom-right",
+      "opacity": 0.7,
+      "color": "#007AFF",
+      "fontSize": 14,
+      "subtextFontSize": 12,
+      "padding": 20,
+      "cornerRadius": 8,
+      "backgroundColor": "rgba(255, 255, 255, 0.9)",
+      "showInScreenshots": true,
+      "showInProduction": true,
+      "showInDevelopment": true
+    }
+  },
+  "metadata": {
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "generatedBy": "aas-core-appgen",
+    "version": "1.0.0",
+    "checksum": "sha256-test-hash"
+  }
+}
