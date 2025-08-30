@@ -24,12 +24,13 @@ export class TemplateRepository extends ITemplateRepository {
         this.templateCache = new Map(); // O(1) cache for template paths
         this.requiredFiles = new Set(['cookiecutter.json', '{{cookiecutter.project_name}}']);
         
-        // Generic template paths within the project directory
-        this.possibleTemplatePaths = [
-            path.join(process.cwd(), 'template'), // Primary template location
-            path.join(__dirname, '..', '..', 'template'), // Fallback from src
-            path.join(process.cwd(), 'templates', 'aas-app-template') // Alternative location
-        ];
+                            // Generic template paths with hidden directory structure
+                    this.possibleTemplatePaths = [
+                        path.join(process.cwd(), '.template'), // Primary hidden template location
+                        path.join(__dirname, '..', '..', '.template'), // Fallback from src
+                        path.join(process.cwd(), 'template'), // Legacy fallback
+                        path.join(process.cwd(), 'templates', 'aas-app-template') // Alternative location
+                    ];
     }
 
     /**

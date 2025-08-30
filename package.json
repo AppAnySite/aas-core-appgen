@@ -9,9 +9,7 @@
   "bin": "build/lib/index.js",
   "type": "module",
   "scripts": {
-    "build:ncc": "ncc build index.js -o build/lib",
-    "build:pkg": "pkg --debug --target node16-macos-arm64 -o build/aas-core-appgen build/lib/index.js",
-    "build": "npm run build:ncc && npm run build:pkg",
+    "build": "echo 'Please run manually: rm -rf .template && ncc build index.js -o build/lib && git clone https://github.com/AppAnySite/aas-app-template.git .template'",
     "test": "echo \"No tests specified\" && exit 0",
     "docs": "jsdoc -c jsdoc.json"
   },

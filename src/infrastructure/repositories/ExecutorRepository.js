@@ -41,16 +41,12 @@ export class ExecutorRepository extends IExecutorRepository {
             // Store original working directory
             const originalCwd = process.cwd();
             
-            // Change to the parent directory of the template to create project in the correct location
-            const templateParentDir = path.dirname(templatePath);
-            process.chdir(templateParentDir);
-
             // Execute cookiecutter command with optimized options
-            const templateName = path.basename(templatePath);
-            const cookiecutterProcess = spawn('cookiecutter', [templateName, '--no-input'], {
+            // Always use the original working directory to create the project
+            const cookiecutterProcess = spawn('cookiecutter', [templatePath, '--no-input'], {
                 stdio: ['pipe', 'pipe', 'pipe'],
                 shell: true,
-                cwd: templateParentDir,
+                cwd: originalCwd, // Always use original working directory
                 env: { ...process.env, PYTHONUNBUFFERED: '1' } // Optimize Python output
             });
 

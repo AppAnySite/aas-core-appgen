@@ -1,4 +1,0 @@
-{
-  "name": "{{cookiecutter.app_name}}",
-  "displayName": "{{cookiecutter.app_name}}"
-}
