@@ -6,7 +6,10 @@ High-performance CLI tool for generating React Native apps using cookiecutter te
 
 ### Build
 ```bash
-# Manual build process (recommended)
+# Using Makefile (recommended)
+make build
+
+# Manual build process
 rm -rf .template
 ncc build index.js -o build/lib
 git clone https://github.com/AppAnySite/aas-app-template.git .template
@@ -23,7 +26,10 @@ node build/lib/index.js create --config-file app-config.json --output-path ./my-
 
 ### Test
 ```bash
-# Test with sample config
+# Using Makefile
+make test
+
+# Manual test
 node build/lib/index.js create --config-file /Users/hvetagir/Documents/aas-app-template/hooks/source/app-config.json
 ```
 
@@ -180,7 +186,25 @@ src/
 
 ## 📦 Build Process
 
-### Manual Build (Recommended)
+### Using Makefile (Recommended)
+```bash
+# Full build process
+make build
+
+# Quick build (without cleaning)
+make quick-build
+
+# Update template only
+make update-template
+
+# Show build information
+make info
+
+# Full development setup
+make setup
+```
+
+### Manual Build
 ```bash
 # Remove existing template
 rm -rf .template
