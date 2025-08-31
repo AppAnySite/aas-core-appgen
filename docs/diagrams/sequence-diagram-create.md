@@ -16,7 +16,7 @@ sequenceDiagram
     participant Cookie as cookiecutter
     participant FS as File System
     
-    User->>Main: create --config-file app-config.json
+    User->>Main: create --config-file app-config.json --output-path ./my-projects
     Main->>DI: get('CreateCommand')
     DI->>Cmd: new CreateCommand(errorHandler)
     Main->>Cmd: execute(options)
@@ -25,7 +25,7 @@ sequenceDiagram
     Cmd->>Cmd: validateOptions(options)
     
     %% Configuration Loading
-    Cmd->>Service: generateApp(configFilePath, progressCallback)
+    Cmd->>Service: generateApp(configFilePath, outputPath, progressCallback)
     Service->>Service: updateProgress(5%, 'Loading configuration')
     Service->>ConfigRepo: loadConfig(configFilePath)
     ConfigRepo->>FS: readFile(configFilePath)
@@ -58,7 +58,8 @@ sequenceDiagram
     TemplateRepo->>FS: copyAppConfig()
     
     %% Project Generation
-    Service->>Service: updateProgress(30%, 'Generating project')
+    Service->>Service: updateProgress(30%, 'Preparing output directory')
+    Service->>Service: updateProgress(35%, 'Generating project')
     Service->>ExecutorRepo: executeCookiecutter(templatePath, outputPath, progressCallback)
     ExecutorRepo->>Cookie: cookiecutter template --no-input
     Cookie->>FS: create project structure
@@ -107,10 +108,11 @@ sequenceDiagram
 - cookiecutter.json and app-config.json are written to template
 
 ### 5. **Project Generation (30-90%)**
-- ExecutorRepository executes cookiecutter command
+- System prepares output directory (creates if it doesn't exist)
+- ExecutorRepository executes cookiecutter command in specified output path
 - cookiecutter processes template and creates project structure
-- Progress is tracked during generation (30% to 90%)
-- Project files are created in current working directory
+- Progress is tracked during generation (35% to 90%)
+- Project files are created in the specified output directory
 
 ### 6. **Post-processing (90-95%)**
 - System validates generated project

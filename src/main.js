@@ -36,6 +36,7 @@ program
     .command('create')
     .description('Create a new project using config file')
     .requiredOption('-c, --config-file <configFile>', 'Path to JSON configuration file')
+    .option('-o, --output-path <outputPath>', 'Path where the project should be created (default: current directory)')
     .option('--verbose', 'Enable verbose mode')
     .option('--debug', 'Enable debug mode')
     .option('--no-cache', 'Disable caching')

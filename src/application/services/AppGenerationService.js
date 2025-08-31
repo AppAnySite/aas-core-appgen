@@ -25,11 +25,12 @@ export class AppGenerationService {
     /**
      * Generate application from configuration file with optimized execution
      * @param {string} configFilePath - Path to configuration file
+     * @param {string} outputPath - Path where the project should be created (optional)
      * @param {Function} progressCallback - Progress callback function
      * @returns {Promise<Object>} Generation result
      * @throws {Error} If generation fails
      */
-    async generateApp(configFilePath, progressCallback) {
+    async generateApp(configFilePath, outputPath, progressCallback) {
         const startTime = Date.now();
         let appConfig = null;
         
@@ -56,22 +57,33 @@ export class AppGenerationService {
             const cookiecutterConfig = appConfig.toCookiecutterConfig();
             await this.templateRepository.prepareTemplate(templatePath, cookiecutterConfig, configFilePath);
 
-            // Step 3: Execute cookiecutter (main operation)
-            await this.updateProgress(progressCallback, 30, 'Generating project with cookiecutter');
-            const outputPath = process.cwd();
+            // Step 3: Prepare output directory
+            await this.updateProgress(progressCallback, 30, 'Preparing output directory');
+            const finalOutputPath = outputPath || process.cwd();
+            
+            // Create output directory if it doesn't exist
+            try {
+                await fs.access(finalOutputPath);
+            } catch (error) {
+                await this.updateProgress(progressCallback, 32, 'Creating output directory');
+                await fs.mkdir(finalOutputPath, { recursive: true });
+            }
+
+            // Step 4: Execute cookiecutter (main operation)
+            await this.updateProgress(progressCallback, 35, 'Generating project with cookiecutter');
             
             await this.executorRepository.executeCookiecutter(
                 templatePath,
-                outputPath,
-                (progress, message) => this.updateProgress(progressCallback, 30 + progress * 0.6, message)
+                finalOutputPath,
+                (progress, message) => this.updateProgress(progressCallback, 35 + progress * 0.55, message)
             );
 
-            // Step 4: Post-process and validate
+            // Step 5: Post-process and validate
             await this.updateProgress(progressCallback, 90, 'Post-processing generated project');
-            const projectPath = path.join(outputPath, appConfig.getProjectDirectory());
+            const projectPath = path.join(finalOutputPath, appConfig.getProjectDirectory());
             await this.validateGeneratedProject(projectPath);
 
-            // Step 5: Cleanup
+            // Step 6: Cleanup
             await this.updateProgress(progressCallback, 95, 'Cleaning up temporary files');
             await this.templateRepository.cleanupTemplate(templatePath);
 
@@ -89,7 +101,8 @@ export class AppGenerationService {
         } catch (error) {
             // Optimized cleanup on error
             if (appConfig) {
-                const projectPath = path.join(process.cwd(), appConfig.getProjectDirectory());
+                const finalOutputPath = outputPath || process.cwd();
+                const projectPath = path.join(finalOutputPath, appConfig.getProjectDirectory());
                 await this.executorRepository.cleanupOnError(projectPath);
             }
             

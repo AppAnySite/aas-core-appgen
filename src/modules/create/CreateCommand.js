@@ -55,6 +55,7 @@ export class CreateCommand extends ICreateCommand {
             // Execute app generation with performance tracking
             const result = await this.appGenerationService.generateApp(
                 options.configFile,
+                options.outputPath,
                 (progress, message) => this.printProgress(progress, message)
             );
 
@@ -96,6 +97,15 @@ export class CreateCommand extends ICreateCommand {
 
         if (options.configFile.trim() === '') {
             throw new Error('Configuration file path cannot be empty');
+        }
+
+        // Validate output path if provided
+        if (options.outputPath && typeof options.outputPath !== 'string') {
+            throw new Error('Output path must be a string');
+        }
+
+        if (options.outputPath && options.outputPath.trim() === '') {
+            throw new Error('Output path cannot be empty');
         }
 
         // Additional validation for file path format

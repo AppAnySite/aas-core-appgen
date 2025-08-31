@@ -42,11 +42,11 @@ export class ExecutorRepository extends IExecutorRepository {
             const originalCwd = process.cwd();
             
             // Execute cookiecutter command with optimized options
-            // Always use the original working directory to create the project
+            // Use the specified output path to create the project
             const cookiecutterProcess = spawn('cookiecutter', [templatePath, '--no-input'], {
                 stdio: ['pipe', 'pipe', 'pipe'],
                 shell: true,
-                cwd: originalCwd, // Always use original working directory
+                cwd: outputPath, // Use the specified output path
                 env: { ...process.env, PYTHONUNBUFFERED: '1' } // Optimize Python output
             });
 

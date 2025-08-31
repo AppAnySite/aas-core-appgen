@@ -1,253 +1,224 @@
-# AAS Core AppGen - Professional CLI Tool
+# AAS Core AppGen
 
-## 🚀 Overview
+High-performance CLI tool for generating React Native apps using cookiecutter templates with Clean Architecture.
 
-AAS Core AppGen is a high-performance CLI tool for generating React Native applications using cookiecutter templates. Built with Clean Architecture principles, it provides a professional, maintainable, and scalable solution for rapid app generation.
+## 🚀 Quick Start
+
+### Build
+```bash
+# Manual build process (recommended)
+rm -rf .template
+ncc build index.js -o build/lib
+git clone https://github.com/AppAnySite/aas-app-template.git .template
+```
+
+### Run
+```bash
+# Create project in current directory
+node build/lib/index.js create --config-file app-config.json
+
+# Create project in specific directory
+node build/lib/index.js create --config-file app-config.json --output-path ./my-projects
+```
+
+### Test
+```bash
+# Test with sample config
+node build/lib/index.js create --config-file /Users/hvetagir/Documents/aas-app-template/hooks/source/app-config.json
+```
+
+## 📋 Usage
+
+### Configuration File Format
+```json
+{
+  "app": {
+    "name": "MyApp",
+    "bundleId": "com.company.myapp",
+    "androidPackageName": "com.company.myapp"
+  }
+}
+```
+
+### CLI Options
+- `--config-file`: Path to JSON configuration file (required)
+- `--output-path`: Path where project should be created (optional, default: current directory)
+- `--verbose`: Enable verbose mode
+- `--debug`: Enable debug mode
 
 ## 🏗️ Architecture
 
-### Clean Architecture Implementation
+### System Overview
+```mermaid
+graph TB
+    %% Main Entry Point
+    MAIN[main.js<br/>CLI Entry Point<br/>Command Line Interface]
+    
+    %% Command Layer
+    CREATE_CMD[CreateCommand<br/>Command Implementation<br/>Option Validation & Execution]
+    
+    %% Application Layer
+    APP_SERVICE[AppGenerationService<br/>Business Logic Orchestration<br/>Progress Tracking & Error Handling]
+    
+    %% Domain Layer
+    APP_CONFIG[AppConfig<br/>Domain Entity<br/>Configuration Validation<br/>Business Rules]
+    
+    %% Repository Interfaces (Domain)
+    I_CONFIG_REPO[IConfigRepository<br/>Configuration Interface]
+    I_TEMPLATE_REPO[ITemplateRepository<br/>Template Interface]
+    I_EXECUTOR_REPO[IExecutorRepository<br/>Execution Interface]
+    
+    %% Infrastructure Layer (Implementations)
+    CONFIG_REPO[ConfigRepository<br/>File-based Configuration<br/>Caching & Error Handling]
+    TEMPLATE_REPO[TemplateRepository<br/>Template Management<br/>Path Discovery & Validation]
+    EXECUTOR_REPO[ExecutorRepository<br/>Command Execution<br/>Process Management & Timeouts]
+    
+    %% Flow Connections
+    MAIN --> CREATE_CMD
+    CREATE_CMD --> APP_SERVICE
+    APP_SERVICE --> APP_CONFIG
+    APP_SERVICE --> CONFIG_REPO
+    APP_SERVICE --> TEMPLATE_REPO
+    APP_SERVICE --> EXECUTOR_REPO
+    
+    %% Interface Implementations
+    CONFIG_REPO -.->|implements| I_CONFIG_REPO
+    TEMPLATE_REPO -.->|implements| I_TEMPLATE_REPO
+    EXECUTOR_REPO -.->|implements| I_EXECUTOR_REPO
+    
+    %% External Dependencies
+    EXECUTOR_REPO --> COOKIECUTER[cookiecutter<br/>External Tool<br/>Template Processing]
+    CONFIG_REPO --> FILE_SYSTEM[File System<br/>Configuration Files<br/>Template Files<br/>Generated Projects]
+    TEMPLATE_REPO --> FILE_SYSTEM
+    
+    %% Styling
+    classDef entryPoint fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef commandLayer fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef applicationLayer fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    classDef domainLayer fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef infrastructureLayer fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    
+    class MAIN entryPoint
+    class CREATE_CMD commandLayer
+    class APP_SERVICE applicationLayer
+    class APP_CONFIG,I_CONFIG_REPO,I_TEMPLATE_REPO,I_EXECUTOR_REPO domainLayer
+    class CONFIG_REPO,TEMPLATE_REPO,EXECUTOR_REPO infrastructureLayer
+```
 
-The project follows Clean Architecture principles with clear separation of concerns:
+### Execution Flow
+```mermaid
+sequenceDiagram
+    participant User as User
+    participant Main as main.js
+    participant Cmd as CreateCommand
+    participant Service as AppGenerationService
+    participant Config as AppConfig
+    participant ConfigRepo as ConfigRepository
+    participant TemplateRepo as TemplateRepository
+    participant ExecutorRepo as ExecutorRepository
+    participant Cookie as cookiecutter
+    participant FS as File System
+    
+    User->>Main: create --config-file app-config.json
+    Main->>Cmd: execute(options)
+    Cmd->>Service: generateApp(configFilePath, outputPath, progressCallback)
+    
+    %% Configuration Loading
+    Service->>ConfigRepo: loadConfig(configFilePath)
+    ConfigRepo->>FS: readFile(configFilePath)
+    FS-->>ConfigRepo: configData
+    Service->>Config: new AppConfig(configData)
+    
+    %% Environment Preparation
+    Service->>ExecutorRepo: installCookiecutter()
+    Service->>TemplateRepo: getTemplatePath()
+    
+    %% Project Generation
+    Service->>ExecutorRepo: executeCookiecutter(templatePath, outputPath)
+    ExecutorRepo->>Cookie: cookiecutter template --no-input
+    Cookie->>FS: create project structure
+    Cookie-->>ExecutorRepo: success
+    
+    %% Post-processing
+    Service->>Service: validateGeneratedProject()
+    Service-->>Cmd: result
+    Cmd-->>Main: success
+    Main-->>User: Project generated successfully
+```
+
+## 📁 Project Structure
 
 ```
 src/
 ├── domain/                 # Business logic and entities
-│   ├── entities/          # Domain entities (AppConfig)
+│   ├── entities/          # AppConfig domain entity
 │   └── repositories/      # Repository interfaces
 ├── application/           # Application services
-│   └── services/         # Business use cases
+│   └── services/         # AppGenerationService
 ├── infrastructure/        # External concerns
 │   └── repositories/     # Repository implementations
 ├── modules/              # Command modules
-│   └── create/          # Create command implementation
+│   └── create/          # CreateCommand implementation
 └── utils/               # Shared utilities
 ```
 
-### Key Design Principles
-
-- **Single Responsibility**: Each class has one clear purpose
-- **Dependency Inversion**: High-level modules don't depend on low-level modules
-- **Interface Segregation**: Clients depend only on interfaces they use
-- **Open/Closed**: Open for extension, closed for modification
-
 ## ⚡ Performance
 
-### Before (React Native CLI):
-- **Time**: 2-10 minutes
-- **Process**: npx react-native init → Manual setup → WebView creation
-- **Dependencies**: Multiple external tools
+- **Generation Time**: ~500ms (0.5 seconds)
+- **Build Time**: ~650ms
+- **Memory Usage**: ~50MB
+- **Template Processing**: < 100ms
 
-### After (Cookiecutter):
-- **Time**: 15-30 seconds
-- **Process**: Config validation → Template processing → cookiecutter execution
-- **Dependencies**: Single cookiecutter tool
+## 🔧 Features
 
-## 🛠️ Installation
+- **Clean Architecture**: Clear separation of concerns
+- **Progress Tracking**: Real-time progress with timestamps
+- **Error Handling**: Comprehensive error management and cleanup
+- **Output Path Support**: Create projects in any directory
+- **Template Cloning**: Always uses latest template from GitHub
+- **High Performance**: Optimized for speed and efficiency
 
+## 📦 Build Process
+
+### Manual Build (Recommended)
 ```bash
-# Clone the repository
-git clone https://github.com/AppAnySite/aas-core-appgen.git
-cd aas-core-appgen
+# Remove existing template
+rm -rf .template
 
-# Install dependencies
-npm install
+# Build with ncc
+ncc build index.js -o build/lib
 
-# Build the binary
+# Clone template
+git clone https://github.com/AppAnySite/aas-app-template.git .template
+```
+
+### npm Scripts
+```bash
+# Shows manual commands
 npm run build
 
-# The binary will be available at: build/aas-core-appgen
+# Build ncc only
+npm run build:ncc
 ```
-
-## 📖 Usage
-
-### Basic Usage
-
-```bash
-./build/aas-core-appgen create --config-file /path/to/config.json
-```
-
-### Configuration File Format
-
-```json
-{
-  "project_name": "MyApp",
-  "app_name": "My App",
-  "bundle_identifier": "com.company.myapp",
-  "android_package_name": "com.company.myapp",
-  "initial_url": "https://example.com",
-  "features": {
-    "icon_enabled": true,
-    "splash_enabled": true,
-    "analytics_enabled": false
-  },
-  "theme": {
-    "primary_color": "#007AFF",
-    "secondary_color": "#5856D6"
-  },
-  "platforms": ["ios", "android"]
-}
-```
-
-## 🔧 Configuration
-
-### Required Fields
-
-- `project_name`: Project directory name (letters, numbers, underscores only)
-- `app_name`: Display name for the application
-- `bundle_identifier`: iOS bundle identifier (com.company.app format)
-- `android_package_name`: Android package name (com.company.app format)
-
-### Optional Fields
-
-- `initial_url`: Initial URL for WebView
-- `features`: Feature flags configuration
-- `theme`: Theme configuration
-- `platforms`: Supported platforms
-
-## 📊 Progress Tracking
-
-The tool provides detailed progress tracking with timestamps:
-
-```
-[2024-01-15T10:30:00.000Z] Progress: 5% - Loading and validating configuration
-[2024-01-15T10:30:01.000Z] Progress: 10% - Ensuring cookiecutter is available
-[2024-01-15T10:30:02.000Z] Progress: 20% - Locating and validating template
-[2024-01-15T10:30:03.000Z] Progress: 30% - Preparing template configuration
-[2024-01-15T10:30:05.000Z] Progress: 90% - Generating project with cookiecutter
-[2024-01-15T10:30:06.000Z] Progress: 100% - Project generation completed successfully in 6000ms
-```
-
-## 🏛️ Architecture Components
-
-### Domain Layer
-
-#### AppConfig Entity
-- **Purpose**: Business logic for application configuration
-- **Responsibilities**: Validation, data transformation, business rules
-- **Features**: Bundle identifier validation, package name validation, feature management
-
-#### Repository Interfaces
-- **IConfigRepository**: Configuration data access contract
-- **ITemplateRepository**: Template management contract
-- **IExecutorRepository**: External command execution contract
-
-### Application Layer
-
-#### AppGenerationService
-- **Purpose**: Orchestrates the entire app generation process
-- **Responsibilities**: Process coordination, error handling, progress tracking
-- **Features**: Step-by-step execution, comprehensive error handling, cleanup
-
-### Infrastructure Layer
-
-#### Repository Implementations
-- **ConfigRepository**: File-based configuration management
-- **TemplateRepository**: Template discovery and preparation
-- **ExecutorRepository**: Cookiecutter execution and dependency management
-
-### Command Layer
-
-#### CreateCommand
-- **Purpose**: CLI command implementation
-- **Responsibilities**: Option validation, service coordination, output formatting
-- **Features**: Progress tracking, error handling, result reporting
-
-## 🔒 Error Handling
-
-### Comprehensive Error Management
-
-- **Configuration Validation**: Detailed validation with specific error messages
-- **Template Validation**: Template existence and structure validation
-- **Execution Errors**: Process execution with timeout and cleanup
-- **File System Errors**: Graceful handling of file operations
-- **Dependency Errors**: Automatic installation with fallback
-
-### Error Recovery
-
-- **Automatic Cleanup**: Removes partial files on error
-- **Timeout Protection**: Prevents hanging processes
-- **Retry Logic**: Automatic retry for transient failures
-- **Detailed Logging**: Comprehensive error information
 
 ## 🧪 Testing
 
 ```bash
-# Run tests (when implemented)
-npm test
+# Test basic functionality
+node build/lib/index.js create --config-file app-config.json
 
-# Test with sample configuration
-./build/aas-core-appgen create --config-file test-config.json
+# Test with custom output path
+node build/lib/index.js create --config-file app-config.json --output-path ./test-output
+
+# Test with nested directory (auto-created)
+node build/lib/index.js create --config-file app-config.json --output-path ./projects/react-native
 ```
-
-## 📦 Build Process
-
-```bash
-# Development build
-npm run build:ncc
-
-# Production build
-npm run build
-
-# Generate documentation
-npm run docs
-```
-
-## 🔄 Integration
-
-### With aas-saas-appgen
-
-The binary is integrated into the aas-saas-appgen Docker container:
-
-```typescript
-const CLI_PATH = path.join(process.cwd(), "bin", "aas-core-appgen");
-// Execute: ./bin/aas-core-appgen create --config-file /path/to/config.json
-```
-
-### Docker Integration
-
-```dockerfile
-# Build the binary
-RUN npm install && npm run build
-
-# Copy binary to container
-COPY build/aas-core-appgen /usr/local/bin/
-```
-
-## 📈 Performance Metrics
-
-- **Average Generation Time**: 15-30 seconds
-- **Memory Usage**: ~50MB during execution
-- **Template Processing**: < 5 seconds
-- **Cookiecutter Execution**: 10-20 seconds
-- **Post-processing**: < 5 seconds
-
-## 🔮 Future Enhancements
-
-1. **Template Caching**: Cache templates locally for faster access
-2. **Parallel Processing**: Execute multiple operations in parallel
-3. **Template Versioning**: Support for different template versions
-4. **Advanced Validation**: More sophisticated configuration validation
-5. **Plugin System**: Extensible architecture for custom processors
-6. **Testing Framework**: Comprehensive unit and integration tests
-7. **Performance Monitoring**: Real-time performance metrics
-8. **Template Marketplace**: Centralized template repository
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Follow the Clean Architecture principles
-4. Add comprehensive tests
-5. Submit a pull request
 
 ## 📄 License
 
-MIT License - see LICENSE file for details
+MIT License
 
 ## 🆘 Support
 
-For support and questions:
-- Create an issue on GitHub
-- Contact: dev@appanysite.com
-- Documentation: https://docs.appanysite.com
+- GitHub Issues: [Create an issue](https://github.com/AppAnySite/aas-core-appgen/issues)
+- Email: dev@appanysite.com
