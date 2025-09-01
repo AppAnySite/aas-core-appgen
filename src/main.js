@@ -78,6 +78,171 @@ program
         }
     });
 
+// Build command with optimized options
+program
+    .command('build')
+    .description('Build Android artifacts and generate bundles')
+    .argument('<platform>', 'Platform (android)')
+    .argument('<buildType>', 'Build type (debug, release, aab, all)')
+    .requiredOption('-p, --project-path <projectPath>', 'Path to the project directory')
+    .option('--verbose', 'Enable verbose mode')
+    .option('--debug', 'Enable debug mode')
+    .option('--no-clean', 'Build without cleaning')
+    .action(async (platform, buildType, options) => {
+        try {
+            // Set environment variables based on options
+            if (options.verbose) {
+                process.env.VERBOSE = 'true';
+            }
+            if (options.debug) {
+                process.env.NODE_ENV = 'development';
+                process.env.LOG_LEVEL = 'debug';
+            }
+
+            // Get command instance from container
+            const buildCommand = container.get('BuildCommand');
+            
+            // Prepare build options
+            const buildOptions = {
+                command: 'android',
+                platform,
+                buildType,
+                projectPath: options.projectPath,
+                verbose: options.verbose,
+                debug: options.debug,
+                noClean: options.noClean
+            };
+            
+            // Execute with performance tracking
+            const result = await buildCommand.execute(buildOptions);
+            
+            // Log execution statistics if verbose
+            if (options.verbose) {
+                const duration = Date.now() - startTime;
+                log('INFO', `Total execution time: ${duration}ms`);
+                const stats = buildCommand.getExecutionStats();
+                log('DEBUG', `Execution Statistics: ${JSON.stringify(stats, null, 2)}`);
+            }
+
+        } catch (error) {
+            // Handle errors with optimized error handling
+            const errorHandler = container.get('ErrorHandler');
+            errorHandler.handleError(error, true, {
+                file: 'main.js',
+                line: 'build command execution'
+            });
+        }
+    });
+
+// Bundle command with optimized options
+program
+    .command('bundle')
+    .description('Generate React Native bundle')
+    .requiredOption('-p, --project-path <projectPath>', 'Path to the project directory')
+    .option('--verbose', 'Enable verbose mode')
+    .option('--debug', 'Enable debug mode')
+    .option('--dev', 'Development bundle')
+    .action(async (options, command) => {
+        try {
+            // Get global options from the command
+            const globalOptions = command.parent.opts();
+            
+            // Set environment variables based on options
+            if (options.verbose || globalOptions.verbose) {
+                process.env.VERBOSE = 'true';
+            }
+            if (options.debug || globalOptions.debug) {
+                process.env.NODE_ENV = 'development';
+                process.env.LOG_LEVEL = 'debug';
+            }
+
+            // Get command instance from container
+            const buildCommand = container.get('BuildCommand');
+            
+            // Prepare bundle options
+            const bundleOptions = {
+                command: 'bundle',
+                projectPath: options.projectPath,
+                verbose: options.verbose || globalOptions.verbose,
+                debug: options.debug || globalOptions.debug,
+                dev: options.dev
+            };
+            
+            // Execute with performance tracking
+            const result = await buildCommand.execute(bundleOptions);
+            
+            // Log execution statistics if verbose
+            if (options.verbose || globalOptions.verbose) {
+                const duration = Date.now() - startTime;
+                log('INFO', `Total execution time: ${duration}ms`);
+                const stats = buildCommand.getExecutionStats();
+                log('DEBUG', `Execution Statistics: ${JSON.stringify(stats, null, 2)}`);
+            }
+
+        } catch (error) {
+            // Handle errors with optimized error handling
+            const errorHandler = container.get('ErrorHandler');
+            errorHandler.handleError(error, true, {
+                file: 'main.js',
+                line: 'bundle command execution'
+            });
+        }
+    });
+
+// Clean command with optimized options
+program
+    .command('clean')
+    .description('Clean build artifacts')
+    .requiredOption('-p, --project-path <projectPath>', 'Path to the project directory')
+    .argument('[platform]', 'Platform to clean (android, bundles, or all)')
+    .option('--verbose', 'Enable verbose mode')
+    .option('--debug', 'Enable debug mode')
+    .option('--force', 'Force cleanup')
+    .action(async (platform, options) => {
+        try {
+            // Set environment variables based on options
+            if (options.verbose) {
+                process.env.VERBOSE = 'true';
+            }
+            if (options.debug) {
+                process.env.NODE_ENV = 'development';
+                process.env.LOG_LEVEL = 'debug';
+            }
+
+            // Get command instance from container
+            const buildCommand = container.get('BuildCommand');
+            
+            // Prepare clean options
+            const cleanOptions = {
+                command: 'clean',
+                platform: platform || null,
+                projectPath: options.projectPath,
+                verbose: options.verbose,
+                debug: options.debug,
+                force: options.force
+            };
+            
+            // Execute with performance tracking
+            const result = await buildCommand.execute(cleanOptions);
+            
+            // Log execution statistics if verbose
+            if (options.verbose) {
+                const duration = Date.now() - startTime;
+                log('INFO', `Total execution time: ${duration}ms`);
+                const stats = buildCommand.getExecutionStats();
+                log('DEBUG', `Execution Statistics: ${JSON.stringify(stats, null, 2)}`);
+            }
+
+        } catch (error) {
+            // Handle errors with optimized error handling
+            const errorHandler = container.get('ErrorHandler');
+            errorHandler.handleError(error, true, {
+                file: 'main.js',
+                line: 'clean command execution'
+            });
+        }
+    });
+
 // Handle uncaught exceptions
 process.on('uncaughtException', (error) => {
     const errorHandler = container.get('ErrorHandler');

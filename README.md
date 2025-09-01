@@ -17,6 +17,9 @@ git clone https://github.com/AppAnySite/aas-app-template.git .template
 
 ### Run
 ```bash
+# Create project with template config (working command)
+node index.js create --config-file /Users/hvetagir/Documents/aas-core-appgen/.template/hooks/source/app-config.json --output-path ./test-app --verbose
+
 # Create project in current directory
 node build/lib/index.js create --config-file app-config.json
 
@@ -184,7 +187,65 @@ src/
 - **Template Cloning**: Always uses latest template from GitHub
 - **High Performance**: Optimized for speed and efficiency
 
-## 📦 Build Process
+## 📦 Bundling
+
+### Generate React Native Bundle
+```bash
+# Install dependencies first (required)
+cd test-app/MultiMagix && npm install
+
+# Generate bundle using CLI (with progress tracking)
+node index.js bundle --project-path ./test-app/MultiMagix --verbose
+```
+
+**Progress Output:**
+```
+[2025-09-01T09:36:09.010Z] Progress: 5% - Loading project configuration...
+[2025-09-01T09:36:09.013Z] Progress: 10% - Validating project structure...
+[2025-09-01T09:36:09.014Z] Progress: 10% - Installing project dependencies...
+[2025-09-01T09:36:12.273Z] Progress: 15% - Installing dependencies...
+[2025-09-01T09:36:12.295Z] Progress: 20% - Dependencies installed successfully
+[2025-09-01T09:36:12.295Z] Progress: 25% - Preparing bundle configuration...
+[2025-09-01T09:36:12.298Z] Progress: 30% - Generating React Native bundle...
+[2025-09-01T09:36:16.839Z] Progress: 90% - Bundle generation completed
+```
+
+### Manual Bundle Commands
+```bash
+# Production bundle
+npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output build/bundles/MultiMagix/complete-app.bundle --assets-dest build/bundles/MultiMagix/assets
+
+# Development bundle
+npx react-native bundle --platform android --dev true --entry-file index.js --bundle-output build/bundles/MultiMagix/complete-app.bundle --assets-dest build/bundles/MultiMagix/assets
+
+# Bundle with source maps
+npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output build/bundles/MultiMagix/complete-app.bundle --assets-dest build/bundles/MultiMagix/assets --sourcemap-output build/bundles/MultiMagix/complete-app.bundle.map
+```
+
+### Bundle Output Structure
+```
+build/bundles/MultiMagix/
+├── complete-app.bundle          # Main JavaScript bundle
+├── complete-app.bundle.map      # Source maps (if enabled)
+└── assets/                      # Images, fonts, and other assets
+    ├── images/
+    ├── fonts/
+    └── other assets...
+```
+
+### Bundle Configuration
+The bundle command uses the project's `app-config.json` file for configuration:
+- **Bundle Name**: `complete-app.bundle`
+- **Assets Destination**: `assets/`
+- **Output Directory**: `build/bundles/{projectName}/`
+- **Platform**: Android (default)
+- **Entry File**: `index.js`
+
+### Prerequisites
+- ✅ Project generated successfully
+- ✅ `node_modules` installed (`npm install`)
+- ✅ `app-config.json` present in project root
+- ✅ React Native CLI available (`npx react-native --version`)
 
 ### Using Makefile (Recommended)
 ```bash

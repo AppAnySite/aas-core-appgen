@@ -10,10 +10,18 @@
  */
 
 import { CreateCommand } from './modules/create/CreateCommand.js';
+import { BuildCommand } from './modules/build/BuildCommand.js';
 import { ConfigRepository } from './infrastructure/repositories/ConfigRepository.js';
 import { TemplateRepository } from './infrastructure/repositories/TemplateRepository.js';
 import { ExecutorRepository } from './infrastructure/repositories/ExecutorRepository.js';
+import { AndroidBuildRepository } from './infrastructure/repositories/AndroidBuildRepository.js';
+import { BundleRepository } from './infrastructure/repositories/BundleRepository.js';
+import { KeystoreRepository } from './infrastructure/repositories/KeystoreRepository.js';
+import { CleanupRepository } from './infrastructure/repositories/CleanupRepository.js';
 import { AppGenerationService } from './application/services/AppGenerationService.js';
+import { BuildService } from './application/services/BuildService.js';
+import { BundleService } from './application/services/BundleService.js';
+import { CleanupService } from './application/services/CleanupService.js';
 import ErrorHandler from './utils/errorHandler/index.js';
 
 class DIContainer {
@@ -31,6 +39,10 @@ class DIContainer {
         this.register('ConfigRepository', ConfigRepository);
         this.register('TemplateRepository', TemplateRepository);
         this.register('ExecutorRepository', ExecutorRepository);
+        this.register('AndroidBuildRepository', AndroidBuildRepository);
+        this.register('BundleRepository', BundleRepository);
+        this.register('KeystoreRepository', KeystoreRepository);
+        this.register('CleanupRepository', CleanupRepository);
 
         // Register application services
         this.register('AppGenerationService', AppGenerationService, [
@@ -39,8 +51,25 @@ class DIContainer {
             'ExecutorRepository'
         ]);
 
-        // Register command with dependencies
+        this.register('BuildService', BuildService, [
+            'AndroidBuildRepository',
+            'KeystoreRepository',
+            'ConfigRepository'
+        ]);
+
+        this.register('BundleService', BundleService, [
+            'BundleRepository',
+            'ConfigRepository'
+        ]);
+
+        this.register('CleanupService', CleanupService, [
+            'CleanupRepository',
+            'ConfigRepository'
+        ]);
+
+        // Register commands with dependencies
         this.register('CreateCommand', CreateCommand, ['ErrorHandler']);
+        this.register('BuildCommand', BuildCommand, ['ErrorHandler']);
 
         // Register utilities
         this.register('ErrorHandler', ErrorHandler);
