@@ -55,7 +55,7 @@ export class AppConfig {
      * @throws {Error} If structure is invalid
      */
     validateStructure(configData) {
-        const expectedSections = ['app', 'theme', 'features', 'api', 'logging', 'ui', 'metadata'];
+        const expectedSections = ['app', 'build', 'theme', 'features', 'api', 'logging', 'ui', 'metadata'];
         
         for (const section of expectedSections) {
             if (!(section in configData)) {
@@ -91,6 +91,7 @@ export class AppConfig {
         // Nested properties with default values
         this.theme = configData.theme || {};
         this.features = configData.features || {};
+        this.build = configData.build || {};
         this.api = configData.api || {};
         this.logging = configData.logging || {};
         this.ui = configData.ui || {};
@@ -107,7 +108,7 @@ export class AppConfig {
      * @returns {string} WebView URL
      */
     getWebviewUrl() {
-        return this.features?.webview?.url || 'https://www.appanysite.com/';
+        return this.features?.webview?.url;
     }
 
     /**
@@ -126,7 +127,7 @@ export class AppConfig {
      * @returns {string} Color value or default
      */
     getThemeColor(colorName, mode = 'light') {
-        return this.theme?.[mode]?.colors?.[colorName] || '#007AFF';
+        return this.theme?.[mode]?.colors?.[colorName];
     }
 
     /**

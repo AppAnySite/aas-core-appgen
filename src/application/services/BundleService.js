@@ -63,6 +63,10 @@ export class BundleService {
                 options.progressCallback(90, 'Bundle generation completed');
             }
             
+            if (options.progressCallback) {
+                options.progressCallback(100, 'Bundle generation completed successfully');
+            }
+            
             const duration = Date.now() - startTime;
             return {
                 success: true,

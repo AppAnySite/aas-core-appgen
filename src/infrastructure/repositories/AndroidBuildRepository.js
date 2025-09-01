@@ -30,17 +30,29 @@ export class AndroidBuildRepository {
      */
     async buildDebugAPK(projectPath, appConfig, options) {
         const startTime = Date.now();
+        const progressCallback = options.progressCallback || (() => {});
         
         try {
+            progressCallback(40, 'Validating Android project structure...');
             // Validate Android project structure
             await this.validateAndroidProject(projectPath);
             
+            progressCallback(50, 'Preparing build environment...');
             // Prepare build environment
             await this.prepareBuildEnvironment(projectPath, appConfig, 'debug');
             
+            progressCallback(60, 'Executing Gradle debug build...');
             // Execute debug build
-            const result = await this.executeGradleBuild(projectPath, 'assembleDebug', options);
+            const result = await this.executeGradleBuild(projectPath, 'assembleDebug', {
+                ...options,
+                progressCallback: (progress, message) => {
+                    // Map progress from 60-85% for the gradle build
+                    const mappedProgress = 60 + (progress * 0.25);
+                    progressCallback(mappedProgress, message);
+                }
+            });
             
+            progressCallback(85, 'Copying APK to output directory...');
             // Get output file information
             const outputPath = path.join(projectPath, 'build', 'android', 'debug');
             const apkPath = path.join(outputPath, `${appConfig.projectName}-debug.apk`);
@@ -55,6 +67,8 @@ export class AndroidBuildRepository {
             // Get file size
             const stats = await fs.stat(apkPath);
             const fileSize = this.formatFileSize(stats.size);
+            
+            progressCallback(90, 'Debug APK build completed successfully');
             
             const duration = Date.now() - startTime;
             
@@ -218,36 +232,21 @@ export class AndroidBuildRepository {
         
         let gradleProperties = await fs.readFile(gradlePropertiesPath, 'utf8');
         
-        // Add build configuration
-        const buildConfigLines = [
-            '',
-            '# AppAnySite Build Configuration',
-            `org.gradle.jvmargs=-Xmx4g -XX:MaxMetaspaceSize=512m`,
-            `android.useAndroidX=true`,
-            `android.enableJetifier=true`,
-            `android.enableR8.fullMode=true`,
-            `android.enableR8=true`,
-            `android.enableD8=true`,
-            `android.enableD8.desugaring=true`,
-            `android.enableBuildCache=true`,
-            `org.gradle.parallel=true`,
-            `org.gradle.configureondemand=true`,
-            `org.gradle.caching=true`
-        ];
-        
-        // Add signing configuration for release builds
+        // Only add signing configuration for release builds
         if (buildType === 'release') {
             const keystoreConfig = buildConfig.keystore || {};
-            buildConfigLines.push(
+            const signingConfigLines = [
+                '',
+                '# AppAnySite Release Signing Configuration',
                 `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
-                `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias || 'appanysite-key-alias'}`,
-                `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword || 'hrushikesh'}`,
-                `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword || 'hrushikesh'}`
-            );
+                `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
+                `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
+                `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
+            ];
+            
+            gradleProperties += signingConfigLines.join('\n');
+            await fs.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
         }
-        
-        gradleProperties += buildConfigLines.join('\n');
-        await fs.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
     }
 
     /**
@@ -298,8 +297,9 @@ export class AndroidBuildRepository {
         return new Promise((resolve, reject) => {
             const gradlewPath = path.join(projectPath, 'android', 'gradlew');
             const androidPath = path.join(projectPath, 'android');
+            const progressCallback = options.progressCallback || (() => {});
             
-            const gradleProcess = spawn(gradlewPath, [task], {
+            const gradleProcess = spawn('./gradlew', [task], {
                 stdio: ['pipe', 'pipe', 'pipe'],
                 shell: true,
                 cwd: androidPath,
@@ -310,10 +310,17 @@ export class AndroidBuildRepository {
             let stderr = '';
             let isCompleted = false;
             let timeoutId = null;
+            let progressCounter = 0;
 
             // Handle stdout
             gradleProcess.stdout.on('data', (data) => {
                 stdout += data.toString();
+                progressCounter++;
+                if (progressCounter % 10 === 0) {
+                    // Cap progress at 95% during build, 100% will be called on completion
+                    const cappedProgress = Math.min(progressCounter, 95);
+                    progressCallback(cappedProgress, 'Gradle build in progress...');
+                }
             });
 
             // Handle stderr
@@ -330,6 +337,7 @@ export class AndroidBuildRepository {
                 }
 
                 if (code === 0) {
+                    progressCallback(100, 'Gradle build completed successfully');
                     resolve({ success: true, stdout, stderr });
                 } else {
                     reject(new Error(`Gradle build failed with code ${code}. Stderr: ${stderr}`));

@@ -74,15 +74,15 @@ export class KeystoreRepository {
             const args = [
                 '-genkeypair',
                 '-v',
-                '-storetype', keystoreConfig.storeType || 'PKCS12',
+                '-storetype', keystoreConfig.storeType,
                 '-keystore', keystorePath,
-                '-alias', keystoreConfig.defaultAlias || 'appanysite-key-alias',
-                '-keyalg', keystoreConfig.keyAlgorithm || 'RSA',
-                '-keysize', (keystoreConfig.keySize || 2048).toString(),
-                '-validity', (keystoreConfig.validity || 10000).toString(),
-                '-storepass', keystoreConfig.defaultPassword || 'hrushikesh',
-                '-keypass', keystoreConfig.defaultPassword || 'hrushikesh',
-                '-dname', `CN=${certInfo.commonName || 'Vetagiri Hrushikesh'}, OU=${certInfo.organizationalUnit || 'Maigha India'}, O=${certInfo.organization || 'Maigha Media'}, L=${certInfo.locality || 'Nellore'}, ST=${certInfo.state || 'Andhra Pradesh'}, C=${certInfo.country || 'IN'}`,
+                '-alias', keystoreConfig.defaultAlias,
+                '-keyalg', keystoreConfig.keyAlgorithm,
+                '-keysize', keystoreConfig.keySize.toString(),
+                '-validity', keystoreConfig.validity.toString(),
+                '-storepass', keystoreConfig.defaultPassword,
+                '-keypass', keystoreConfig.defaultPassword,
+                '-dname', `"CN=${certInfo.commonName},OU=${certInfo.organizationalUnit},O=${certInfo.organization},L=${certInfo.locality},ST=${certInfo.state},C=${certInfo.country}"`,
                 '-noprompt'
             ];
             
@@ -167,9 +167,9 @@ export class KeystoreRepository {
             '',
             '# AppAnySite Keystore Configuration',
             `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
-            `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias || 'appanysite-key-alias'}`,
-            `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword || 'hrushikesh'}`,
-            `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword || 'hrushikesh'}`
+            `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
+            `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
+            `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
         ];
         
         gradleProperties += keystoreConfigLines.join('\n');

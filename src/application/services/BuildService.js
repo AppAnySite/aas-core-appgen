@@ -35,15 +35,29 @@ export class BuildService {
         const startTime = Date.now();
         
         try {
+            const progressCallback = options.progressCallback || (() => {});
+            
+            progressCallback(20, 'Loading project configuration...');
             // Load project configuration
             const configData = await this.loadProjectConfig(projectPath);
             const appConfig = new AppConfig(configData);
             
+            progressCallback(25, 'Validating project structure...');
             // Validate project structure
             await this.validateProjectStructure(projectPath);
             
+            progressCallback(30, 'Building Android debug APK...');
             // Build debug APK
-            const result = await this.androidBuildRepository.buildDebugAPK(projectPath, appConfig, options);
+            const result = await this.androidBuildRepository.buildDebugAPK(projectPath, appConfig, {
+                ...options,
+                progressCallback: (progress, message) => {
+                    // Map progress from 30-100% for the build process
+                    const mappedProgress = 30 + (progress * 0.70);
+                    progressCallback(mappedProgress, message);
+                }
+            });
+            
+            progressCallback(100, 'Debug build completed successfully');
             
             const duration = Date.now() - startTime;
             return {
@@ -69,18 +83,33 @@ export class BuildService {
         const startTime = Date.now();
         
         try {
+            const progressCallback = options.progressCallback || (() => {});
+            
+            progressCallback(20, 'Loading project configuration...');
             // Load project configuration
             const configData = await this.loadProjectConfig(projectPath);
             const appConfig = new AppConfig(configData);
             
+            progressCallback(25, 'Validating project structure...');
             // Validate project structure
             await this.validateProjectStructure(projectPath);
             
+            progressCallback(30, 'Ensuring keystore exists...');
             // Ensure keystore exists
             await this.ensureKeystoreExists(projectPath, appConfig);
             
+            progressCallback(35, 'Building Android release APK...');
             // Build release APK
-            const result = await this.androidBuildRepository.buildReleaseAPK(projectPath, appConfig, options);
+            const result = await this.androidBuildRepository.buildReleaseAPK(projectPath, appConfig, {
+                ...options,
+                progressCallback: (progress, message) => {
+                    // Map progress from 35-100% for the build process
+                    const mappedProgress = 35 + (progress * 0.65);
+                    progressCallback(mappedProgress, message);
+                }
+            });
+            
+            progressCallback(100, 'Release build completed successfully');
             
             const duration = Date.now() - startTime;
             return {
