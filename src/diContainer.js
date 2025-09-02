@@ -10,7 +10,7 @@
  */
 
 import { CreateCommand } from './modules/create/CreateCommand.js';
-import { BuildCommand } from './modules/build/BuildCommand.js';
+import BuildCommand from './modules/build/BuildCommand.js';
 import { ConfigRepository } from './infrastructure/repositories/ConfigRepository.js';
 import { TemplateRepository } from './infrastructure/repositories/TemplateRepository.js';
 import { ExecutorRepository } from './infrastructure/repositories/ExecutorRepository.js';

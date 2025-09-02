@@ -12,4 +12,4 @@ class IBuildCommand {
   }
 }
 
-module.exports = IBuildCommand;
+export default IBuildCommand;

@@ -9,10 +9,10 @@
  * @license MIT
  */
 
-const IBuildCommand = require('./IBuildCommand.js');
-const { BuildService } = require('../../application/services/BuildService.js');
-const { BundleService } = require('../../application/services/BundleService.js');
-const { CleanupService } = require('../../application/services/CleanupService.js');
+import IBuildCommand from './IBuildCommand.js';
+import { BuildService } from '../../application/services/BuildService.js';
+import { BundleService } from '../../application/services/BundleService.js';
+import { CleanupService } from '../../application/services/CleanupService.js';
 
 class BuildCommand extends IBuildCommand {
     constructor(errorHandler) {
@@ -278,4 +278,4 @@ class BuildCommand extends IBuildCommand {
     }
 }
 
-module.exports = { BuildCommand };
+export default BuildCommand;

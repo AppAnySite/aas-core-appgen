@@ -8,5 +8,5 @@
  * @license MIT
  */
 
-export { BuildCommand } from './BuildCommand.js';
+export { default as BuildCommand } from './BuildCommand.js';
 export { default as IBuildCommand } from './IBuildCommand.js';
