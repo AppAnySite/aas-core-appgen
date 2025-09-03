@@ -1,6 +1,5 @@
-#!/usr/bin/env node
-/******/ (() => { // webpackBootstrap
-/******/ 	var __webpack_modules__ = ({
+import { createRequire as __WEBPACK_EXTERNAL_createRequire } from "module";
+/******/ var __webpack_modules__ = ({
 
 /***/ 4379:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
@@ -561,7 +560,6 @@ Object.keys(codes).forEach(function(key) {
 /***/ 5429:
 /***/ ((module) => {
 
-"use strict";
 /*
 MIT License
 
@@ -604,7 +602,6 @@ module.exports = function(flag, argv) {
 /***/ 5877:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /*
 The MIT License (MIT)
 
@@ -1184,7 +1181,6 @@ module.exports = diagnostics;
 /***/ 1599:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1309,7 +1305,6 @@ module.exports = exports.default;
 /***/ 2997:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1501,7 +1496,6 @@ module.exports = exports.default;
 /***/ 4842:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1555,7 +1549,6 @@ module.exports = exports.default;
 /***/ 240:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1601,7 +1594,6 @@ module.exports = exports.default;
 /***/ 619:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1737,7 +1729,6 @@ module.exports = exports.default;
 /***/ 1560:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1819,7 +1810,6 @@ module.exports = exports.default;
 /***/ 6043:
 /***/ ((module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1854,7 +1844,6 @@ module.exports = exports.default;
 /***/ 814:
 /***/ ((module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1871,7 +1860,6 @@ module.exports = exports.default;
 /***/ 3572:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1968,7 +1956,6 @@ module.exports = exports.default;
 /***/ 3441:
 /***/ ((module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1986,7 +1973,6 @@ module.exports = exports.default;
 /***/ 1005:
 /***/ ((module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2007,7 +1993,6 @@ module.exports = exports.default;
 /***/ 9225:
 /***/ ((module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2024,7 +2009,6 @@ module.exports = exports.default;
 /***/ 7709:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2088,7 +2072,6 @@ module.exports = exports.default;
 /***/ 6386:
 /***/ ((module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2112,7 +2095,6 @@ module.exports = exports.default;
 /***/ 2980:
 /***/ ((module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2134,7 +2116,6 @@ module.exports = exports.default;
 /***/ 3980:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2175,7 +2156,6 @@ module.exports = exports.default;
 /***/ 2486:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2216,7 +2196,6 @@ exports["default"] = wrap(_defer);
 /***/ 9559:
 /***/ ((module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2233,7 +2212,6 @@ module.exports = exports.default;
 /***/ 3999:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2274,7 +2252,6 @@ exports.isAsyncIterable = isAsyncIterable;
 /***/ 9944:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -2467,7 +2444,6 @@ module.exports = exports.default;
 /***/ 9622:
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = {
@@ -2876,7 +2852,6 @@ function hexDouble(num) {
 /***/ 6848:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 var color = __nccwpck_require__(1519)
@@ -3977,7 +3952,6 @@ module.exports = function (fromModel) {
 /***/ 257:
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = {
@@ -4137,7 +4111,6 @@ module.exports = {
 /***/ 1519:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 var colorString = __nccwpck_require__(5964);
@@ -4627,7 +4600,6 @@ module.exports = Color;
 /***/ 3684:
 /***/ ((module) => {
 
-"use strict";
 
 
 /**
@@ -5093,7 +5065,6 @@ module.exports = function enabled(name, variable) {
 /***/ 9400:
 /***/ ((module) => {
 
-"use strict";
 
 
 var toString = Object.prototype.toString;
@@ -5193,7 +5164,6 @@ if (typeof Object.create === 'function') {
 /***/ 4646:
 /***/ ((module) => {
 
-"use strict";
 
 
 const isStream = stream =>
@@ -5229,7 +5199,6 @@ module.exports = isStream;
 /***/ 3146:
 /***/ ((module) => {
 
-"use strict";
 
 
 /**
@@ -5355,7 +5324,6 @@ module.exports = Kuler;
 /***/ 5860:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const format = __nccwpck_require__(598);
@@ -5377,7 +5345,6 @@ module.exports = format(info => {
 /***/ 8143:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const { Colorizer } = __nccwpck_require__(138);
@@ -5437,7 +5404,6 @@ module.exports.Format = CliFormat;
 /***/ 138:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const colors = __nccwpck_require__(7069);
@@ -5567,7 +5533,6 @@ module.exports.Colorizer
 /***/ 1888:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const format = __nccwpck_require__(598);
@@ -5641,7 +5606,6 @@ module.exports.cascade = cascade;
 /***/ 4226:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /* eslint no-undefined: 0 */
 
 
@@ -5690,7 +5654,6 @@ module.exports = format((einfo, { stack, cause }) => {
 /***/ 598:
 /***/ ((module) => {
 
-"use strict";
 
 
 /*
@@ -5750,7 +5713,6 @@ module.exports = formatFn => {
 /***/ 6093:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 /*
@@ -5810,7 +5772,6 @@ exposeFormat('uncolorize', function () { return __nccwpck_require__(2877); });
 /***/ 4463:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const format = __nccwpck_require__(598);
@@ -5848,7 +5809,6 @@ module.exports = format((info, opts) => {
 /***/ 6371:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const format = __nccwpck_require__(598);
@@ -5875,7 +5835,6 @@ module.exports = format((info, opts) => {
 /***/ 9294:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const { Colorizer } = __nccwpck_require__(138);
@@ -5895,7 +5854,6 @@ module.exports = config => {
 /***/ 6494:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const format = __nccwpck_require__(598);
@@ -5932,7 +5890,6 @@ module.exports = format(info => {
 /***/ 4304:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const format = __nccwpck_require__(598);
@@ -6001,7 +5958,6 @@ module.exports = format((info, opts = {}) => {
 /***/ 2425:
 /***/ (function(module, __unused_webpack_exports, __nccwpck_require__) {
 
-"use strict";
 
 
 const format = __nccwpck_require__(598);
@@ -6027,7 +5983,6 @@ module.exports = format(info => {
 /***/ 3926:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /* eslint no-unused-vars: 0 */
 
 
@@ -6118,7 +6073,6 @@ module.exports.Padder
 /***/ 1311:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const inspect = (__nccwpck_require__(9023).inspect);
@@ -6155,7 +6109,6 @@ module.exports = format((info, opts = {}) => {
 /***/ 78:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const { MESSAGE } = __nccwpck_require__(1973);
@@ -6189,7 +6142,6 @@ module.exports.Printf
 /***/ 3771:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /* eslint no-undefined: 0 */
 
 
@@ -6230,7 +6182,6 @@ module.exports = format(info => {
 /***/ 4009:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const util = __nccwpck_require__(9023);
@@ -6370,7 +6321,6 @@ module.exports = opts => new Splatter(opts);
 /***/ 6297:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const fecha = __nccwpck_require__(3345);
@@ -6408,7 +6358,6 @@ module.exports = format((info, opts = {}) => {
 /***/ 2877:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const colors = __nccwpck_require__(7069);
@@ -6612,7 +6561,6 @@ function plural(ms, msAbs, n, name) {
 /***/ 4473:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 var name = __nccwpck_require__(9400);
@@ -6731,7 +6679,6 @@ SafeBuffer.allocUnsafeSlow = function (size) {
 /***/ 5466:
 /***/ ((module, exports) => {
 
-"use strict";
 
 
 const { hasOwnProperty } = Object.prototype
@@ -7351,7 +7298,6 @@ function configure (options) {
 /***/ 6370:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 var isArrayish = __nccwpck_require__(2850);
@@ -7547,7 +7493,6 @@ exports._createParsedCallSite = function(properties) {
 /***/ 7603:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-"use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -7850,7 +7795,6 @@ function simpleEnd(buf) {
 /***/ 840:
 /***/ ((module) => {
 
-"use strict";
 
 
 /***
@@ -7882,7 +7826,6 @@ module.exports = function hex(str) {
 /***/ 3778:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * cli.js: Config that conform to commonly used CLI logging levels.
  *
@@ -7932,7 +7875,6 @@ exports.colors = {
 /***/ 1568:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * index.js: Default settings for all levels that winston knows about.
  *
@@ -7972,7 +7914,6 @@ Object.defineProperty(exports, "syslog", ({
 /***/ 9285:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * npm.js: Config that conform to npm logging levels.
  *
@@ -8016,7 +7957,6 @@ exports.colors = {
 /***/ 3083:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * syslog.js: Config that conform to syslog logging levels.
  *
@@ -8062,7 +8002,6 @@ exports.colors = {
 /***/ 1973:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 /**
@@ -8129,7 +8068,6 @@ module.exports = __nccwpck_require__(9023).deprecate;
 /***/ 6993:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 // Expose modern transport directly as the export
@@ -8144,7 +8082,6 @@ module.exports.LegacyTransportStream = __nccwpck_require__(6698);
 /***/ 6698:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const util = __nccwpck_require__(9023);
@@ -8271,7 +8208,6 @@ LegacyTransportStream.prototype.close = function close() {
 /***/ 6950:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 const util = __nccwpck_require__(9023);
@@ -8490,7 +8426,6 @@ TransportStream.prototype._nop = function _nop() {
 /***/ 4653:
 /***/ ((module) => {
 
-"use strict";
 
 
 const codes = {};
@@ -8614,7 +8549,6 @@ module.exports.F = codes;
 /***/ 9802:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -8747,7 +8681,6 @@ Object.defineProperty(Duplex.prototype, 'destroyed', {
 /***/ 4632:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -9781,7 +9714,6 @@ function indexOf(xs, x) {
 /***/ 5064:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -10429,7 +10361,6 @@ Writable.prototype._destroy = function (err, cb) {
 /***/ 6623:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 var _Object$setPrototypeO;
@@ -10616,7 +10547,6 @@ module.exports = createReadableStreamAsyncIterator;
 /***/ 8605:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
@@ -10806,7 +10736,6 @@ module.exports = /*#__PURE__*/function () {
 /***/ 3332:
 /***/ ((module) => {
 
-"use strict";
 
 
 // undocumented cb() API, needed for core, not for public API
@@ -10909,7 +10838,6 @@ module.exports = {
 /***/ 666:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Ported from https://github.com/mafintosh/end-of-stream with
 // permission from the author, Mathias Buus (@mafintosh).
 
@@ -11002,7 +10930,6 @@ module.exports = eos;
 /***/ 7920:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -11062,7 +10989,6 @@ module.exports = from;
 /***/ 7983:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 var ERR_INVALID_OPT_VALUE = (__nccwpck_require__(4653)/* .codes */ .F).ERR_INVALID_OPT_VALUE;
@@ -11099,7 +11025,6 @@ module.exports = __nccwpck_require__(2203);
 /***/ 7561:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * winston.js: Top-level include defining Winston.
  *
@@ -11298,7 +11223,6 @@ warn.forProperties(exports, 'deprecated', ['emitErrs', 'levelLength']);
 /***/ 5277:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * common.js: Internal helper and utility functions for winston.
  *
@@ -11352,7 +11276,6 @@ exports.warn = {
 /***/ 3145:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * index.js: Default settings for all levels that winston knows about.
  *
@@ -11395,7 +11318,6 @@ exports.addColors = logform.levels;
 /***/ 7881:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * container.js: Inversion of control container for winston logger instances.
  *
@@ -11521,7 +11443,6 @@ module.exports = class Container {
 /***/ 6705:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * create-logger.js: Logger factory for winston logger instances.
  *
@@ -11633,7 +11554,6 @@ module.exports = function (opts = {}) {
 /***/ 7038:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * exception-handler.js: Object for handling uncaughtException events.
  *
@@ -11886,7 +11806,6 @@ module.exports = class ExceptionHandler {
 /***/ 3768:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * exception-stream.js: TODO: add file header handler.
  *
@@ -11948,7 +11867,6 @@ module.exports = class ExceptionStream extends Writable {
 /***/ 1096:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * logger.js: TODO: add file header description.
  *
@@ -12632,7 +12550,6 @@ module.exports = Logger;
 /***/ 6365:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * profiler.js: TODO: add file header description.
  *
@@ -12693,7 +12610,6 @@ module.exports = Profiler;
 /***/ 5764:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * exception-handler.js: Object for handling uncaughtException events.
  *
@@ -12952,7 +12868,6 @@ module.exports = class RejectionHandler {
 /***/ 1474:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * rejection-stream.js: TODO: add file header handler.
  *
@@ -13012,7 +12927,6 @@ module.exports = class RejectionStream extends Writable {
 /***/ 245:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * tail-file.js: TODO: add file header description.
  *
@@ -13144,7 +13058,6 @@ module.exports = (options, iter) => {
 /***/ 2088:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /* eslint-disable no-console */
 /*
  * console.js: Transport for outputting to the console.
@@ -13269,7 +13182,6 @@ module.exports = class Console extends TransportStream {
 /***/ 7195:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /* eslint-disable complexity,max-statements */
 /**
  * file.js: Transport for outputting to a local log file.
@@ -14042,7 +13954,6 @@ module.exports = class File extends TransportStream {
 /***/ 5333:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * http.js: Transport for outputting to a json-rpcserver.
  *
@@ -14312,7 +14223,6 @@ module.exports = class Http extends TransportStream {
 /***/ 9942:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * transports.js: Set of all transports Winston knows about.
  *
@@ -14376,7 +14286,6 @@ Object.defineProperty(exports, "Stream", ({
 /***/ 7757:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 /**
  * stream.js: Transport for outputting to any arbitrary stream.
  *
@@ -14447,7 +14356,6 @@ module.exports = class Stream extends TransportStream {
 /***/ 37:
 /***/ ((module) => {
 
-"use strict";
 
 
 const codes = {};
@@ -14571,7 +14479,6 @@ module.exports.F = codes;
 /***/ 7794:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -14704,7 +14611,6 @@ Object.defineProperty(Duplex.prototype, 'destroyed', {
 /***/ 8852:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -14748,7 +14654,6 @@ PassThrough.prototype._transform = function (chunk, encoding, cb) {
 /***/ 2064:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -15782,7 +15687,6 @@ function indexOf(xs, x) {
 /***/ 1486:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -15979,7 +15883,6 @@ function done(stream, er, data) {
 /***/ 9136:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -16627,7 +16530,6 @@ Writable.prototype._destroy = function (err, cb) {
 /***/ 2487:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 var _Object$setPrototypeO;
@@ -16814,7 +16716,6 @@ module.exports = createReadableStreamAsyncIterator;
 /***/ 7765:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
@@ -17004,7 +16905,6 @@ module.exports = /*#__PURE__*/function () {
 /***/ 4716:
 /***/ ((module) => {
 
-"use strict";
 
 
 // undocumented cb() API, needed for core, not for public API
@@ -17107,7 +17007,6 @@ module.exports = {
 /***/ 8690:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Ported from https://github.com/mafintosh/end-of-stream with
 // permission from the author, Mathias Buus (@mafintosh).
 
@@ -17200,7 +17099,6 @@ module.exports = eos;
 /***/ 4520:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -17260,7 +17158,6 @@ module.exports = from;
 /***/ 6442:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 // Ported from https://github.com/mafintosh/pump with
 // permission from the author, Mathias Buus (@mafintosh).
 
@@ -17353,7 +17250,6 @@ module.exports = pipeline;
 /***/ 8167:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-"use strict";
 
 
 var ERR_INVALID_OPT_VALUE = (__nccwpck_require__(37)/* .codes */ .F).ERR_INVALID_OPT_VALUE;
@@ -17410,4304 +17306,129 @@ if (process.env.READABLE_STREAM === 'disable' && Stream) {
 
 /***/ }),
 
-/***/ 6826:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-__nccwpck_require__.r(__webpack_exports__);
-/* harmony export */ __nccwpck_require__.d(__webpack_exports__, {
-/* harmony export */   AppGenerationService: () => (/* binding */ AppGenerationService)
-/* harmony export */ });
-/* harmony import */ var _domain_entities_AppConfig_js__WEBPACK_IMPORTED_MODULE_2__ = __nccwpck_require__(4682);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(1943);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nccwpck_require__.n(fs_promises__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(6928);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__nccwpck_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);
-/**
- * Application Generation Service
- * 
- * High-performance service that orchestrates the application generation process
- * with parallel operations, optimized progress tracking, and comprehensive error handling.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-class AppGenerationService {
-    constructor(configRepository, templateRepository, executorRepository) {
-        this.configRepository = configRepository;
-        this.templateRepository = templateRepository;
-        this.executorRepository = executorRepository;
-        this.progressCache = new Map(); // Cache for progress tracking
-        this.currentProgress = 0; // Track current progress to ensure it only increases
-    }
-
-    /**
-     * Generate application from configuration file with optimized execution
-     * @param {string} configFilePath - Path to configuration file
-     * @param {string} outputPath - Path where the project should be created (optional)
-     * @param {Function} progressCallback - Progress callback function
-     * @returns {Promise<Object>} Generation result
-     * @throws {Error} If generation fails
-     */
-    async generateApp(configFilePath, outputPath, progressCallback) {
-        const startTime = Date.now();
-        let appConfig = null;
-        
-        try {
-            // Step 1: Load and validate configuration (O(1) with caching)
-            await this.updateProgress(progressCallback, 5, 'Loading and validating configuration');
-            const configData = await this.configRepository.loadConfig(configFilePath);
-            appConfig = new _domain_entities_AppConfig_js__WEBPACK_IMPORTED_MODULE_2__.AppConfig(configData);
-
-            // Step 2: Sequential operations for proper progress tracking
-            await this.updateProgress(progressCallback, 10, 'Preparing environment');
-            
-            // Ensure cookiecutter is available
-            await this.updateProgress(progressCallback, 15, 'Ensuring cookiecutter is available');
-            await this.executorRepository.installCookiecutter(
-                (progress, message) => this.updateProgress(progressCallback, 15 + progress * 0.05, message)
-            );
-
-            // Prepare template
-            await this.updateProgress(progressCallback, 20, 'Locating and validating template');
-            const templatePath = await this.templateRepository.getTemplatePath();
-
-            await this.updateProgress(progressCallback, 25, 'Preparing template configuration');
-            const cookiecutterConfig = appConfig.toCookiecutterConfig();
-            await this.templateRepository.prepareTemplate(templatePath, cookiecutterConfig, configFilePath);
-
-            // Step 3: Prepare output directory
-            await this.updateProgress(progressCallback, 30, 'Preparing output directory');
-            const finalOutputPath = outputPath || process.cwd();
-            
-            // Create output directory if it doesn't exist
-            try {
-                await fs_promises__WEBPACK_IMPORTED_MODULE_0___default().access(finalOutputPath);
-            } catch (error) {
-                await this.updateProgress(progressCallback, 32, 'Creating output directory');
-                await fs_promises__WEBPACK_IMPORTED_MODULE_0___default().mkdir(finalOutputPath, { recursive: true });
-            }
-
-            // Step 4: Execute cookiecutter (main operation)
-            await this.updateProgress(progressCallback, 35, 'Generating project with cookiecutter');
-            
-            await this.executorRepository.executeCookiecutter(
-                templatePath,
-                finalOutputPath,
-                (progress, message) => this.updateProgress(progressCallback, 35 + progress * 0.55, message)
-            );
-
-            // Step 5: Post-process and validate
-            await this.updateProgress(progressCallback, 90, 'Post-processing generated project');
-            const projectPath = path__WEBPACK_IMPORTED_MODULE_1___default().join(finalOutputPath, appConfig.getProjectDirectory());
-            await this.validateGeneratedProject(projectPath);
-
-            // Step 6: Cleanup
-            await this.updateProgress(progressCallback, 95, 'Cleaning up temporary files');
-            await this.templateRepository.cleanupTemplate(templatePath);
-
-            const duration = Date.now() - startTime;
-            await this.updateProgress(progressCallback, 100, `Project generation completed successfully in ${duration}ms`);
-
-            return {
-                success: true,
-                projectPath,
-                projectName: appConfig.projectName,
-                duration,
-                config: appConfig.getSummary()
-            };
-
-        } catch (error) {
-            // Optimized cleanup on error
-            if (appConfig) {
-                const finalOutputPath = outputPath || process.cwd();
-                const projectPath = path__WEBPACK_IMPORTED_MODULE_1___default().join(finalOutputPath, appConfig.getProjectDirectory());
-                await this.executorRepository.cleanupOnError(projectPath);
-            }
-            
-            throw new Error(`App generation failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Update progress with optimized bounds checking and caching
-     * @param {Function} progressCallback - Progress callback function
-     * @param {number} progress - Progress percentage
-     * @param {string} message - Progress message
-     */
-    async updateProgress(progressCallback, progress, message) {
-        if (!progressCallback) return;
-
-        // Ensure progress only increases
-        const boundedProgress = Math.min(100, Math.max(this.currentProgress, Math.round(progress)));
-        this.currentProgress = boundedProgress;
-        
-        // Cache progress to avoid duplicate updates
-        const cacheKey = `${boundedProgress}_${message}`;
-        if (this.progressCache.has(cacheKey)) {
-            return;
-        }
-        
-        this.progressCache.set(cacheKey, true);
-        progressCallback(boundedProgress, message);
-    }
-
-    /**
-     * Validate generated project with optimized checks
-     * @param {string} projectPath - Path to generated project
-     * @throws {Error} If validation fails
-     */
-    async validateGeneratedProject(projectPath) {
-        try {
-            // Check if project directory exists
-            const stats = await fs_promises__WEBPACK_IMPORTED_MODULE_0___default().stat(projectPath);
-            if (!stats.isDirectory()) {
-                throw new Error('Generated project directory was not created');
-            }
-
-            // Check for essential project files
-            const essentialFiles = ['package.json', 'app.json', 'index.js'];
-            const missingFiles = [];
-
-            for (const file of essentialFiles) {
-                try {
-                    await fs_promises__WEBPACK_IMPORTED_MODULE_0___default().access(path__WEBPACK_IMPORTED_MODULE_1___default().join(projectPath, file));
-                } catch (error) {
-                    missingFiles.push(file);
-                }
-            }
-
-            if (missingFiles.length > 0) {
-                throw new Error(`Generated project is missing essential files: ${missingFiles.join(', ')}`);
-            }
-
-        } catch (error) {
-            if (error.code === 'ENOENT') {
-                throw new Error('Generated project directory was not created');
-            }
-            throw error;
-        }
-    }
-
-    /**
-     * Get service statistics
-     * @returns {Object} Service statistics
-     */
-    getStats() {
-        return {
-            progressCacheSize: this.progressCache.size,
-            currentProgress: this.currentProgress,
-            configCacheStats: this.configRepository.getCacheStats(),
-            templateCacheStats: this.templateRepository.getCacheStats(),
-            executorCacheStats: this.executorRepository.getCacheStats()
-        };
-    }
-
-    /**
-     * Clear all caches
-     */
-    clearCaches() {
-        this.progressCache.clear();
-        this.currentProgress = 0;
-        this.configRepository.clearCache();
-        this.templateRepository.clearCache();
-        this.executorRepository.clearCache();
-    }
-}
-
-
-/***/ }),
-
-/***/ 2993:
-/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
-
-/**
- * Build Service
- * 
- * High-performance service that orchestrates Android build operations
- * with automatic keystore management and optimized build processes.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-const { AndroidBuildRepository } = __nccwpck_require__(9732);
-const { KeystoreRepository } = __nccwpck_require__(7721);
-const { ConfigRepository } = __nccwpck_require__(3531);
-const { AppConfig } = __nccwpck_require__(4682);
-const path = __nccwpck_require__(6928);
-const fs = __nccwpck_require__(1943);
-
-class BuildService {
-    constructor() {
-        this.androidBuildRepository = new AndroidBuildRepository();
-        this.keystoreRepository = new KeystoreRepository();
-        this.configRepository = new ConfigRepository();
-        this.buildCache = new Map();
-        this.currentProgress = 0;
-    }
-
-    /**
-     * Build Android debug APK
-     * @param {string} projectPath - Path to the project
-     * @param {Object} options - Build options
-     * @returns {Promise<Object>} Build result
-     */
-    async buildAndroidDebug(projectPath, options) {
-        const startTime = Date.now();
-        
-        try {
-            const progressCallback = options.progressCallback || (() => {});
-            
-            progressCallback(20, 'Loading project configuration...');
-            // Load project configuration
-            const configData = await this.loadProjectConfig(projectPath);
-            const appConfig = new AppConfig(configData);
-            
-            progressCallback(25, 'Validating project structure...');
-            // Validate project structure
-            await this.validateProjectStructure(projectPath);
-            
-            progressCallback(30, 'Building Android debug APK...');
-            // Build debug APK
-            const result = await this.androidBuildRepository.buildDebugAPK(projectPath, appConfig, {
-                ...options,
-                progressCallback: (progress, message) => {
-                    // Map progress from 30-100% for the build process
-                    const mappedProgress = 30 + (progress * 0.70);
-                    progressCallback(mappedProgress, message);
-                }
-            });
-            
-            progressCallback(100, 'Debug build completed successfully');
-            
-            const duration = Date.now() - startTime;
-            return {
-                success: true,
-                buildType: 'debug',
-                projectName: appConfig.projectName,
-                duration,
-                outputPath: result.outputPath,
-                fileSize: result.fileSize
-            };
-        } catch (error) {
-            throw new Error(`Debug APK build failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Build Android release APK
-     * @param {string} projectPath - Path to the project
-     * @param {Object} options - Build options
-     * @returns {Promise<Object>} Build result
-     */
-    async buildAndroidRelease(projectPath, options) {
-        const startTime = Date.now();
-        
-        try {
-            const progressCallback = options.progressCallback || (() => {});
-            
-            progressCallback(20, 'Loading project configuration...');
-            // Load project configuration
-            const configData = await this.loadProjectConfig(projectPath);
-            const appConfig = new AppConfig(configData);
-            
-            progressCallback(25, 'Validating project structure...');
-            // Validate project structure
-            await this.validateProjectStructure(projectPath);
-            
-            progressCallback(30, 'Ensuring keystore exists...');
-            // Ensure keystore exists
-            await this.ensureKeystoreExists(projectPath, appConfig);
-            
-            progressCallback(35, 'Building Android release APK...');
-            // Build release APK
-            const result = await this.androidBuildRepository.buildReleaseAPK(projectPath, appConfig, {
-                ...options,
-                progressCallback: (progress, message) => {
-                    // Map progress from 35-100% for the build process
-                    const mappedProgress = 35 + (progress * 0.65);
-                    progressCallback(mappedProgress, message);
-                }
-            });
-            
-            progressCallback(100, 'Release build completed successfully');
-            
-            const duration = Date.now() - startTime;
-            return {
-                success: true,
-                buildType: 'release',
-                projectName: appConfig.projectName,
-                duration,
-                outputPath: result.outputPath,
-                fileSize: result.fileSize,
-                keystoreUsed: result.keystoreUsed
-            };
-        } catch (error) {
-            throw new Error(`Release APK build failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Build Android AAB bundle
-     * @param {string} projectPath - Path to the project
-     * @param {Object} options - Build options
-     * @returns {Promise<Object>} Build result
-     */
-    async buildAndroidAAB(projectPath, options) {
-        const startTime = Date.now();
-        
-        try {
-            // Load project configuration
-            const configData = await this.loadProjectConfig(projectPath);
-            const appConfig = new AppConfig(configData);
-            
-            // Validate project structure
-            await this.validateProjectStructure(projectPath);
-            
-            // Ensure keystore exists
-            await this.ensureKeystoreExists(projectPath, appConfig);
-            
-            // Build AAB bundle
-            const result = await this.androidBuildRepository.buildAABBundle(projectPath, appConfig, options);
-            
-            const duration = Date.now() - startTime;
-            return {
-                success: true,
-                buildType: 'aab',
-                projectName: appConfig.projectName,
-                duration,
-                outputPath: result.outputPath,
-                fileSize: result.fileSize,
-                keystoreUsed: result.keystoreUsed
-            };
-        } catch (error) {
-            throw new Error(`AAB bundle build failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Build all Android artifacts (debug, release, AAB)
-     * @param {string} projectPath - Path to the project
-     * @param {Object} options - Build options
-     * @returns {Promise<Object>} Build result
-     */
-    async buildAndroidAll(projectPath, options) {
-        const startTime = Date.now();
-        
-        try {
-            // Load project configuration
-            const configData = await this.loadProjectConfig(projectPath);
-            const appConfig = new AppConfig(configData);
-            
-            // Validate project structure
-            await this.validateProjectStructure(projectPath);
-            
-            // Ensure keystore exists for release builds
-            await this.ensureKeystoreExists(projectPath, appConfig);
-            
-            // Build all artifacts in parallel
-            const [debugResult, releaseResult, aabResult] = await Promise.all([
-                this.androidBuildRepository.buildDebugAPK(projectPath, appConfig, options),
-                this.androidBuildRepository.buildReleaseAPK(projectPath, appConfig, options),
-                this.androidBuildRepository.buildAABBundle(projectPath, appConfig, options)
-            ]);
-            
-            const duration = Date.now() - startTime;
-            return {
-                success: true,
-                buildType: 'all',
-                projectName: appConfig.projectName,
-                duration,
-                artifacts: {
-                    debug: {
-                        outputPath: debugResult.outputPath,
-                        fileSize: debugResult.fileSize
-                    },
-                    release: {
-                        outputPath: releaseResult.outputPath,
-                        fileSize: releaseResult.fileSize,
-                        keystoreUsed: releaseResult.keystoreUsed
-                    },
-                    aab: {
-                        outputPath: aabResult.outputPath,
-                        fileSize: aabResult.fileSize,
-                        keystoreUsed: aabResult.keystoreUsed
-                    }
-                }
-            };
-        } catch (error) {
-            throw new Error(`All Android builds failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Load project configuration
-     * @param {string} projectPath - Path to the project
-     * @returns {Promise<Object>} Configuration data
-     */
-    async loadProjectConfig(projectPath) {
-        const configPath = path.join(projectPath, 'app-config.json');
-        
-        try {
-            return await this.configRepository.loadConfig(configPath);
-        } catch (error) {
-            throw new Error(`Failed to load project configuration: ${error.message}`);
-        }
-    }
-
-    /**
-     * Validate project structure
-     * @param {string} projectPath - Path to the project
-     * @throws {Error} If project structure is invalid
-     */
-    async validateProjectStructure(projectPath) {
-        const requiredFiles = [
-            'package.json',
-            'android/app/build.gradle',
-            'android/gradle.properties',
-            'app-config.json'
-        ];
-
-        for (const file of requiredFiles) {
-            const filePath = path.join(projectPath, file);
-            try {
-                await fs.access(filePath);
-            } catch (error) {
-                throw new Error(`Required file not found: ${file}`);
-            }
-        }
-    }
-
-    /**
-     * Ensure keystore exists for the project
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     */
-    async ensureKeystoreExists(projectPath, appConfig) {
-        const keystorePath = path.join(projectPath, 'build', 'android', 'keystores', `${appConfig.projectName}-release-key.keystore`);
-        
-        try {
-            await fs.access(keystorePath);
-        } catch (error) {
-            // Keystore doesn't exist, create it
-            await this.keystoreRepository.createKeystore(projectPath, appConfig);
-        }
-    }
-
-    /**
-     * Get service statistics
-     * @returns {Object} Service statistics
-     */
-    getStats() {
-        return {
-            buildCacheSize: this.buildCache.size,
-            currentProgress: this.currentProgress,
-            androidBuildStats: this.androidBuildRepository.getStats(),
-            keystoreStats: this.keystoreRepository.getStats()
-        };
-    }
-
-    /**
-     * Clear build cache
-     */
-    clearCaches() {
-        this.buildCache.clear();
-        this.currentProgress = 0;
-        this.androidBuildRepository.clearCache();
-        this.keystoreRepository.clearCache();
-    }
-}
-
-module.exports = { BuildService };
-
-
-/***/ }),
-
-/***/ 3075:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-__nccwpck_require__.r(__webpack_exports__);
-/* harmony export */ __nccwpck_require__.d(__webpack_exports__, {
-/* harmony export */   BundleService: () => (/* binding */ BundleService)
-/* harmony export */ });
-/* harmony import */ var _infrastructure_repositories_BundleRepository_js__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(1073);
-/* harmony import */ var _infrastructure_repositories_ConfigRepository_js__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(3531);
-/* harmony import */ var _domain_entities_AppConfig_js__WEBPACK_IMPORTED_MODULE_5__ = __nccwpck_require__(4682);
-/* harmony import */ var child_process__WEBPACK_IMPORTED_MODULE_2__ = __nccwpck_require__(5317);
-/* harmony import */ var child_process__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__nccwpck_require__.n(child_process__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3__ = __nccwpck_require__(6928);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__nccwpck_require__.n(path__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_4__ = __nccwpck_require__(1943);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__nccwpck_require__.n(fs_promises__WEBPACK_IMPORTED_MODULE_4__);
-/**
- * Bundle Service
- * 
- * High-performance service that handles React Native bundle generation
- * with optimized asset management and universal bundle creation.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-
-
-
-class BundleService {
-    constructor() {
-        this.bundleRepository = new _infrastructure_repositories_BundleRepository_js__WEBPACK_IMPORTED_MODULE_0__.BundleRepository();
-        this.configRepository = new _infrastructure_repositories_ConfigRepository_js__WEBPACK_IMPORTED_MODULE_1__.ConfigRepository();
-        this.bundleCache = new Map();
-        this.currentProgress = 0;
-    }
-
-    /**
-     * Generate React Native bundle
-     * @param {string} projectPath - Path to the project
-     * @param {Object} options - Bundle options
-     * @returns {Promise<Object>} Bundle result
-     */
-    async generateBundle(projectPath, options) {
-        const startTime = Date.now();
-        
-        try {
-            // Load project configuration
-            if (options.progressCallback) {
-                options.progressCallback(5, 'Loading project configuration...');
-            }
-            const configData = await this.loadProjectConfig(projectPath);
-            const appConfig = new _domain_entities_AppConfig_js__WEBPACK_IMPORTED_MODULE_5__.AppConfig(configData);
-            
-            // Validate project structure and install dependencies if needed
-            if (options.progressCallback) {
-                options.progressCallback(10, 'Validating project structure...');
-            }
-            await this.validateProjectStructure(projectPath, { progressCallback: options.progressCallback });
-            
-            // Get bundle configuration
-            if (options.progressCallback) {
-                options.progressCallback(25, 'Preparing bundle configuration...');
-            }
-            const bundleConfig = this.getBundleConfig(appConfig, options);
-            
-            // Generate bundle
-            if (options.progressCallback) {
-                options.progressCallback(30, 'Generating React Native bundle...');
-            }
-            const result = await this.bundleRepository.generateBundle(projectPath, appConfig, bundleConfig);
-            
-            if (options.progressCallback) {
-                options.progressCallback(90, 'Bundle generation completed');
-            }
-            
-            if (options.progressCallback) {
-                options.progressCallback(100, 'Bundle generation completed successfully');
-            }
-            
-            const duration = Date.now() - startTime;
-            return {
-                success: true,
-                projectName: appConfig.projectName,
-                duration,
-                outputPath: result.outputPath,
-                bundlePath: result.bundlePath,
-                assetsPath: result.assetsPath,
-                fileSize: result.fileSize,
-                assetsCount: result.assetsCount
-            };
-        } catch (error) {
-            throw new Error(`Bundle generation failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Load project configuration
-     * @param {string} projectPath - Path to the project
-     * @returns {Promise<Object>} Configuration data
-     */
-    async loadProjectConfig(projectPath) {
-        const configPath = path__WEBPACK_IMPORTED_MODULE_3___default().join(projectPath, 'app-config.json');
-        
-        try {
-            return await this.configRepository.loadConfig(configPath);
-        } catch (error) {
-            throw new Error(`Failed to load project configuration: ${error.message}`);
-        }
-    }
-
-    /**
-     * Validate project structure and install dependencies if needed
-     * @param {string} projectPath - Path to the project
-     * @param {Object} options - Bundle options with progress callback
-     * @throws {Error} If project structure is invalid
-     */
-    async validateProjectStructure(projectPath, options = {}) {
-        const requiredFiles = [
-            'package.json',
-            'index.js',
-            'app-config.json'
-        ];
-
-        // Check required files
-        for (const file of requiredFiles) {
-            const filePath = path__WEBPACK_IMPORTED_MODULE_3___default().join(projectPath, file);
-            try {
-                await fs_promises__WEBPACK_IMPORTED_MODULE_4___default().access(filePath);
-            } catch (error) {
-                throw new Error(`Required file not found: ${file}`);
-            }
-        }
-
-        // Check if node_modules exists
-        const nodeModulesPath = path__WEBPACK_IMPORTED_MODULE_3___default().join(projectPath, 'node_modules');
-        try {
-            await fs_promises__WEBPACK_IMPORTED_MODULE_4___default().access(nodeModulesPath);
-            // node_modules exists, no need to install
-            if (options.progressCallback) {
-                options.progressCallback(20, 'Dependencies already installed');
-            }
-        } catch (error) {
-            // node_modules doesn't exist, install dependencies
-            if (options.progressCallback) {
-                options.progressCallback(10, 'Installing project dependencies...');
-            }
-            await this.installDependencies(projectPath, options.progressCallback);
-        }
-    }
-
-    /**
-     * Install project dependencies
-     * @param {string} projectPath - Path to the project
-     * @param {Function} progressCallback - Progress callback function
-     * @returns {Promise<void>}
-     */
-    async installDependencies(projectPath, progressCallback) {
-        return new Promise((resolve, reject) => {
-            const installProcess = (0,child_process__WEBPACK_IMPORTED_MODULE_2__.spawn)('npm', ['install'], {
-                stdio: ['pipe', 'pipe', 'pipe'],
-                shell: true,
-                cwd: projectPath,
-                env: { ...process.env, NODE_ENV: 'production' }
-            });
-
-            let stdout = '';
-            let stderr = '';
-            let isCompleted = false;
-            let timeoutId = null;
-
-            // Handle stdout
-            installProcess.stdout.on('data', (data) => {
-                stdout += data.toString();
-                if (progressCallback) {
-                    progressCallback(15, 'Installing dependencies...');
-                }
-            });
-
-            // Handle stderr
-            installProcess.stderr.on('data', (data) => {
-                stderr += data.toString();
-                // Don't treat npm warnings as errors
-            });
-
-            // Handle process completion
-            installProcess.on('close', (code) => {
-                isCompleted = true;
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-
-                if (code === 0) {
-                    if (progressCallback) {
-                        progressCallback(20, 'Dependencies installed successfully');
-                    }
-                    resolve();
-                } else {
-                    reject(new Error(`npm install failed with code ${code}. Stderr: ${stderr}`));
-                }
-            });
-
-            // Handle process errors
-            installProcess.on('error', (error) => {
-                isCompleted = true;
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-                
-                reject(new Error(`Failed to install dependencies: ${error.message}`));
-            });
-
-            // Set timeout (5 minutes)
-            timeoutId = setTimeout(() => {
-                if (!isCompleted) {
-                    isCompleted = true;
-                    installProcess.kill('SIGTERM');
-                    reject(new Error('Dependency installation timed out'));
-                }
-            }, 300000);
-        });
-    }
-
-    /**
-     * Get bundle configuration from app config and options
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} options - Bundle options
-     * @returns {Object} Bundle configuration
-     */
-    getBundleConfig(appConfig, options) {
-        const buildConfig = appConfig.build?.bundle || {};
-        
-        return {
-            dev: options.dev !== undefined ? options.dev : buildConfig.dev || false,
-            platform: buildConfig.platform || 'android',
-            entryFile: buildConfig.entryFile || 'index.js',
-            bundleName: buildConfig.bundleName || 'complete-app.bundle',
-            assetsDest: buildConfig.assetsDest || 'assets',
-            sourceMap: buildConfig.sourceMap || false,
-            resetCache: buildConfig.resetCache || false,
-            output: buildConfig.output || 'build/bundles'
-        };
-    }
-
-    /**
-     * Get service statistics
-     * @returns {Object} Service statistics
-     */
-    getStats() {
-        return {
-            bundleCacheSize: this.bundleCache.size,
-            currentProgress: this.currentProgress,
-            bundleStats: this.bundleRepository.getStats()
-        };
-    }
-
-    /**
-     * Clear bundle cache
-     */
-    clearCaches() {
-        this.bundleCache.clear();
-        this.currentProgress = 0;
-        this.bundleRepository.clearCache();
-    }
-}
-
-
-/***/ }),
-
-/***/ 1209:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-__nccwpck_require__.r(__webpack_exports__);
-/* harmony export */ __nccwpck_require__.d(__webpack_exports__, {
-/* harmony export */   CleanupService: () => (/* binding */ CleanupService)
-/* harmony export */ });
-/* harmony import */ var _infrastructure_repositories_CleanupRepository_js__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(2961);
-/* harmony import */ var _infrastructure_repositories_ConfigRepository_js__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(3531);
-/* harmony import */ var _domain_entities_AppConfig_js__WEBPACK_IMPORTED_MODULE_4__ = __nccwpck_require__(4682);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2__ = __nccwpck_require__(6928);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__nccwpck_require__.n(path__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_3__ = __nccwpck_require__(1943);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__nccwpck_require__.n(fs_promises__WEBPACK_IMPORTED_MODULE_3__);
-/**
- * Cleanup Service
- * 
- * High-performance service that handles cleanup operations
- * for build artifacts, bundles, and temporary files.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-
-
-class CleanupService {
-    constructor() {
-        this.cleanupRepository = new _infrastructure_repositories_CleanupRepository_js__WEBPACK_IMPORTED_MODULE_0__.CleanupRepository();
-        this.configRepository = new _infrastructure_repositories_ConfigRepository_js__WEBPACK_IMPORTED_MODULE_1__.ConfigRepository();
-        this.cleanupCache = new Map();
-        this.currentProgress = 0;
-    }
-
-    /**
-     * Clean all build artifacts
-     * @param {string} projectPath - Path to the project
-     * @param {Object} options - Cleanup options
-     * @returns {Promise<Object>} Cleanup result
-     */
-    async cleanAll(projectPath, options) {
-        const startTime = Date.now();
-        
-        try {
-            // Load project configuration
-            const configData = await this.loadProjectConfig(projectPath);
-            const appConfig = new _domain_entities_AppConfig_js__WEBPACK_IMPORTED_MODULE_4__.AppConfig(configData);
-            
-            // Validate project structure
-            await this.validateProjectStructure(projectPath);
-            
-            // Get cleanup configuration
-            const cleanupConfig = this.getCleanupConfig(appConfig, options);
-            
-            // Clean all artifacts
-            const result = await this.cleanupRepository.cleanAll(projectPath, appConfig, cleanupConfig);
-            
-            const duration = Date.now() - startTime;
-            return {
-                success: true,
-                projectName: appConfig.projectName,
-                duration,
-                cleanedArtifacts: result.cleanedArtifacts,
-                freedSpace: result.freedSpace
-            };
-        } catch (error) {
-            throw new Error(`Cleanup failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Clean Android build artifacts
-     * @param {string} projectPath - Path to the project
-     * @param {Object} options - Cleanup options
-     * @returns {Promise<Object>} Cleanup result
-     */
-    async cleanAndroid(projectPath, options) {
-        const startTime = Date.now();
-        
-        try {
-            // Load project configuration
-            const configData = await this.loadProjectConfig(projectPath);
-            const appConfig = new _domain_entities_AppConfig_js__WEBPACK_IMPORTED_MODULE_4__.AppConfig(configData);
-            
-            // Validate project structure
-            await this.validateProjectStructure(projectPath);
-            
-            // Get cleanup configuration
-            const cleanupConfig = this.getCleanupConfig(appConfig, options);
-            
-            // Clean Android artifacts
-            const result = await this.cleanupRepository.cleanAndroid(projectPath, appConfig, cleanupConfig);
-            
-            const duration = Date.now() - startTime;
-            return {
-                success: true,
-                projectName: appConfig.projectName,
-                duration,
-                cleanedArtifacts: result.cleanedArtifacts,
-                freedSpace: result.freedSpace
-            };
-        } catch (error) {
-            throw new Error(`Android cleanup failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Clean bundle artifacts
-     * @param {string} projectPath - Path to the project
-     * @param {Object} options - Cleanup options
-     * @returns {Promise<Object>} Cleanup result
-     */
-    async cleanBundles(projectPath, options) {
-        const startTime = Date.now();
-        
-        try {
-            // Load project configuration
-            const configData = await this.loadProjectConfig(projectPath);
-            const appConfig = new _domain_entities_AppConfig_js__WEBPACK_IMPORTED_MODULE_4__.AppConfig(configData);
-            
-            // Validate project structure
-            await this.validateProjectStructure(projectPath);
-            
-            // Get cleanup configuration
-            const cleanupConfig = this.getCleanupConfig(appConfig, options);
-            
-            // Clean bundle artifacts
-            const result = await this.cleanupRepository.cleanBundles(projectPath, appConfig, cleanupConfig);
-            
-            const duration = Date.now() - startTime;
-            return {
-                success: true,
-                projectName: appConfig.projectName,
-                duration,
-                cleanedArtifacts: result.cleanedArtifacts,
-                freedSpace: result.freedSpace
-            };
-        } catch (error) {
-            throw new Error(`Bundle cleanup failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Load project configuration
-     * @param {string} projectPath - Path to the project
-     * @returns {Promise<Object>} Configuration data
-     */
-    async loadProjectConfig(projectPath) {
-        const configPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'app-config.json');
-        
-        try {
-            return await this.configRepository.loadConfig(configPath);
-        } catch (error) {
-            throw new Error(`Failed to load project configuration: ${error.message}`);
-        }
-    }
-
-    /**
-     * Validate project structure
-     * @param {string} projectPath - Path to the project
-     * @throws {Error} If project structure is invalid
-     */
-    async validateProjectStructure(projectPath) {
-        const requiredFiles = [
-            'package.json',
-            'app-config.json'
-        ];
-
-        for (const file of requiredFiles) {
-            const filePath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, file);
-            try {
-                await fs_promises__WEBPACK_IMPORTED_MODULE_3___default().access(filePath);
-            } catch (error) {
-                throw new Error(`Required file not found: ${file}`);
-            }
-        }
-    }
-
-    /**
-     * Get cleanup configuration from app config and options
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} options - Cleanup options
-     * @returns {Object} Cleanup configuration
-     */
-    getCleanupConfig(appConfig, options) {
-        const buildConfig = appConfig.build?.cleanup || {};
-        
-        return {
-            removeNodeModules: buildConfig.removeNodeModules || false,
-            removeBuildArtifacts: buildConfig.removeBuildArtifacts || true,
-            removeBundles: buildConfig.removeBundles || false,
-            force: options.force || false
-        };
-    }
-
-    /**
-     * Get service statistics
-     * @returns {Object} Service statistics
-     */
-    getStats() {
-        return {
-            cleanupCacheSize: this.cleanupCache.size,
-            currentProgress: this.currentProgress,
-            cleanupStats: this.cleanupRepository.getStats()
-        };
-    }
-
-    /**
-     * Clear cleanup cache
-     */
-    clearCaches() {
-        this.cleanupCache.clear();
-        this.currentProgress = 0;
-        this.cleanupRepository.clearCache();
-    }
-}
-
-
-/***/ }),
-
-/***/ 804:
-/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
-
-/**
- * Dependency Injection Container
- * 
- * Professional DI container for managing service dependencies
- * with proper lifecycle management and error handling.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-const { CreateCommand } = __nccwpck_require__(4109);
-const { BuildCommand } = __nccwpck_require__(1774);
-const { ConfigRepository } = __nccwpck_require__(3531);
-const { TemplateRepository } = __nccwpck_require__(5307);
-const { ExecutorRepository } = __nccwpck_require__(9830);
-const { AndroidBuildRepository } = __nccwpck_require__(9732);
-const { BundleRepository } = __nccwpck_require__(1073);
-const { KeystoreRepository } = __nccwpck_require__(7721);
-const { CleanupRepository } = __nccwpck_require__(2961);
-const { AppGenerationService } = __nccwpck_require__(6826);
-const { BuildService } = __nccwpck_require__(2993);
-const { BundleService } = __nccwpck_require__(3075);
-const { CleanupService } = __nccwpck_require__(1209);
-const ErrorHandler = __nccwpck_require__(9259);
-
-class DIContainer {
-    constructor() {
-        this.services = new Map();
-        this.singletons = new Map();
-        this.initializeServices();
-    }
-
-    /**
-     * Initialize all services with their dependencies
-     */
-    initializeServices() {
-        // Register repositories
-        this.register('ConfigRepository', ConfigRepository);
-        this.register('TemplateRepository', TemplateRepository);
-        this.register('ExecutorRepository', ExecutorRepository);
-        this.register('AndroidBuildRepository', AndroidBuildRepository);
-        this.register('BundleRepository', BundleRepository);
-        this.register('KeystoreRepository', KeystoreRepository);
-        this.register('CleanupRepository', CleanupRepository);
-
-        // Register application services
-        this.register('AppGenerationService', AppGenerationService, [
-            'ConfigRepository',
-            'TemplateRepository',
-            'ExecutorRepository'
-        ]);
-
-        this.register('BuildService', BuildService, [
-            'AndroidBuildRepository',
-            'KeystoreRepository',
-            'ConfigRepository'
-        ]);
-
-        this.register('BundleService', BundleService, [
-            'BundleRepository',
-            'ConfigRepository'
-        ]);
-
-        this.register('CleanupService', CleanupService, [
-            'CleanupRepository',
-            'ConfigRepository'
-        ]);
-
-        // Register commands with dependencies
-        this.register('CreateCommand', CreateCommand, ['ErrorHandler']);
-        this.register('BuildCommand', BuildCommand, ['ErrorHandler']);
-
-        // Register utilities
-        this.register('ErrorHandler', ErrorHandler);
-    }
-
-    /**
-     * Register a service with optional dependencies
-     * @param {string} name - Service name
-     * @param {Function} Constructor - Service constructor
-     * @param {Array<string>} dependencies - Service dependencies
-     */
-    register(name, Constructor, dependencies = []) {
-        this.services.set(name, { Constructor, dependencies });
-    }
-
-    /**
-     * Get a service instance
-     * @param {string} name - Service name
-     * @returns {Object} Service instance
-     * @throws {Error} If service not found
-     */
-    get(name) {
-        // Check if singleton already exists
-        if (this.singletons.has(name)) {
-            return this.singletons.get(name);
-        }
-
-        const service = this.services.get(name);
-        if (!service) {
-            throw new Error(`Service ${name} not found`);
-        }
-
-        const { Constructor, dependencies } = service;
-        const resolvedDependencies = dependencies.map(dep => this.get(dep));
-        const instance = new Constructor(...resolvedDependencies);
-
-        // Store as singleton
-        this.singletons.set(name, instance);
-        return instance;
-    }
-
-    /**
-     * Clear all service instances (useful for testing)
-     */
-    clear() {
-        this.singletons.clear();
-    }
-
-    /**
-     * Get all registered service names
-     * @returns {Array<string>} Service names
-     */
-    getRegisteredServices() {
-        return Array.from(this.services.keys());
-    }
-}
-
-// Create and export singleton instance
-const container = new DIContainer();
-module.exports = container;
-
-/***/ }),
-
-/***/ 4682:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-__nccwpck_require__.r(__webpack_exports__);
-/* harmony export */ __nccwpck_require__.d(__webpack_exports__, {
-/* harmony export */   AppConfig: () => (/* binding */ AppConfig)
-/* harmony export */ });
-/**
- * Application Configuration Domain Entity
- * 
- * Optimized domain entity for application configuration validation
- * with O(1) time complexity for critical operations.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-class AppConfig {
-    constructor(configData) {
-        this.validateConfigData(configData);
-        this.initializeFromConfig(configData);
-    }
-
-    /**
-     * Validate configuration data with optimized structure checking
-     * @param {Object} configData - Configuration data to validate
-     * @throws {Error} If validation fails
-     */
-    validateConfigData(configData) {
-        if (!configData || typeof configData !== 'object') {
-            throw new Error('Configuration data is required and must be an object');
-        }
-
-        // Check for required app section
-        if (!configData.app || typeof configData.app !== 'object') {
-            throw new Error('Missing required "app" section in configuration');
-        }
-
-        const app = configData.app;
-
-        // Validate required fields (lines 3, 7, 8 from app-config.json)
-        const requiredFields = [
-            { field: 'name', line: 3 },
-            { field: 'bundleId', line: 7 },
-            { field: 'androidPackageName', line: 8 }
-        ];
-
-        for (const { field, line } of requiredFields) {
-            if (!app[field] || typeof app[field] !== 'string' || app[field].trim() === '') {
-                throw new Error(`Missing or empty required field "app.${field}" (line ${line})`);
-            }
-        }
-
-        // Validate structure matches expected format
-        this.validateStructure(configData);
-    }
-
-    /**
-     * Validate the overall structure of the configuration
-     * @param {Object} configData - Configuration data
-     * @throws {Error} If structure is invalid
-     */
-    validateStructure(configData) {
-        const expectedSections = ['app', 'build', 'theme', 'features', 'api', 'logging', 'ui', 'metadata'];
-        
-        for (const section of expectedSections) {
-            if (!(section in configData)) {
-                throw new Error(`Missing required section: "${section}"`);
-            }
-        }
-
-        // Validate app section structure
-        const requiredAppFields = ['name', 'version', 'buildNumber', 'environment', 'bundleId', 'androidPackageName', 'displayName'];
-        for (const field of requiredAppFields) {
-            if (!(field in configData.app)) {
-                throw new Error(`Missing required field in app section: "${field}"`);
-            }
-        }
-    }
-
-    /**
-     * Initialize properties from validated configuration
-     * @param {Object} configData - Validated configuration data
-     */
-    initializeFromConfig(configData) {
-        const app = configData.app;
-        
-        // Core properties (O(1) access)
-        this.projectName = app.name;
-        this.appName = app.displayName || app.name;
-        this.bundleIdentifier = app.bundleId;
-        this.androidPackageName = app.androidPackageName;
-        this.version = app.version;
-        this.buildNumber = app.buildNumber;
-        this.environment = app.environment;
-
-        // Nested properties with default values
-        this.theme = configData.theme || {};
-        this.features = configData.features || {};
-        this.build = configData.build || {};
-        this.api = configData.api || {};
-        this.logging = configData.logging || {};
-        this.ui = configData.ui || {};
-        this.metadata = configData.metadata || {};
-
-        // Pre-compute frequently accessed values for O(1) access
-        this.webviewUrl = this.getWebviewUrl();
-        this.isAnalyticsEnabled = this.isFeatureEnabled('analytics');
-        this.isOfflineEnabled = this.isFeatureEnabled('offline');
-    }
-
-    /**
-     * Get WebView URL with fallback
-     * @returns {string} WebView URL
-     */
-    getWebviewUrl() {
-        return this.features?.webview?.url;
-    }
-
-    /**
-     * Check if feature is enabled (O(1) operation)
-     * @param {string} featureName - Name of the feature
-     * @returns {boolean} True if feature is enabled
-     */
-    isFeatureEnabled(featureName) {
-        return this.features?.[featureName]?.enabled === true;
-    }
-
-    /**
-     * Get theme color with fallback (O(1) operation)
-     * @param {string} colorName - Name of the color
-     * @param {string} mode - Theme mode (light/dark)
-     * @returns {string} Color value or default
-     */
-    getThemeColor(colorName, mode = 'light') {
-        return this.theme?.[mode]?.colors?.[colorName];
-    }
-
-    /**
-     * Convert to cookiecutter configuration format
-     * @returns {Object} Cookiecutter configuration object
-     */
-    toCookiecutterConfig() {
-        return {
-            project_name: this.projectName,
-            app_name: this.appName,
-            bundle_identifier: this.bundleIdentifier,
-            android_package_name: this.androidPackageName
-        };
-    }
-
-    /**
-     * Get project directory name
-     * @returns {string} Project directory name
-     */
-    getProjectDirectory() {
-        return this.projectName;
-    }
-
-    /**
-     * Get configuration summary for logging
-     * @returns {Object} Configuration summary
-     */
-    getSummary() {
-        return {
-            projectName: this.projectName,
-            appName: this.appName,
-            bundleId: this.bundleIdentifier,
-            androidPackage: this.androidPackageName,
-            version: this.version,
-            webviewUrl: this.webviewUrl,
-            analyticsEnabled: this.isAnalyticsEnabled,
-            offlineEnabled: this.isOfflineEnabled
-        };
-    }
-
-    /**
-     * Validate bundle identifier format
-     * @param {string} bundleId - Bundle identifier to validate
-     * @returns {boolean} True if valid
-     */
-    static isValidBundleIdentifier(bundleId) {
-        return /^[a-z][a-z0-9_]*(\.[a-z][a-z0-9_]*)+$/.test(bundleId);
-    }
-
-    /**
-     * Validate package name format
-     * @param {string} packageName - Package name to validate
-     * @returns {boolean} True if valid
-     */
-    static isValidPackageName(packageName) {
-        return /^[a-z][a-z0-9_]*(\.[a-z][a-z0-9_]*)+$/.test(packageName);
-    }
-
-    /**
-     * Validate project name format
-     * @param {string} projectName - Project name to validate
-     * @returns {boolean} True if valid
-     */
-    static isValidProjectName(projectName) {
-        return /^[a-zA-Z][a-zA-Z0-9_]*$/.test(projectName);
-    }
-}
-
-
-/***/ }),
-
-/***/ 9661:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-__nccwpck_require__.r(__webpack_exports__);
-/* harmony export */ __nccwpck_require__.d(__webpack_exports__, {
-/* harmony export */   ITemplateRepository: () => (/* binding */ ITemplateRepository)
-/* harmony export */ });
-/**
- * Template Repository Interface
- * 
- * Defines the contract for template management operations
- * including template discovery, validation, and configuration.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-class ITemplateRepository {
-    /**
-     * Get template path
-     * @returns {Promise<string>} Path to template directory
-     * @throws {Error} If template not found
-     */
-    async getTemplatePath() {
-        throw new Error('Method not implemented');
-    }
-
-    /**
-     * Validate template exists and is valid
-     * @param {string} templatePath - Path to template
-     * @returns {Promise<boolean>} True if template is valid
-     */
-    async validateTemplate(templatePath) {
-        throw new Error('Method not implemented');
-    }
-
-    /**
-     * Prepare template configuration
-     * @param {string} templatePath - Path to template
-     * @param {Object} cookiecutterConfig - Cookiecutter configuration
-     * @param {string} appConfigPath - Path to app config file
-     * @returns {Promise<void>}
-     * @throws {Error} If preparation fails
-     */
-    async prepareTemplate(templatePath, cookiecutterConfig, appConfigPath) {
-        throw new Error('Method not implemented');
-    }
-
-    /**
-     * Clean up template after use
-     * @param {string} templatePath - Path to template
-     * @returns {Promise<void>}
-     */
-    async cleanupTemplate(templatePath) {
-        throw new Error('Method not implemented');
-    }
-}
-
-
-/***/ }),
-
-/***/ 9732:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-__nccwpck_require__.r(__webpack_exports__);
-/* harmony export */ __nccwpck_require__.d(__webpack_exports__, {
-/* harmony export */   AndroidBuildRepository: () => (/* binding */ AndroidBuildRepository)
-/* harmony export */ });
-/* harmony import */ var child_process__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(5317);
-/* harmony import */ var child_process__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nccwpck_require__.n(child_process__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(1943);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__nccwpck_require__.n(fs_promises__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2__ = __nccwpck_require__(6928);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__nccwpck_require__.n(path__WEBPACK_IMPORTED_MODULE_2__);
-/**
- * Android Build Repository Implementation
- * 
- * High-performance implementation of Android build operations
- * with optimized process management, keystore integration, and build automation.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-
-class AndroidBuildRepository {
-    constructor() {
-        this.timeoutMs = 600000; // 10 minutes
-        this.maxRetries = 3;
-        this.buildCache = new Map();
-    }
-
-    /**
-     * Build Android debug APK
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} options - Build options
-     * @returns {Promise<Object>} Build result
-     */
-    async buildDebugAPK(projectPath, appConfig, options) {
-        const startTime = Date.now();
-        const progressCallback = options.progressCallback || (() => {});
-        
-        try {
-            progressCallback(40, 'Validating Android project structure...');
-            // Validate Android project structure
-            await this.validateAndroidProject(projectPath);
-            
-            progressCallback(50, 'Preparing build environment...');
-            // Prepare build environment
-            await this.prepareBuildEnvironment(projectPath, appConfig, 'debug');
-            
-            progressCallback(60, 'Executing Gradle debug build...');
-            // Execute debug build
-            const result = await this.executeGradleBuild(projectPath, 'assembleDebug', {
-                ...options,
-                progressCallback: (progress, message) => {
-                    // Map progress from 60-85% for the gradle build
-                    const mappedProgress = 60 + (progress * 0.25);
-                    progressCallback(mappedProgress, message);
-                }
-            });
-            
-            progressCallback(85, 'Copying APK to output directory...');
-            // Get output file information
-            const outputPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'build', 'android', 'debug');
-            const apkPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(outputPath, `${appConfig.projectName}-debug.apk`);
-            
-            // Ensure output directory exists
-            await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().mkdir(outputPath, { recursive: true });
-            
-            // Copy APK to output directory
-            const sourceApkPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'android', 'app', 'build', 'outputs', 'apk', 'debug', 'app-debug.apk');
-            await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().copyFile(sourceApkPath, apkPath);
-            
-            // Get file size
-            const stats = await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().stat(apkPath);
-            const fileSize = this.formatFileSize(stats.size);
-            
-            progressCallback(90, 'Debug APK build completed successfully');
-            
-            const duration = Date.now() - startTime;
-            
-            return {
-                success: true,
-                outputPath: apkPath,
-                fileSize,
-                duration
-            };
-        } catch (error) {
-            throw new Error(`Debug APK build failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Build Android release APK
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} options - Build options
-     * @returns {Promise<Object>} Build result
-     */
-    async buildReleaseAPK(projectPath, appConfig, options) {
-        const startTime = Date.now();
-        
-        try {
-            // Validate Android project structure
-            await this.validateAndroidProject(projectPath);
-            
-            // Prepare build environment with keystore
-            await this.prepareBuildEnvironment(projectPath, appConfig, 'release');
-            
-            // Execute release build
-            const result = await this.executeGradleBuild(projectPath, 'assembleRelease', options);
-            
-            // Get output file information
-            const outputPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'build', 'android', 'release');
-            const apkPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(outputPath, `${appConfig.projectName}-release.apk`);
-            
-            // Ensure output directory exists
-            await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().mkdir(outputPath, { recursive: true });
-            
-            // Copy APK to output directory
-            const sourceApkPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'android', 'app', 'build', 'outputs', 'apk', 'release', 'app-release.apk');
-            await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().copyFile(sourceApkPath, apkPath);
-            
-            // Get file size
-            const stats = await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().stat(apkPath);
-            const fileSize = this.formatFileSize(stats.size);
-            
-            const duration = Date.now() - startTime;
-            
-            return {
-                success: true,
-                outputPath: apkPath,
-                fileSize,
-                duration,
-                keystoreUsed: `${appConfig.projectName}-release-key.keystore`
-            };
-        } catch (error) {
-            throw new Error(`Release APK build failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Build Android AAB bundle
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} options - Build options
-     * @returns {Promise<Object>} Build result
-     */
-    async buildAABBundle(projectPath, appConfig, options) {
-        const startTime = Date.now();
-        
-        try {
-            // Validate Android project structure
-            await this.validateAndroidProject(projectPath);
-            
-            // Prepare build environment with keystore
-            await this.prepareBuildEnvironment(projectPath, appConfig, 'release');
-            
-            // Execute AAB build
-            const result = await this.executeGradleBuild(projectPath, 'bundleRelease', options);
-            
-            // Get output file information
-            const outputPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'build', 'android', 'aab');
-            const aabPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(outputPath, `${appConfig.projectName}-release.aab`);
-            
-            // Ensure output directory exists
-            await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().mkdir(outputPath, { recursive: true });
-            
-            // Copy AAB to output directory
-            const sourceAabPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'android', 'app', 'build', 'outputs', 'bundle', 'release', 'app-release.aab');
-            await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().copyFile(sourceAabPath, aabPath);
-            
-            // Get file size
-            const stats = await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().stat(aabPath);
-            const fileSize = this.formatFileSize(stats.size);
-            
-            const duration = Date.now() - startTime;
-            
-            return {
-                success: true,
-                outputPath: aabPath,
-                fileSize,
-                duration,
-                keystoreUsed: `${appConfig.projectName}-release-key.keystore`
-            };
-        } catch (error) {
-            throw new Error(`AAB bundle build failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Validate Android project structure
-     * @param {string} projectPath - Path to the project
-     * @throws {Error} If project structure is invalid
-     */
-    async validateAndroidProject(projectPath) {
-        const requiredFiles = [
-            'android/app/build.gradle',
-            'android/gradle.properties',
-            'android/gradlew',
-            'android/settings.gradle'
-        ];
-
-        for (const file of requiredFiles) {
-            const filePath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, file);
-            try {
-                await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().access(filePath);
-            } catch (error) {
-                throw new Error(`Required Android file not found: ${file}`);
-            }
-        }
-    }
-
-    /**
-     * Prepare build environment
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {string} buildType - Build type (debug/release)
-     */
-    async prepareBuildEnvironment(projectPath, appConfig, buildType) {
-        // Update gradle.properties with build configuration
-        await this.updateGradleProperties(projectPath, appConfig, buildType);
-        
-        // Update build.gradle with signing configuration for release builds
-        if (buildType === 'release') {
-            await this.updateBuildGradle(projectPath, appConfig);
-        }
-    }
-
-    /**
-     * Update gradle.properties with build configuration
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {string} buildType - Build type
-     */
-    async updateGradleProperties(projectPath, appConfig, buildType) {
-        const gradlePropertiesPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'android', 'gradle.properties');
-        const buildConfig = appConfig.build?.android || {};
-        
-        let gradleProperties = await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().readFile(gradlePropertiesPath, 'utf8');
-        
-        // Only add signing configuration for release builds
-        if (buildType === 'release') {
-            const keystoreConfig = buildConfig.keystore || {};
-            const signingConfigLines = [
-                '',
-                '# AppAnySite Release Signing Configuration',
-                `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
-                `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
-                `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
-                `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
-            ];
-            
-            gradleProperties += signingConfigLines.join('\n');
-            await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
-        }
-    }
-
-    /**
-     * Update build.gradle with signing configuration
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     */
-    async updateBuildGradle(projectPath, appConfig) {
-        const buildGradlePath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'android', 'app', 'build.gradle');
-        let buildGradle = await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().readFile(buildGradlePath, 'utf8');
-        
-        // Add signing configuration if not exists
-        if (!buildGradle.includes('signingConfigs.release')) {
-            const signingConfig = `
-        release {
-            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
-                storeFile file(MYAPP_UPLOAD_STORE_FILE)
-                storePassword MYAPP_UPLOAD_STORE_PASSWORD
-                keyAlias MYAPP_UPLOAD_KEY_ALIAS
-                keyPassword MYAPP_UPLOAD_KEY_PASSWORD
-            }
-        }`;
-            
-            // Insert signing config after debug config
-            buildGradle = buildGradle.replace(
-                /(signingConfigs\s*\{\s*debug\s*\{[^}]*\})/,
-                `$1${signingConfig}`
-            );
-            
-            // Update release buildType to use release signing
-            buildGradle = buildGradle.replace(
-                /signingConfig signingConfigs\.debug/,
-                'signingConfig signingConfigs.release'
-            );
-            
-            await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().writeFile(buildGradlePath, buildGradle, 'utf8');
-        }
-    }
-
-    /**
-     * Execute Gradle build command
-     * @param {string} projectPath - Path to the project
-     * @param {string} task - Gradle task to execute
-     * @param {Object} options - Build options
-     * @returns {Promise<Object>} Build result
-     */
-    async executeGradleBuild(projectPath, task, options) {
-        return new Promise((resolve, reject) => {
-            const gradlewPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'android', 'gradlew');
-            const androidPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'android');
-            const progressCallback = options.progressCallback || (() => {});
-            
-            const gradleProcess = (0,child_process__WEBPACK_IMPORTED_MODULE_0__.spawn)('./gradlew', [task], {
-                stdio: ['pipe', 'pipe', 'pipe'],
-                shell: true,
-                cwd: androidPath,
-                env: { ...process.env, JAVA_HOME: process.env.JAVA_HOME }
-            });
-
-            let stdout = '';
-            let stderr = '';
-            let isCompleted = false;
-            let timeoutId = null;
-            let progressCounter = 0;
-
-            // Handle stdout
-            gradleProcess.stdout.on('data', (data) => {
-                stdout += data.toString();
-                progressCounter++;
-                if (progressCounter % 10 === 0) {
-                    // Cap progress at 95% during build, 100% will be called on completion
-                    const cappedProgress = Math.min(progressCounter, 95);
-                    progressCallback(cappedProgress, 'Gradle build in progress...');
-                }
-            });
-
-            // Handle stderr
-            gradleProcess.stderr.on('data', (data) => {
-                stderr += data.toString();
-            });
-
-            // Handle process completion
-            gradleProcess.on('close', (code) => {
-                isCompleted = true;
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-
-                if (code === 0) {
-                    progressCallback(100, 'Gradle build completed successfully');
-                    resolve({ success: true, stdout, stderr });
-                } else {
-                    reject(new Error(`Gradle build failed with code ${code}. Stderr: ${stderr}`));
-                }
-            });
-
-            // Handle process errors
-            gradleProcess.on('error', (error) => {
-                isCompleted = true;
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-                
-                reject(new Error(`Failed to execute Gradle build: ${error.message}`));
-            });
-
-            // Set timeout
-            timeoutId = setTimeout(() => {
-                if (!isCompleted) {
-                    isCompleted = true;
-                    gradleProcess.kill('SIGTERM');
-                    reject(new Error('Gradle build timed out'));
-                }
-            }, this.timeoutMs);
-        });
-    }
-
-    /**
-     * Format file size for display
-     * @param {number} bytes - File size in bytes
-     * @returns {string} Formatted file size
-     */
-    formatFileSize(bytes) {
-        const sizes = ['B', 'KB', 'MB', 'GB'];
-        if (bytes === 0) return '0 B';
-        const i = Math.floor(Math.log(bytes) / Math.log(1024));
-        return Math.round(bytes / Math.pow(1024, i) * 100) / 100 + ' ' + sizes[i];
-    }
-
-    /**
-     * Get repository statistics
-     * @returns {Object} Repository statistics
-     */
-    getStats() {
-        return {
-            buildCacheSize: this.buildCache.size,
-            timeoutMs: this.timeoutMs,
-            maxRetries: this.maxRetries
-        };
-    }
-
-    /**
-     * Clear build cache
-     */
-    clearCache() {
-        this.buildCache.clear();
-    }
-}
-
-
-/***/ }),
-
-/***/ 1073:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-__nccwpck_require__.r(__webpack_exports__);
-/* harmony export */ __nccwpck_require__.d(__webpack_exports__, {
-/* harmony export */   BundleRepository: () => (/* binding */ BundleRepository)
-/* harmony export */ });
-/* harmony import */ var child_process__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(5317);
-/* harmony import */ var child_process__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nccwpck_require__.n(child_process__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(1943);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__nccwpck_require__.n(fs_promises__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2__ = __nccwpck_require__(6928);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__nccwpck_require__.n(path__WEBPACK_IMPORTED_MODULE_2__);
-/**
- * Bundle Repository Implementation
- * 
- * High-performance implementation of React Native bundle generation
- * with optimized asset management and universal bundle creation.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-
-class BundleRepository {
-    constructor() {
-        this.timeoutMs = 300000; // 5 minutes
-        this.maxRetries = 3;
-        this.bundleCache = new Map();
-    }
-
-    /**
-     * Generate React Native bundle
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} bundleConfig - Bundle configuration
-     * @returns {Promise<Object>} Bundle result
-     */
-    async generateBundle(projectPath, appConfig, bundleConfig) {
-        const startTime = Date.now();
-        
-        try {
-            // Validate project structure
-            await this.validateProjectStructure(projectPath);
-            
-            // Prepare bundle environment
-            await this.prepareBundleEnvironment(projectPath, appConfig, bundleConfig);
-            
-            // Execute bundle generation
-            const result = await this.executeBundleCommand(projectPath, appConfig, bundleConfig);
-            
-            // Get output file information AFTER bundle generation
-            const outputPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, bundleConfig.output, appConfig.projectName);
-            const bundlePath = path__WEBPACK_IMPORTED_MODULE_2___default().join(outputPath, bundleConfig.bundleName);
-            const assetsPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(outputPath, bundleConfig.assetsDest);
-            
-            // Get file size (now the bundle should exist)
-            let fileSize = '0 B';
-            let assetsCount = 0;
-            
-            try {
-                const stats = await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().stat(bundlePath);
-                fileSize = this.formatFileSize(stats.size);
-            } catch (error) {
-                console.warn('Bundle file not found after generation:', error.message);
-            }
-            
-            // Count assets
-            try {
-                assetsCount = await this.countAssets(assetsPath);
-            } catch (error) {
-                console.warn('Assets directory not found:', error.message);
-            }
-            
-            const duration = Date.now() - startTime;
-            
-            return {
-                success: true,
-                outputPath,
-                bundlePath,
-                assetsPath,
-                fileSize,
-                assetsCount,
-                duration
-            };
-        } catch (error) {
-            throw new Error(`Bundle generation failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Validate project structure
-     * @param {string} projectPath - Path to the project
-     * @throws {Error} If project structure is invalid
-     */
-    async validateProjectStructure(projectPath) {
-        const requiredFiles = [
-            'package.json',
-            'index.js',
-            'node_modules'
-        ];
-
-        for (const file of requiredFiles) {
-            const filePath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, file);
-            try {
-                await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().access(filePath);
-            } catch (error) {
-                throw new Error(`Required file not found: ${file}`);
-            }
-        }
-    }
-
-    /**
-     * Prepare bundle environment
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} bundleConfig - Bundle configuration
-     */
-    async prepareBundleEnvironment(projectPath, appConfig, bundleConfig) {
-        // Create output directory structure
-        const outputPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, bundleConfig.output, appConfig.projectName);
-        await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().mkdir(outputPath, { recursive: true });
-        
-        // Create assets directory
-        const assetsPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(outputPath, bundleConfig.assetsDest);
-        await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().mkdir(assetsPath, { recursive: true });
-    }
-
-    /**
-     * Execute React Native bundle command
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} bundleConfig - Bundle configuration
-     * @returns {Promise<Object>} Bundle result
-     */
-    async executeBundleCommand(projectPath, appConfig, bundleConfig) {
-        return new Promise((resolve, reject) => {
-            // Use relative paths for React Native bundle command
-            const outputPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(bundleConfig.output, appConfig.projectName);
-            const bundlePath = path__WEBPACK_IMPORTED_MODULE_2___default().join(outputPath, bundleConfig.bundleName);
-            const assetsPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(outputPath, bundleConfig.assetsDest);
-            
-            // Prepare bundle command arguments
-            const args = [
-                'react-native', 'bundle',
-                '--platform', bundleConfig.platform,
-                '--dev', bundleConfig.dev.toString(),
-                '--entry-file', bundleConfig.entryFile,
-                '--bundle-output', bundlePath,
-                '--assets-dest', assetsPath
-            ];
-            
-            // Add optional arguments
-            if (bundleConfig.sourceMap) {
-                args.push('--sourcemap-output', `${bundlePath}.map`);
-            }
-            
-            if (bundleConfig.resetCache) {
-                args.push('--reset-cache');
-            }
-            
-            const bundleProcess = (0,child_process__WEBPACK_IMPORTED_MODULE_0__.spawn)('npx', args, {
-                stdio: ['pipe', 'pipe', 'pipe'],
-                shell: true,
-                cwd: projectPath,
-                env: { ...process.env, NODE_ENV: bundleConfig.dev ? 'development' : 'production' }
-            });
-
-            let stdout = '';
-            let stderr = '';
-            let isCompleted = false;
-            let timeoutId = null;
-
-            // Handle stdout
-            bundleProcess.stdout.on('data', (data) => {
-                stdout += data.toString();
-            });
-
-            // Handle stderr
-            bundleProcess.stderr.on('data', (data) => {
-                stderr += data.toString();
-            });
-
-            // Handle process completion
-            bundleProcess.on('close', (code) => {
-                isCompleted = true;
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-
-                if (code === 0) {
-                    resolve({ success: true, stdout, stderr });
-                } else {
-                    reject(new Error(`Bundle generation failed with code ${code}. Stderr: ${stderr}`));
-                }
-            });
-
-            // Handle process errors
-            bundleProcess.on('error', (error) => {
-                isCompleted = true;
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-                
-                reject(new Error(`Failed to execute bundle generation: ${error.message}`));
-            });
-
-            // Set timeout
-            timeoutId = setTimeout(() => {
-                if (!isCompleted) {
-                    isCompleted = true;
-                    bundleProcess.kill('SIGTERM');
-                    reject(new Error('Bundle generation timed out'));
-                }
-            }, this.timeoutMs);
-        });
-    }
-
-    /**
-     * Count assets in assets directory
-     * @param {string} assetsPath - Path to assets directory
-     * @returns {Promise<number>} Number of assets
-     */
-    async countAssets(assetsPath) {
-        try {
-            const files = await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().readdir(assetsPath, { recursive: true });
-            return files.length;
-        } catch (error) {
-            return 0;
-        }
-    }
-
-    /**
-     * Format file size for display
-     * @param {number} bytes - File size in bytes
-     * @returns {string} Formatted file size
-     */
-    formatFileSize(bytes) {
-        const sizes = ['B', 'KB', 'MB', 'GB'];
-        if (bytes === 0) return '0 B';
-        const i = Math.floor(Math.log(bytes) / Math.log(1024));
-        return Math.round(bytes / Math.pow(1024, i) * 100) / 100 + ' ' + sizes[i];
-    }
-
-    /**
-     * Get repository statistics
-     * @returns {Object} Repository statistics
-     */
-    getStats() {
-        return {
-            bundleCacheSize: this.bundleCache.size,
-            timeoutMs: this.timeoutMs,
-            maxRetries: this.maxRetries
-        };
-    }
-
-    /**
-     * Clear bundle cache
-     */
-    clearCache() {
-        this.bundleCache.clear();
-    }
-}
-
-
-/***/ }),
-
-/***/ 2961:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-__nccwpck_require__.r(__webpack_exports__);
-/* harmony export */ __nccwpck_require__.d(__webpack_exports__, {
-/* harmony export */   CleanupRepository: () => (/* binding */ CleanupRepository)
-/* harmony export */ });
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(1943);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nccwpck_require__.n(fs_promises__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(6928);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__nccwpck_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);
-/**
- * Cleanup Repository Implementation
- * 
- * High-performance implementation of cleanup operations
- * for build artifacts, bundles, and temporary files.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-class CleanupRepository {
-    constructor() {
-        this.cleanupCache = new Map();
-    }
-
-    /**
-     * Clean all build artifacts
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} cleanupConfig - Cleanup configuration
-     * @returns {Promise<Object>} Cleanup result
-     */
-    async cleanAll(projectPath, appConfig, cleanupConfig) {
-        const startTime = Date.now();
-        
-        try {
-            const cleanedArtifacts = [];
-            let freedSpace = 0;
-            
-            // Clean Android artifacts
-            if (cleanupConfig.removeBuildArtifacts) {
-                const androidResult = await this.cleanAndroidArtifacts(projectPath, appConfig);
-                cleanedArtifacts.push(...androidResult.cleanedArtifacts);
-                freedSpace += androidResult.freedSpace;
-            }
-            
-            // Clean bundle artifacts
-            if (cleanupConfig.removeBundles) {
-                const bundleResult = await this.cleanBundleArtifacts(projectPath, appConfig);
-                cleanedArtifacts.push(...bundleResult.cleanedArtifacts);
-                freedSpace += bundleResult.freedSpace;
-            }
-            
-            // Clean node_modules if requested
-            if (cleanupConfig.removeNodeModules) {
-                const nodeResult = await this.cleanNodeModules(projectPath);
-                cleanedArtifacts.push(...nodeResult.cleanedArtifacts);
-                freedSpace += nodeResult.freedSpace;
-            }
-            
-            const duration = Date.now() - startTime;
-            
-            return {
-                success: true,
-                cleanedArtifacts,
-                freedSpace,
-                duration
-            };
-        } catch (error) {
-            throw new Error(`Cleanup failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Clean Android build artifacts
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} cleanupConfig - Cleanup configuration
-     * @returns {Promise<Object>} Cleanup result
-     */
-    async cleanAndroid(projectPath, appConfig, cleanupConfig) {
-        const startTime = Date.now();
-        
-        try {
-            const result = await this.cleanAndroidArtifacts(projectPath, appConfig);
-            
-            const duration = Date.now() - startTime;
-            
-            return {
-                success: true,
-                cleanedArtifacts: result.cleanedArtifacts,
-                freedSpace: result.freedSpace,
-                duration
-            };
-        } catch (error) {
-            throw new Error(`Android cleanup failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Clean bundle artifacts
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} cleanupConfig - Cleanup configuration
-     * @returns {Promise<Object>} Cleanup result
-     */
-    async cleanBundles(projectPath, appConfig, cleanupConfig) {
-        const startTime = Date.now();
-        
-        try {
-            const result = await this.cleanBundleArtifacts(projectPath, appConfig);
-            
-            const duration = Date.now() - startTime;
-            
-            return {
-                success: true,
-                cleanedArtifacts: result.cleanedArtifacts,
-                freedSpace: result.freedSpace,
-                duration
-            };
-        } catch (error) {
-            throw new Error(`Bundle cleanup failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Clean Android artifacts
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @returns {Promise<Object>} Cleanup result
-     */
-    async cleanAndroidArtifacts(projectPath, appConfig) {
-        const cleanedArtifacts = [];
-        let freedSpace = 0;
-        
-        const androidPaths = [
-            path__WEBPACK_IMPORTED_MODULE_1___default().join(projectPath, 'android', 'app', 'build'),
-            path__WEBPACK_IMPORTED_MODULE_1___default().join(projectPath, 'android', 'build'),
-            path__WEBPACK_IMPORTED_MODULE_1___default().join(projectPath, 'build', 'android')
-        ];
-        
-        for (const androidPath of androidPaths) {
-            try {
-                const stats = await fs_promises__WEBPACK_IMPORTED_MODULE_0___default().stat(androidPath);
-                if (stats.isDirectory()) {
-                    await this.removeDirectory(androidPath);
-                    cleanedArtifacts.push(androidPath);
-                    freedSpace += stats.size;
-                }
-            } catch (error) {
-                // Directory doesn't exist, skip
-            }
-        }
-        
-        return { cleanedArtifacts, freedSpace };
-    }
-
-    /**
-     * Clean bundle artifacts
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @returns {Promise<Object>} Cleanup result
-     */
-    async cleanBundleArtifacts(projectPath, appConfig) {
-        const cleanedArtifacts = [];
-        let freedSpace = 0;
-        
-        const bundlePaths = [
-            path__WEBPACK_IMPORTED_MODULE_1___default().join(projectPath, 'build', 'bundles'),
-            path__WEBPACK_IMPORTED_MODULE_1___default().join(projectPath, 'build', 'bundles', appConfig.projectName)
-        ];
-        
-        for (const bundlePath of bundlePaths) {
-            try {
-                const stats = await fs_promises__WEBPACK_IMPORTED_MODULE_0___default().stat(bundlePath);
-                if (stats.isDirectory()) {
-                    await this.removeDirectory(bundlePath);
-                    cleanedArtifacts.push(bundlePath);
-                    freedSpace += stats.size;
-                }
-            } catch (error) {
-                // Directory doesn't exist, skip
-            }
-        }
-        
-        return { cleanedArtifacts, freedSpace };
-    }
-
-    /**
-     * Clean node_modules
-     * @param {string} projectPath - Path to the project
-     * @returns {Promise<Object>} Cleanup result
-     */
-    async cleanNodeModules(projectPath) {
-        const cleanedArtifacts = [];
-        let freedSpace = 0;
-        
-        const nodeModulesPath = path__WEBPACK_IMPORTED_MODULE_1___default().join(projectPath, 'node_modules');
-        
-        try {
-            const stats = await fs_promises__WEBPACK_IMPORTED_MODULE_0___default().stat(nodeModulesPath);
-            if (stats.isDirectory()) {
-                await this.removeDirectory(nodeModulesPath);
-                cleanedArtifacts.push(nodeModulesPath);
-                freedSpace += stats.size;
-            }
-        } catch (error) {
-            // Directory doesn't exist, skip
-        }
-        
-        return { cleanedArtifacts, freedSpace };
-    }
-
-    /**
-     * Remove directory recursively
-     * @param {string} dirPath - Directory path to remove
-     */
-    async removeDirectory(dirPath) {
-        try {
-            await fs_promises__WEBPACK_IMPORTED_MODULE_0___default().rm(dirPath, { recursive: true, force: true });
-        } catch (error) {
-            // Ignore errors during cleanup
-        }
-    }
-
-    /**
-     * Get repository statistics
-     * @returns {Object} Repository statistics
-     */
-    getStats() {
-        return {
-            cleanupCacheSize: this.cleanupCache.size
-        };
-    }
-
-    /**
-     * Clear cleanup cache
-     */
-    clearCache() {
-        this.cleanupCache.clear();
-    }
-}
-
-
-/***/ }),
-
-/***/ 3531:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__nccwpck_require__.r(__webpack_exports__);
-
-// EXPORTS
-__nccwpck_require__.d(__webpack_exports__, {
-  ConfigRepository: () => (/* binding */ ConfigRepository)
-});
-
-// EXTERNAL MODULE: external "fs/promises"
-var promises_ = __nccwpck_require__(1943);
-var promises_default = /*#__PURE__*/__nccwpck_require__.n(promises_);
-// EXTERNAL MODULE: external "path"
-var external_path_ = __nccwpck_require__(6928);
-var external_path_default = /*#__PURE__*/__nccwpck_require__.n(external_path_);
-;// CONCATENATED MODULE: ./src/domain/repositories/IConfigRepository.js
-/**
- * Configuration Repository Interface
- * 
- * Defines the contract for configuration data access operations
- * following the repository pattern for clean separation of concerns.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-class IConfigRepository {
-    /**
-     * Load configuration from file
-     * @param {string} configPath - Path to configuration file
-     * @returns {Promise<Object>} Configuration data
-     * @throws {Error} If loading fails
-     */
-    async loadConfig(configPath) {
-        throw new Error('Method not implemented');
-    }
-
-    /**
-     * Save configuration to file
-     * @param {string} configPath - Path to save configuration
-     * @param {Object} configData - Configuration data to save
-     * @returns {Promise<void>}
-     * @throws {Error} If saving fails
-     */
-    async saveConfig(configPath, configData) {
-        throw new Error('Method not implemented');
-    }
-
-    /**
-     * Validate configuration file exists
-     * @param {string} configPath - Path to configuration file
-     * @returns {Promise<boolean>} True if file exists
-     */
-    async configExists(configPath) {
-        throw new Error('Method not implemented');
-    }
-}
-
-;// CONCATENATED MODULE: ./src/infrastructure/repositories/ConfigRepository.js
-/**
- * Configuration Repository Implementation
- * 
- * High-performance implementation of configuration data access operations
- * with caching, optimized error handling, and O(1) file operations.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-class ConfigRepository extends IConfigRepository {
-    constructor() {
-        super();
-        this.cache = new Map(); // O(1) cache for file existence checks
-        this.maxCacheSize = 100;
-    }
-
-    /**
-     * Load configuration from file with optimized caching
-     * @param {string} configPath - Path to configuration file
-     * @returns {Promise<Object>} Configuration data
-     * @throws {Error} If loading fails
-     */
-    async loadConfig(configPath) {
-        const resolvedPath = external_path_default().resolve(configPath);
-        
-        try {
-            // Use cached file content if available
-            if (this.cache.has(resolvedPath)) {
-                return this.cache.get(resolvedPath);
-            }
-
-            const configContent = await promises_default().readFile(resolvedPath, 'utf8');
-            const configData = JSON.parse(configContent);
-
-            // Cache the result for O(1) subsequent access
-            this.cacheResult(resolvedPath, configData);
-            
-            return configData;
-        } catch (error) {
-            this.handleLoadError(error, configPath);
-        }
-    }
-
-    /**
-     * Save configuration to file with optimized error handling
-     * @param {string} configPath - Path to save configuration
-     * @param {Object} configData - Configuration data to save
-     * @returns {Promise<void>}
-     * @throws {Error} If saving fails
-     */
-    async saveConfig(configPath, configData) {
-        const resolvedPath = external_path_default().resolve(configPath);
-        
-        try {
-            const configDir = external_path_default().dirname(resolvedPath);
-            
-            // Ensure directory exists (single operation)
-            await promises_default().mkdir(configDir, { recursive: true });
-            
-            // Optimized JSON stringification with proper formatting
-            const configContent = JSON.stringify(configData, null, 2);
-            await promises_default().writeFile(resolvedPath, configContent, 'utf8');
-
-            // Update cache
-            this.cacheResult(resolvedPath, configData);
-        } catch (error) {
-            throw new Error(`Failed to save configuration: ${error.message}`);
-        }
-    }
-
-    /**
-     * Validate configuration file exists with O(1) cache lookup
-     * @param {string} configPath - Path to configuration file
-     * @returns {Promise<boolean>} True if file exists
-     */
-    async configExists(configPath) {
-        const resolvedPath = external_path_default().resolve(configPath);
-        
-        // Check cache first (O(1))
-        if (this.cache.has(resolvedPath)) {
-            return true;
-        }
-
-        try {
-            await promises_default().access(resolvedPath);
-            this.cache.set(resolvedPath, true);
-            return true;
-        } catch (error) {
-            return false;
-        }
-    }
-
-    /**
-     * Cache result with size management
-     * @param {string} key - Cache key
-     * @param {any} value - Value to cache
-     */
-    cacheResult(key, value) {
-        // Implement LRU cache eviction
-        if (this.cache.size >= this.maxCacheSize) {
-            const firstKey = this.cache.keys().next().value;
-            this.cache.delete(firstKey);
-        }
-        this.cache.set(key, value);
-    }
-
-    /**
-     * Handle load errors with specific error types
-     * @param {Error} error - Error object
-     * @param {string} configPath - Configuration file path
-     * @throws {Error} Specific error message
-     */
-    handleLoadError(error, configPath) {
-        if (error.code === 'ENOENT') {
-            throw new Error(`Configuration file not found: ${configPath}`);
-        }
-        if (error instanceof SyntaxError) {
-            throw new Error(`Invalid JSON format in configuration file: ${configPath}`);
-        }
-        if (error.code === 'EACCES') {
-            throw new Error(`Permission denied accessing configuration file: ${configPath}`);
-        }
-        throw new Error(`Failed to load configuration: ${error.message}`);
-    }
-
-    /**
-     * Clear cache for testing or memory management
-     */
-    clearCache() {
-        this.cache.clear();
-    }
-
-    /**
-     * Get cache statistics
-     * @returns {Object} Cache statistics
-     */
-    getCacheStats() {
-        return {
-            size: this.cache.size,
-            maxSize: this.maxCacheSize,
-            hitRate: this.cache.size / this.maxCacheSize
-        };
-    }
-}
-
-
-/***/ }),
-
-/***/ 9830:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__nccwpck_require__.r(__webpack_exports__);
-
-// EXPORTS
-__nccwpck_require__.d(__webpack_exports__, {
-  ExecutorRepository: () => (/* binding */ ExecutorRepository)
-});
-
-// EXTERNAL MODULE: external "child_process"
-var external_child_process_ = __nccwpck_require__(5317);
-// EXTERNAL MODULE: external "fs/promises"
-var promises_ = __nccwpck_require__(1943);
-var promises_default = /*#__PURE__*/__nccwpck_require__.n(promises_);
-// EXTERNAL MODULE: external "path"
-var external_path_ = __nccwpck_require__(6928);
-var external_path_default = /*#__PURE__*/__nccwpck_require__.n(external_path_);
-;// CONCATENATED MODULE: ./src/domain/repositories/IExecutorRepository.js
-/**
- * Executor Repository Interface
- * 
- * Defines the contract for external command execution operations
- * including cookiecutter execution and dependency management.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-class IExecutorRepository {
-    /**
-     * Execute cookiecutter command
-     * @param {string} templatePath - Path to template
-     * @param {string} outputPath - Output directory path
-     * @param {Function} progressCallback - Progress callback function
-     * @returns {Promise<void>}
-     * @throws {Error} If execution fails
-     */
-    async executeCookiecutter(templatePath, outputPath, progressCallback) {
-        throw new Error('Method not implemented');
-    }
-
-    /**
-     * Check if cookiecutter is installed
-     * @returns {Promise<boolean>} True if cookiecutter is available
-     */
-    async isCookiecutterInstalled() {
-        throw new Error('Method not implemented');
-    }
-
-    /**
-     * Install cookiecutter if not available
-     * @param {Function} progressCallback - Progress callback function
-     * @returns {Promise<void>}
-     * @throws {Error} If installation fails
-     */
-    async installCookiecutter(progressCallback) {
-        throw new Error('Method not implemented');
-    }
-
-    /**
-     * Clean up generated files on error
-     * @param {string} projectPath - Path to generated project
-     * @returns {Promise<void>}
-     */
-    async cleanupOnError(projectPath) {
-        throw new Error('Method not implemented');
-    }
-}
-
-;// CONCATENATED MODULE: ./src/infrastructure/repositories/ExecutorRepository.js
-/**
- * Executor Repository Implementation
- * 
- * High-performance implementation of external command execution operations
- * with optimized process management, timeout handling, and error recovery.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-
-class ExecutorRepository extends IExecutorRepository {
-    constructor() {
-        super();
-        this.timeoutMs = 300000; // 5 minutes
-        this.maxRetries = 3;
-        this.processCache = new Map(); // Cache for process status
-    }
-
-    /**
-     * Execute cookiecutter command with optimized process management
-     * @param {string} templatePath - Path to template
-     * @param {string} outputPath - Output directory path
-     * @param {Function} progressCallback - Progress callback function
-     * @returns {Promise<void>}
-     * @throws {Error} If execution fails
-     */
-    async executeCookiecutter(templatePath, outputPath, progressCallback) {
-        return new Promise((resolve, reject) => {
-            // Validate inputs with early return
-            if (!templatePath || !outputPath) {
-                reject(new Error('Template path and output path are required'));
-                return;
-            }
-
-            // Store original working directory
-            const originalCwd = process.cwd();
-            
-            // Execute cookiecutter command with optimized options
-            // Use the specified output path to create the project
-            const cookiecutterProcess = (0,external_child_process_.spawn)('cookiecutter', [templatePath, '--no-input'], {
-                stdio: ['pipe', 'pipe', 'pipe'],
-                shell: true,
-                cwd: outputPath, // Use the specified output path
-                env: { ...process.env, PYTHONUNBUFFERED: '1' } // Optimize Python output
-            });
-
-            let stdout = '';
-            let stderr = '';
-            let isCompleted = false;
-            let timeoutId = null;
-
-            // Optimized progress tracking
-            const updateProgress = (progress, message) => {
-                if (progressCallback && !isCompleted) {
-                    progressCallback(progress, message);
-                }
-            };
-
-            // Handle stdout with buffered processing
-            cookiecutterProcess.stdout.on('data', (data) => {
-                stdout += data.toString();
-                updateProgress(60, 'Generating project structure...');
-            });
-
-            // Handle stderr (non-blocking)
-            cookiecutterProcess.stderr.on('data', (data) => {
-                stderr += data.toString();
-                // Don't treat stderr as error for cookiecutter
-            });
-
-            // Handle process completion
-            cookiecutterProcess.on('close', (code) => {
-                isCompleted = true;
-                process.chdir(originalCwd);
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-
-                if (code === 0) {
-                    updateProgress(100, 'Project generation completed successfully');
-                    resolve();
-                } else {
-                    reject(new Error(`Cookiecutter failed with code ${code}. Stderr: ${stderr}`));
-                }
-            });
-
-            // Handle process errors
-            cookiecutterProcess.on('error', (error) => {
-                isCompleted = true;
-                process.chdir(originalCwd);
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-                
-                reject(new Error(`Failed to execute cookiecutter: ${error.message}`));
-            });
-
-            // Set optimized timeout
-            timeoutId = setTimeout(() => {
-                if (!isCompleted) {
-                    isCompleted = true;
-                    cookiecutterProcess.kill('SIGTERM');
-                    process.chdir(originalCwd);
-                    reject(new Error('Cookiecutter execution timed out'));
-                }
-            }, this.timeoutMs);
-        });
-    }
-
-    /**
-     * Check if cookiecutter is installed with optimized check
-     * @returns {Promise<boolean>} True if cookiecutter is available
-     */
-    async isCookiecutterInstalled() {
-        const cacheKey = 'cookiecutter_installed';
-        
-        // Check cache first (O(1))
-        if (this.processCache.has(cacheKey)) {
-            return this.processCache.get(cacheKey);
-        }
-
-        return new Promise((resolve) => {
-            const checkProcess = (0,external_child_process_.spawn)('cookiecutter', ['--version'], {
-                stdio: 'pipe',
-                shell: true,
-                timeout: 5000 // 5 second timeout
-            });
-
-            const timeoutId = setTimeout(() => {
-                checkProcess.kill('SIGTERM');
-                this.processCache.set(cacheKey, false);
-                resolve(false);
-            }, 5000);
-
-            checkProcess.on('close', (code) => {
-                clearTimeout(timeoutId);
-                const isInstalled = code === 0;
-                this.processCache.set(cacheKey, isInstalled);
-                resolve(isInstalled);
-            });
-
-            checkProcess.on('error', () => {
-                clearTimeout(timeoutId);
-                this.processCache.set(cacheKey, false);
-                resolve(false);
-            });
-        });
-    }
-
-    /**
-     * Install cookiecutter if not available with optimized installation
-     * @param {Function} progressCallback - Progress callback function
-     * @returns {Promise<void>}
-     * @throws {Error} If installation fails
-     */
-    async installCookiecutter(progressCallback) {
-        const isInstalled = await this.isCookiecutterInstalled();
-        
-        if (isInstalled) {
-            if (progressCallback) {
-                progressCallback(20, 'Cookiecutter is already installed');
-            }
-            return;
-        }
-
-        if (progressCallback) {
-            progressCallback(10, 'Installing cookiecutter...');
-        }
-
-        return new Promise((resolve, reject) => {
-            const installProcess = (0,external_child_process_.spawn)('pip', ['install', 'cookiecutter'], {
-                stdio: 'pipe',
-                shell: true,
-                timeout: 120000 // 2 minutes timeout
-            });
-
-            let timeoutId = setTimeout(() => {
-                installProcess.kill('SIGTERM');
-                reject(new Error('Cookiecutter installation timed out'));
-            }, 120000);
-
-            installProcess.on('close', (code) => {
-                clearTimeout(timeoutId);
-                if (code === 0) {
-                    // Clear cache to force re-check
-                    this.processCache.delete('cookiecutter_installed');
-                    
-                    if (progressCallback) {
-                        progressCallback(20, 'Cookiecutter installed successfully');
-                    }
-                    resolve();
-                } else {
-                    reject(new Error('Failed to install cookiecutter'));
-                }
-            });
-
-            installProcess.on('error', (error) => {
-                clearTimeout(timeoutId);
-                reject(new Error(`Failed to install cookiecutter: ${error.message}`));
-            });
-        });
-    }
-
-    /**
-     * Clean up generated files on error with optimized cleanup
-     * @param {string} projectPath - Path to generated project
-     * @returns {Promise<void>}
-     */
-    async cleanupOnError(projectPath) {
-        try {
-            const resolvedPath = external_path_default().resolve(projectPath);
-            
-            // Check if directory exists before attempting removal
-            try {
-                const stats = await promises_default().stat(resolvedPath);
-                if (stats.isDirectory()) {
-                    await promises_default().rm(resolvedPath, { recursive: true, force: true });
-                }
-            } catch (error) {
-                // Directory doesn't exist, nothing to clean up
-            }
-        } catch (error) {
-            // Ignore cleanup errors silently
-            console.warn('Failed to cleanup project directory:', error.message);
-        }
-    }
-
-    /**
-     * Get process cache statistics
-     * @returns {Object} Cache statistics
-     */
-    getCacheStats() {
-        return {
-            size: this.processCache.size,
-            entries: Array.from(this.processCache.entries())
-        };
-    }
-
-    /**
-     * Clear process cache
-     */
-    clearCache() {
-        this.processCache.clear();
-    }
-}
-
-
-/***/ }),
-
-/***/ 7721:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-__nccwpck_require__.r(__webpack_exports__);
-/* harmony export */ __nccwpck_require__.d(__webpack_exports__, {
-/* harmony export */   KeystoreRepository: () => (/* binding */ KeystoreRepository)
-/* harmony export */ });
-/* harmony import */ var child_process__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(5317);
-/* harmony import */ var child_process__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nccwpck_require__.n(child_process__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(1943);
-/* harmony import */ var fs_promises__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__nccwpck_require__.n(fs_promises__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2__ = __nccwpck_require__(6928);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__nccwpck_require__.n(path__WEBPACK_IMPORTED_MODULE_2__);
-/**
- * Keystore Repository Implementation
- * 
- * High-performance implementation of keystore management
- * with automatic keystore creation and configuration.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-
-class KeystoreRepository {
-    constructor() {
-        this.timeoutMs = 60000; // 1 minute
-        this.maxRetries = 3;
-        this.keystoreCache = new Map();
-    }
-
-    /**
-     * Create keystore for project
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @returns {Promise<Object>} Keystore result
-     */
-    async createKeystore(projectPath, appConfig) {
-        const startTime = Date.now();
-        
-        try {
-            // Get keystore configuration
-            const keystoreConfig = appConfig.build?.android?.keystore || {};
-            
-            // Prepare keystore path
-            const keystoreDir = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'build', 'android', 'keystores');
-            const keystorePath = path__WEBPACK_IMPORTED_MODULE_2___default().join(keystoreDir, `${appConfig.projectName}-release-key.keystore`);
-            
-            // Ensure keystore directory exists
-            await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().mkdir(keystoreDir, { recursive: true });
-            
-            // Create keystore using keytool
-            await this.executeKeytoolCommand(keystorePath, appConfig, keystoreConfig);
-            
-            // Update gradle.properties with keystore configuration
-            await this.updateGradleProperties(projectPath, appConfig, keystorePath);
-            
-            const duration = Date.now() - startTime;
-            
-            return {
-                success: true,
-                keystorePath,
-                projectName: appConfig.projectName,
-                duration
-            };
-        } catch (error) {
-            throw new Error(`Keystore creation failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Execute keytool command to create keystore
-     * @param {string} keystorePath - Path to keystore file
-     * @param {AppConfig} appConfig - App configuration
-     * @param {Object} keystoreConfig - Keystore configuration
-     * @returns {Promise<void>}
-     */
-    async executeKeytoolCommand(keystorePath, appConfig, keystoreConfig) {
-        return new Promise((resolve, reject) => {
-            const certInfo = keystoreConfig.certificateInfo || {};
-            
-            const args = [
-                '-genkeypair',
-                '-v',
-                '-storetype', keystoreConfig.storeType,
-                '-keystore', keystorePath,
-                '-alias', keystoreConfig.defaultAlias,
-                '-keyalg', keystoreConfig.keyAlgorithm,
-                '-keysize', keystoreConfig.keySize.toString(),
-                '-validity', keystoreConfig.validity.toString(),
-                '-storepass', keystoreConfig.defaultPassword,
-                '-keypass', keystoreConfig.defaultPassword,
-                '-dname', `"CN=${certInfo.commonName},OU=${certInfo.organizationalUnit},O=${certInfo.organization},L=${certInfo.locality},ST=${certInfo.state},C=${certInfo.country}"`,
-                '-noprompt'
-            ];
-            
-            const keytoolProcess = (0,child_process__WEBPACK_IMPORTED_MODULE_0__.spawn)('keytool', args, {
-                stdio: ['pipe', 'pipe', 'pipe'],
-                shell: true,
-                env: { ...process.env }
-            });
-
-            let stdout = '';
-            let stderr = '';
-            let isCompleted = false;
-            let timeoutId = null;
-
-            // Handle stdout
-            keytoolProcess.stdout.on('data', (data) => {
-                stdout += data.toString();
-            });
-
-            // Handle stderr
-            keytoolProcess.stderr.on('data', (data) => {
-                stderr += data.toString();
-            });
-
-            // Handle process completion
-            keytoolProcess.on('close', (code) => {
-                isCompleted = true;
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-
-                if (code === 0) {
-                    resolve({ success: true, stdout, stderr });
-                } else {
-                    reject(new Error(`Keytool failed with code ${code}. Stderr: ${stderr}`));
-                }
-            });
-
-            // Handle process errors
-            keytoolProcess.on('error', (error) => {
-                isCompleted = true;
-                
-                if (timeoutId) {
-                    clearTimeout(timeoutId);
-                }
-                
-                reject(new Error(`Failed to execute keytool: ${error.message}`));
-            });
-
-            // Set timeout
-            timeoutId = setTimeout(() => {
-                if (!isCompleted) {
-                    isCompleted = true;
-                    keytoolProcess.kill('SIGTERM');
-                    reject(new Error('Keytool execution timed out'));
-                }
-            }, this.timeoutMs);
-        });
-    }
-
-    /**
-     * Update gradle.properties with keystore configuration
-     * @param {string} projectPath - Path to the project
-     * @param {AppConfig} appConfig - App configuration
-     * @param {string} keystorePath - Path to keystore file
-     */
-    async updateGradleProperties(projectPath, appConfig, keystorePath) {
-        const gradlePropertiesPath = path__WEBPACK_IMPORTED_MODULE_2___default().join(projectPath, 'android', 'gradle.properties');
-        const keystoreConfig = appConfig.build?.android?.keystore || {};
-        
-        let gradleProperties = '';
-        
-        try {
-            gradleProperties = await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().readFile(gradlePropertiesPath, 'utf8');
-        } catch (error) {
-            // File doesn't exist, start with empty content
-        }
-        
-        // Add keystore configuration
-        const keystoreConfigLines = [
-            '',
-            '# AppAnySite Keystore Configuration',
-            `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
-            `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
-            `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
-            `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
-        ];
-        
-        gradleProperties += keystoreConfigLines.join('\n');
-        await fs_promises__WEBPACK_IMPORTED_MODULE_1___default().writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
-    }
-
-    /**
-     * Get repository statistics
-     * @returns {Object} Repository statistics
-     */
-    getStats() {
-        return {
-            keystoreCacheSize: this.keystoreCache.size,
-            timeoutMs: this.timeoutMs,
-            maxRetries: this.maxRetries
-        };
-    }
-
-    /**
-     * Clear keystore cache
-     */
-    clearCache() {
-        this.keystoreCache.clear();
-    }
-}
-
-
-/***/ }),
-
-/***/ 5307:
-/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
-
-/**
- * Template Repository Implementation
- * 
- * High-performance implementation of template management operations
- * with caching, optimized file operations, and O(1) template discovery.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-const fs = __nccwpck_require__(1943);
-const path = __nccwpck_require__(6928);
-const { ITemplateRepository } = __nccwpck_require__(9661);
-
-// CommonJS compatibility - __filename and __dirname are automatically available
-
-class TemplateRepository extends ITemplateRepository {
-    constructor() {
-        super();
-        this.templateCache = new Map(); // O(1) cache for template paths
-        this.requiredFiles = new Set(['cookiecutter.json', '{{cookiecutter.project_name}}']);
-        
-                            // Generic template paths with hidden directory structure
-                    this.possibleTemplatePaths = [
-                        path.join(process.cwd(), '.template'), // Primary hidden template location
-                        path.join(__dirname, '..', '..', '.template'), // Fallback from src
-                        path.join(process.cwd(), 'template'), // Legacy fallback
-                        path.join(process.cwd(), 'templates', 'aas-app-template') // Alternative location
-                    ];
-    }
-
-    /**
-     * Get template path with O(1) cache lookup
-     * @returns {Promise<string>} Path to template directory
-     * @throws {Error} If template not found
-     */
-    async getTemplatePath() {
-        // Check cache first (O(1))
-        if (this.templateCache.has('templatePath')) {
-            return this.templateCache.get('templatePath');
-        }
-
-        // Find template with optimized search
-        const templatePath = await this.findTemplatePath();
-        
-        if (!templatePath) {
-            throw new Error('Template not found. Please ensure the template is available in the "template" directory within the project.');
-        }
-
-        // Cache the result
-        this.templateCache.set('templatePath', templatePath);
-        return templatePath;
-    }
-
-    /**
-     * Find template path with optimized search
-     * @returns {Promise<string|null>} Template path or null
-     */
-    async findTemplatePath() {
-        // Use Promise.all for parallel validation
-        const validationPromises = this.possibleTemplatePaths.map(async (templatePath) => {
-            if (await this.validateTemplate(templatePath)) {
-                return templatePath;
-            }
-            return null;
-        });
-
-        try {
-            const results = await Promise.all(validationPromises);
-            return results.find(result => result !== null) || null;
-        } catch (error) {
-            return null;
-        }
-    }
-
-    /**
-     * Validate template exists and is valid with optimized checks
-     * @param {string} templatePath - Path to template
-     * @returns {Promise<boolean>} True if template is valid
-     */
-    async validateTemplate(templatePath) {
-        const cacheKey = `template_${templatePath}`;
-        
-        // Check cache first (O(1))
-        if (this.templateCache.has(cacheKey)) {
-            return this.templateCache.get(cacheKey);
-        }
-
-        try {
-            const resolvedPath = path.resolve(templatePath);
-            
-            // Single stat operation to check if directory exists
-            const stats = await fs.stat(resolvedPath);
-            if (!stats.isDirectory()) {
-                this.cacheValidationResult(cacheKey, false);
-                return false;
-            }
-
-            // Optimized file existence check
-            const exists = await this.checkRequiredFiles(resolvedPath);
-            this.cacheValidationResult(cacheKey, exists);
-            return exists;
-        } catch (error) {
-            this.cacheValidationResult(cacheKey, false);
-            return false;
-        }
-    }
-
-    /**
-     * Check required files with optimized batch operation
-     * @param {string} templatePath - Template directory path
-     * @returns {Promise<boolean>} True if all required files exist
-     */
-    async checkRequiredFiles(templatePath) {
-        try {
-            // Batch check all required files
-            const checkPromises = Array.from(this.requiredFiles).map(async (file) => {
-                const filePath = path.join(templatePath, file);
-                try {
-                    await fs.access(filePath);
-                    return true;
-                } catch (error) {
-                    return false;
-                }
-            });
-
-            const results = await Promise.all(checkPromises);
-            return results.every(exists => exists);
-        } catch (error) {
-            return false;
-        }
-    }
-
-    /**
-     * Prepare template configuration with optimized file operations
-     * @param {string} templatePath - Path to template
-     * @param {Object} cookiecutterConfig - Cookiecutter configuration
-     * @param {string} appConfigPath - Path to app config file
-     * @returns {Promise<void>}
-     * @throws {Error} If preparation fails
-     */
-    async prepareTemplate(templatePath, cookiecutterConfig, appConfigPath) {
-        const resolvedTemplatePath = path.resolve(templatePath);
-        
-        try {
-            // Parallel file operations for maximum performance
-            await Promise.all([
-                this.writeCookiecutterConfig(resolvedTemplatePath, cookiecutterConfig),
-                this.copyAppConfig(resolvedTemplatePath, appConfigPath)
-            ]);
-        } catch (error) {
-            throw new Error(`Template preparation failed: ${error.message}`);
-        }
-    }
-
-    /**
-     * Write cookiecutter configuration with optimized JSON handling
-     * @param {string} templatePath - Template directory path
-     * @param {Object} cookiecutterConfig - Configuration to write
-     * @returns {Promise<void>}
-     */
-    async writeCookiecutterConfig(templatePath, cookiecutterConfig) {
-        const cookiecutterPath = path.join(templatePath, 'cookiecutter.json');
-        const configContent = JSON.stringify(cookiecutterConfig, null, 2);
-        await fs.writeFile(cookiecutterPath, configContent, 'utf8');
-    }
-
-    /**
-     * Copy app config with optimized directory creation
-     * @param {string} templatePath - Template directory path
-     * @param {string} appConfigPath - Source app config path
-     * @returns {Promise<void>}
-     */
-    async copyAppConfig(templatePath, appConfigPath) {
-        const appConfigTargetPath = path.join(templatePath, 'hooks', 'source', 'app-config.json');
-        const appConfigTargetDir = path.dirname(appConfigTargetPath);
-        
-        // Ensure target directory exists (single operation)
-        await fs.mkdir(appConfigTargetDir, { recursive: true });
-        
-        // Copy file with optimized operation
-        await fs.copyFile(appConfigPath, appConfigTargetPath);
-    }
-
-    /**
-     * Clean up template after use
-     * @param {string} templatePath - Path to template
-     * @returns {Promise<void>}
-     */
-    async cleanupTemplate(templatePath) {
-        try {
-            // Clear template cache
-            this.templateCache.clear();
-        } catch (error) {
-            // Ignore cleanup errors silently
-            console.warn('Template cleanup failed:', error.message);
-        }
-    }
-
-    /**
-     * Cache validation result
-     * @param {string} key - Cache key
-     * @param {boolean} result - Validation result
-     */
-    cacheValidationResult(key, result) {
-        this.templateCache.set(key, result);
-    }
-
-    /**
-     * Get template cache statistics
-     * @returns {Object} Cache statistics
-     */
-    getCacheStats() {
-        return {
-            size: this.templateCache.size,
-            templatePath: this.templateCache.has('templatePath'),
-            validationResults: Array.from(this.templateCache.entries())
-                .filter(([key]) => key.startsWith('template_'))
-                .length
-        };
-    }
-
-    /**
-     * Clear template cache
-     */
-    clearCache() {
-        this.templateCache.clear();
-    }
-}
-
-module.exports = { TemplateRepository };
-
-
-/***/ }),
-
-/***/ 1774:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__nccwpck_require__.r(__webpack_exports__);
-
-// EXPORTS
-__nccwpck_require__.d(__webpack_exports__, {
-  BuildCommand: () => (/* binding */ BuildCommand),
-  "default": () => (/* binding */ build_BuildCommand)
-});
-
-;// CONCATENATED MODULE: ./src/modules/build/IBuildCommand.js
-/**
- * Interface for BuildCommand.
- * @interface
- */
-class IBuildCommand {
-  /**
-   * Executes the build command.
-   * @param {Object} options - Options for executing the build command.
-   */
-  execute(options) {
-    throw new Error('Method not implemented');
-  }
-}
-
-/* harmony default export */ const build_IBuildCommand = (IBuildCommand);
-
-// EXTERNAL MODULE: ./src/application/services/BuildService.js
-var BuildService = __nccwpck_require__(2993);
-// EXTERNAL MODULE: ./src/application/services/BundleService.js
-var BundleService = __nccwpck_require__(3075);
-// EXTERNAL MODULE: ./src/application/services/CleanupService.js
-var CleanupService = __nccwpck_require__(1209);
-;// CONCATENATED MODULE: ./src/modules/build/BuildCommand.js
-/**
- * Build Command Implementation
- * 
- * High-performance build command implementation that orchestrates
- * Android builds, bundle generation, and cleanup operations.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-
-class BuildCommand extends build_IBuildCommand {
-    constructor(errorHandler) {
-        super();
-        this.errorHandler = errorHandler;
-        
-        // Initialize services
-        this.buildService = new BuildService.BuildService();
-        this.bundleService = new BundleService.BundleService();
-        this.cleanupService = new CleanupService.CleanupService();
-
-        // Performance tracking
-        this.executionStats = {
-            startTime: 0,
-            endTime: 0,
-            duration: 0
-        };
-    }
-
-    /**
-     * Execute the build command with optimized performance
-     * @param {Object} options - Command options
-     * @throws {Error} If execution fails
-     */
-    async execute(options) {
-        this.executionStats.startTime = Date.now();
-        
-        try {
-            // Validate required options
-            this.validateOptions(options);
-
-            const { command, platform, buildType, projectPath } = options;
-
-            // Execute based on command type
-            switch (command) {
-                case 'android':
-                    await this.executeAndroidBuild(platform, buildType, projectPath, options);
-                    break;
-                case 'bundle':
-                    await this.executeBundleGeneration(projectPath, options);
-                    break;
-                case 'clean':
-                    await this.executeCleanup(platform, projectPath, options);
-                    break;
-                default:
-                    throw new Error(`Unknown build command: ${command}`);
-            }
-
-            // Log success with performance metrics
-            this.executionStats.endTime = Date.now();
-            this.executionStats.duration = this.executionStats.endTime - this.executionStats.startTime;
-            
-            return { success: true, duration: this.executionStats.duration };
-
-        } catch (error) {
-            // Handle error through error handler with performance tracking
-            this.executionStats.endTime = Date.now();
-            this.executionStats.duration = this.executionStats.endTime - this.executionStats.startTime;
-            
-            this.errorHandler.handleError(error);
-            throw error;
-        }
-    }
-
-    /**
-     * Execute Android build operations
-     * @param {string} platform - Platform (android)
-     * @param {string} buildType - Build type (debug, release, aab, all)
-     * @param {string} projectPath - Project path
-     * @param {Object} options - Build options
-     */
-    async executeAndroidBuild(platform, buildType, projectPath, options) {
-        if (platform !== 'android') {
-            throw new Error(`Unsupported platform: ${platform}`);
-        }
-
-        // Install dependencies first
-        await this.installDependencies(projectPath, options);
-
-        switch (buildType) {
-            case 'debug':
-                await this.buildService.buildAndroidDebug(projectPath, {
-                    ...options,
-                    progressCallback: (progress, message) => this.printProgress(progress, message)
-                });
-                break;
-            case 'release':
-                await this.buildService.buildAndroidRelease(projectPath, {
-                    ...options,
-                    progressCallback: (progress, message) => this.printProgress(progress, message)
-                });
-                break;
-            case 'aab':
-                await this.buildService.buildAndroidAAB(projectPath, {
-                    ...options,
-                    progressCallback: (progress, message) => this.printProgress(progress, message)
-                });
-                break;
-            case 'all':
-                await this.buildService.buildAndroidAll(projectPath, {
-                    ...options,
-                    progressCallback: (progress, message) => this.printProgress(progress, message)
-                });
-                break;
-            default:
-                throw new Error(`Unknown Android build type: ${buildType}`);
-        }
-    }
-
-    /**
-     * Install project dependencies
-     * @param {string} projectPath - Project path
-     * @param {Object} options - Build options
-     */
-    async installDependencies(projectPath, options) {
-        const { spawn } = await Promise.resolve(/* import() */).then(__nccwpck_require__.t.bind(__nccwpck_require__, 5317, 23));
-        
-        return new Promise((resolve, reject) => {
-            this.printProgress(5, 'Installing project dependencies...');
-            
-            const npmProcess = spawn('npm', ['install'], {
-                stdio: ['pipe', 'pipe', 'pipe'],
-                shell: true,
-                cwd: projectPath
-            });
-
-            let stdout = '';
-            let stderr = '';
-
-            npmProcess.stdout.on('data', (data) => {
-                stdout += data.toString();
-                this.printProgress(10, 'Installing dependencies...');
-            });
-
-            npmProcess.stderr.on('data', (data) => {
-                stderr += data.toString();
-            });
-
-            npmProcess.on('close', (code) => {
-                if (code === 0) {
-                    this.printProgress(15, 'Dependencies installed successfully');
-                    resolve();
-                } else {
-                    reject(new Error(`npm install failed with code ${code}. Stderr: ${stderr}`));
-                }
-            });
-
-            npmProcess.on('error', (error) => {
-                reject(new Error(`Failed to execute npm install: ${error.message}`));
-            });
-        });
-    }
-
-    /**
-     * Execute bundle generation
-     * @param {string} projectPath - Project path
-     * @param {Object} options - Bundle options
-     */
-    async executeBundleGeneration(projectPath, options) {
-        await this.bundleService.generateBundle(projectPath, {
-            ...options,
-            progressCallback: (progress, message) => this.printProgress(progress, message)
-        });
-    }
-
-    /**
-     * Print progress with optimized timestamp and caching
-     * @param {number} percentage - Progress percentage
-     * @param {string} message - Progress message
-     */
-    printProgress(percentage, message) {
-        const timestamp = new Date().toISOString();
-        const boundedPercentage = Math.min(100, Math.max(0, Math.round(percentage)));
-        
-        console.log(`[${timestamp}] Progress: ${boundedPercentage}% - ${message}`);
-    }
-
-    /**
-     * Execute cleanup operations
-     * @param {string} platform - Platform (android, bundles, or null for all)
-     * @param {string} projectPath - Project path
-     * @param {Object} options - Cleanup options
-     */
-    async executeCleanup(platform, projectPath, options) {
-        if (!platform) {
-            await this.cleanupService.cleanAll(projectPath, options);
-        } else {
-            switch (platform) {
-                case 'android':
-                    await this.cleanupService.cleanAndroid(projectPath, options);
-                    break;
-                case 'bundles':
-                    await this.cleanupService.cleanBundles(projectPath, options);
-                    break;
-                default:
-                    throw new Error(`Unknown cleanup target: ${platform}`);
-            }
-        }
-    }
-
-    /**
-     * Validate command options with optimized validation
-     * @param {Object} options - Command options to validate
-     * @throws {Error} If validation fails
-     */
-    validateOptions(options) {
-        if (!options) {
-            throw new Error('Command options are required');
-        }
-
-        if (!options.command) {
-            throw new Error('Build command is required (android, bundle, clean)');
-        }
-
-        if (!options.projectPath) {
-            throw new Error('Project path is required');
-        }
-
-        if (typeof options.projectPath !== 'string') {
-            throw new Error('Project path must be a string');
-        }
-
-        if (options.projectPath.trim() === '') {
-            throw new Error('Project path cannot be empty');
-        }
-
-        // Validate platform for android commands
-        if (options.command === 'android' && options.platform !== 'android') {
-            throw new Error('Android builds require platform to be "android"');
-        }
-
-        // Validate build type for android commands
-        if (options.command === 'android' && !options.buildType) {
-            throw new Error('Android build type is required (debug, release, aab, all)');
-        }
-    }
-
-    /**
-     * Get execution statistics
-     * @returns {Object} Execution statistics
-     */
-    getExecutionStats() {
-        return {
-            ...this.executionStats,
-            buildStats: this.buildService.getStats(),
-            bundleStats: this.bundleService.getStats(),
-            cleanupStats: this.cleanupService.getStats()
-        };
-    }
-
-    /**
-     * Clear all caches and reset statistics
-     */
-    clearCaches() {
-        this.buildService.clearCaches();
-        this.bundleService.clearCaches();
-        this.cleanupService.clearCaches();
-        this.executionStats = {
-            startTime: 0,
-            endTime: 0,
-            duration: 0
-        };
-    }
-}
-
-/* harmony default export */ const build_BuildCommand = (BuildCommand);
-
-
-/***/ }),
-
-/***/ 4109:
-/***/ ((__unused_webpack_module, __webpack_exports__, __nccwpck_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__nccwpck_require__.r(__webpack_exports__);
-
-// EXPORTS
-__nccwpck_require__.d(__webpack_exports__, {
-  CreateCommand: () => (/* binding */ CreateCommand),
-  "default": () => (/* binding */ create_CreateCommand)
-});
-
-;// CONCATENATED MODULE: ./src/modules/create/ICreateCommand.js
-/**
- * Interface for CreateCommand.
- * @interface
- */
-class ICreateCommand {
-  /**
-   * Executes the command.
-   * @param {Object} options - Options for executing the command.
-   */
-  execute(options) {
-    throw new Error('Method not implemented');
-  }
-}
-
-/* harmony default export */ const create_ICreateCommand = (ICreateCommand);
-
-// EXTERNAL MODULE: ./src/application/services/AppGenerationService.js
-var AppGenerationService = __nccwpck_require__(6826);
-// EXTERNAL MODULE: ./src/infrastructure/repositories/ConfigRepository.js + 1 modules
-var ConfigRepository = __nccwpck_require__(3531);
-// EXTERNAL MODULE: ./src/infrastructure/repositories/TemplateRepository.js
-var TemplateRepository = __nccwpck_require__(5307);
-// EXTERNAL MODULE: ./src/infrastructure/repositories/ExecutorRepository.js + 1 modules
-var ExecutorRepository = __nccwpck_require__(9830);
-;// CONCATENATED MODULE: ./src/modules/create/CreateCommand.js
-/**
- * Create Command Implementation
- * 
- * High-performance command implementation that uses the application service
- * to generate applications with optimized progress tracking and error handling.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-
-
-
-
-
-
-class CreateCommand extends create_ICreateCommand {
-    constructor(errorHandler) {
-        super();
-        this.errorHandler = errorHandler;
-        
-        // Initialize repositories with optimized instances
-        this.configRepository = new ConfigRepository.ConfigRepository();
-        this.templateRepository = new TemplateRepository.TemplateRepository();
-        this.executorRepository = new ExecutorRepository.ExecutorRepository();
-        
-        // Initialize application service
-        this.appGenerationService = new AppGenerationService.AppGenerationService(
-            this.configRepository,
-            this.templateRepository,
-            this.executorRepository
-        );
-
-        // Performance tracking
-        this.executionStats = {
-            startTime: 0,
-            endTime: 0,
-            duration: 0
-        };
-    }
-
-    /**
-     * Execute the create command with optimized performance
-     * @param {Object} options - Command options
-     * @throws {Error} If execution fails
-     */
-    async execute(options) {
-        this.executionStats.startTime = Date.now();
-        
-        try {
-            // Validate required options with optimized validation
-            this.validateOptions(options);
-
-            // Execute app generation with performance tracking
-            const result = await this.appGenerationService.generateApp(
-                options.configFile,
-                options.outputPath,
-                (progress, message) => this.printProgress(progress, message)
-            );
-
-            // Log success with performance metrics (no duplicate 100% message)
-            this.executionStats.endTime = Date.now();
-            this.executionStats.duration = this.executionStats.endTime - this.executionStats.startTime;
-            
-            // Return result for potential use by calling code
-            return result;
-
-        } catch (error) {
-            // Handle error through error handler with performance tracking
-            this.executionStats.endTime = Date.now();
-            this.executionStats.duration = this.executionStats.endTime - this.executionStats.startTime;
-            
-            this.errorHandler.handleError(error);
-            throw error;
-        }
-    }
-
-    /**
-     * Validate command options with optimized validation
-     * @param {Object} options - Command options to validate
-     * @throws {Error} If validation fails
-     */
-    validateOptions(options) {
-        // Optimized validation with early returns
-        if (!options) {
-            throw new Error('Command options are required');
-        }
-
-        if (!options.configFile) {
-            throw new Error('Configuration file path is required');
-        }
-
-        if (typeof options.configFile !== 'string') {
-            throw new Error('Configuration file path must be a string');
-        }
-
-        if (options.configFile.trim() === '') {
-            throw new Error('Configuration file path cannot be empty');
-        }
-
-        // Validate output path if provided
-        if (options.outputPath && typeof options.outputPath !== 'string') {
-            throw new Error('Output path must be a string');
-        }
-
-        if (options.outputPath && options.outputPath.trim() === '') {
-            throw new Error('Output path cannot be empty');
-        }
-
-        // Additional validation for file path format
-        if (!options.configFile.includes('.json')) {
-            throw new Error('Configuration file must be a JSON file');
-        }
-    }
-
-    /**
-     * Print progress with optimized timestamp and caching
-     * @param {number} percentage - Progress percentage
-     * @param {string} message - Progress message
-     */
-    printProgress(percentage, message) {
-        const timestamp = new Date().toISOString();
-        const boundedPercentage = Math.min(100, Math.max(0, Math.round(percentage)));
-        
-        console.log(`[${timestamp}] Progress: ${boundedPercentage}% - ${message}`);
-    }
-
-    /**
-     * Get execution statistics
-     * @returns {Object} Execution statistics
-     */
-    getExecutionStats() {
-        return {
-            ...this.executionStats,
-            serviceStats: this.appGenerationService.getStats()
-        };
-    }
-
-    /**
-     * Clear all caches and reset statistics
-     */
-    clearCaches() {
-        this.appGenerationService.clearCaches();
-        this.executionStats = {
-            startTime: 0,
-            endTime: 0,
-            duration: 0
-        };
-    }
-}
-
-/* harmony default export */ const create_CreateCommand = (CreateCommand);
-
-/***/ }),
-
-/***/ 9259:
-/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
-
-/**
- * High-Performance Error Handler
- * 
- * Optimized error handler with minimal overhead and maximum performance
- * for production environments.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-const { log } = __nccwpck_require__(1149);
-
-/**
- * High-performance error handler class
- * Handles errors with optimized logging and minimal overhead
- */
-class ErrorHandler {
-    constructor() {
-        this.errorCount = 0;
-        this.maxErrors = 100; // Prevent infinite error loops
-    }
-
-    /**
-     * Handle an error with optimized processing
-     * @param {Error} error - The error to handle
-     * @param {boolean} [exit=false] - Whether to exit the process
-     * @param {Object} [context={}] - Additional context information
-     */
-    handleError(error, exit = false, context = {}) {
-        // Prevent infinite error loops
-        if (this.errorCount >= this.maxErrors) {
-            console.error('Maximum error count reached. Exiting to prevent infinite loops.');
-            process.exit(1);
-        }
-
-        this.errorCount++;
-
-        // Optimized error message construction
-        const errorMessage = this.formatErrorMessage(error, context);
-        
-        // Log error with optimized logging
-        log('ERROR', errorMessage);
-
-        // Exit if requested
-        if (exit) {
-            process.exit(1);
-        }
-    }
-
-    /**
-     * Format error message with optimized string construction
-     * @param {Error} error - The error object
-     * @param {Object} context - Additional context
-     * @returns {string} Formatted error message
-     */
-    formatErrorMessage(error, context) {
-        const parts = [];
-
-        // Add error message
-        if (error.message) {
-            parts.push(error.message);
-        }
-
-        // Add context information if available
-        if (context.file) {
-            parts.push(`File: ${context.file}`);
-        }
-
-        if (context.line) {
-            parts.push(`Line: ${context.line}`);
-        }
-
-        // Add stack trace only in development or verbose mode
-        if (process.env.NODE_ENV === 'development' || process.env.VERBOSE) {
-            parts.push(`Stack: ${error.stack}`);
-        }
-
-        return parts.join(' | ');
-    }
-
-    /**
-     * Handle specific error types with optimized handling
-     * @param {Error} error - The error to handle
-     * @param {string} type - Error type for specific handling
-     */
-    handleSpecificError(error, type) {
-        const errorHandlers = {
-            'VALIDATION': () => this.handleValidationError(error),
-            'CONFIGURATION': () => this.handleConfigurationError(error),
-            'TEMPLATE': () => this.handleTemplateError(error),
-            'EXECUTION': () => this.handleExecutionError(error)
-        };
-
-        const handler = errorHandlers[type.toUpperCase()];
-        if (handler) {
-            handler();
-        } else {
-            this.handleError(error);
-        }
-    }
-
-    /**
-     * Handle validation errors
-     * @param {Error} error - Validation error
-     */
-    handleValidationError(error) {
-        log('ERROR', `Validation Error: ${error.message}`);
-    }
-
-    /**
-     * Handle configuration errors
-     * @param {Error} error - Configuration error
-     */
-    handleConfigurationError(error) {
-        log('ERROR', `Configuration Error: ${error.message}`);
-    }
-
-    /**
-     * Handle template errors
-     * @param {Error} error - Template error
-     */
-    handleTemplateError(error) {
-        log('ERROR', `Template Error: ${error.message}`);
-    }
-
-    /**
-     * Handle execution errors
-     * @param {Error} error - Execution error
-     */
-    handleExecutionError(error) {
-        log('ERROR', `Execution Error: ${error.message}`);
-    }
-
-    /**
-     * Reset error count (useful for testing)
-     */
-    resetErrorCount() {
-        this.errorCount = 0;
-    }
-
-    /**
-     * Get error statistics
-     * @returns {Object} Error statistics
-     */
-    getErrorStats() {
-        return {
-            errorCount: this.errorCount,
-            maxErrors: this.maxErrors
-        };
-    }
-}
-
-module.exports = ErrorHandler;
-
-
-/***/ }),
-
-/***/ 1149:
-/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
-
-/**
- * High-Performance Logger Implementation
- * 
- * Optimized logger with minimal overhead and maximum performance
- * for production environments.
- * 
- * @author AAS Development Team
- * @version 1.0.0
- * @license MIT
- */
-
-const winston = __nccwpck_require__(7561);
-const chalk = __nccwpck_require__(3412);
-
-/**
- * Optimized logger configuration for high performance
- */
-const createOptimizedLogger = () => {
-    // Simplified console transport for maximum performance
-    const consoleTransport = new winston.transports.Console({
-        format: winston.format.combine(
-            winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-            winston.format.printf(({ level, message, timestamp }) => {
-                const colorMap = {
-                    error: chalk.red,
-                    warn: chalk.yellow,
-                    info: chalk.blue,
-                    debug: chalk.gray
-                };
-                
-                const color = colorMap[level] || chalk.white;
-                return `${chalk.gray(`[${timestamp}]`)} ${color(level.toUpperCase())}: ${message}`;
-            })
-        )
-    });
-
-    // Create optimized logger instance
-    return winston.createLogger({
-        level: process.env.LOG_LEVEL || 'info',
-        format: winston.format.combine(
-            winston.format.timestamp(),
-            winston.format.errors({ stack: true }),
-            winston.format.splat()
-        ),
-        transports: [consoleTransport],
-        // Disable exit on error for better error handling
-        exitOnError: false
-    });
-};
-
-// Create singleton logger instance
-const logger = createOptimizedLogger();
-
-/**
- * Optimized logging function with performance improvements
- * @param {string} level - The log level
- * @param {string} message - The message to log
- */
-const log = (level, message) => {
-    // Optimized level mapping
-    const levelMap = {
-        'ERROR': 'error',
-        'WARN': 'warn', 
-        'INFO': 'info',
-        'DEBUG': 'debug'
-    };
-    
-    const mappedLevel = levelMap[level.toUpperCase()] || 'info';
-    logger.log({ level: mappedLevel, message });
-};
-
-/**
- * Performance-optimized logging methods
- */
-const loggerUtils = {
-    error: (message) => log('ERROR', message),
-    warn: (message) => log('WARN', message),
-    info: (message) => log('INFO', message),
-    debug: (message) => log('DEBUG', message)
-};
-
-module.exports = { log, loggerUtils };
-module.exports["default"] = log;
-
-
-/***/ }),
-
 /***/ 181:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("buffer");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("buffer");
 
 /***/ }),
 
 /***/ 5317:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("child_process");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("child_process");
 
 /***/ }),
 
 /***/ 4434:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("events");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("events");
 
 /***/ }),
 
 /***/ 9896:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("fs");
-
-/***/ }),
-
-/***/ 1943:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("fs/promises");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("fs");
 
 /***/ }),
 
 /***/ 8611:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("http");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("http");
 
 /***/ }),
 
 /***/ 5692:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("https");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("https");
 
 /***/ }),
 
 /***/ 1421:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("node:child_process");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:child_process");
 
 /***/ }),
 
 /***/ 8474:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("node:events");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:events");
 
 /***/ }),
 
 /***/ 3024:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("node:fs");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:fs");
 
 /***/ }),
 
 /***/ 6760:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("node:path");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:path");
 
 /***/ }),
 
 /***/ 1708:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("node:process");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:process");
 
 /***/ }),
 
 /***/ 857:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("os");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("os");
 
 /***/ }),
 
 /***/ 6928:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("path");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("path");
 
 /***/ }),
 
 /***/ 2203:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("stream");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("stream");
 
 /***/ }),
 
 /***/ 3193:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("string_decoder");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("string_decoder");
 
 /***/ }),
 
 /***/ 2018:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("tty");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("tty");
 
 /***/ }),
 
 /***/ 9023:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("util");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("util");
 
 /***/ }),
 
 /***/ 3106:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("zlib");
+module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("zlib");
 
 /***/ }),
 
@@ -21720,24 +17441,24 @@ const { CommanderError, InvalidArgumentError } = __nccwpck_require__(3536);
 const { Help } = __nccwpck_require__(9207);
 const { Option } = __nccwpck_require__(897);
 
-exports.program = new Command();
+exports.DM = new Command();
 
-exports.createCommand = (name) => new Command(name);
-exports.createOption = (flags, description) => new Option(flags, description);
-exports.createArgument = (name, description) => new Argument(name, description);
+exports.gu = (name) => new Command(name);
+exports.Ww = (flags, description) => new Option(flags, description);
+exports.er = (name, description) => new Argument(name, description);
 
 /**
  * Expose classes
  */
 
-exports.Command = Command;
-exports.Option = Option;
-exports.Argument = Argument;
-exports.Help = Help;
+exports.uB = Command;
+exports.c$ = Option;
+exports.ef = Argument;
+exports._V = Help;
 
-exports.CommanderError = CommanderError;
-exports.InvalidArgumentError = InvalidArgumentError;
-exports.InvalidOptionArgumentError = InvalidArgumentError; // Deprecated
+exports.b7 = CommanderError;
+exports.Di = InvalidArgumentError;
+exports.a2 = InvalidArgumentError; // Deprecated
 
 
 /***/ }),
@@ -25432,30 +21153,133 @@ exports.suggestSimilar = suggestSimilar;
 
 /***/ }),
 
-/***/ 3412:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __nccwpck_require__) => {
+/***/ 6256:
+/***/ ((module) => {
 
-"use strict";
-// ESM COMPAT FLAG
-__nccwpck_require__.r(__webpack_exports__);
+module.exports = {"version":"3.13.1"};
 
-// EXPORTS
-__nccwpck_require__.d(__webpack_exports__, {
-  Chalk: () => (/* binding */ Chalk),
-  backgroundColorNames: () => (/* reexport */ backgroundColorNames),
-  backgroundColors: () => (/* reexport */ backgroundColorNames),
-  chalkStderr: () => (/* binding */ chalkStderr),
-  colorNames: () => (/* reexport */ colorNames),
-  colors: () => (/* reexport */ colorNames),
-  "default": () => (/* binding */ source),
-  foregroundColorNames: () => (/* reexport */ foregroundColorNames),
-  foregroundColors: () => (/* reexport */ foregroundColorNames),
-  modifierNames: () => (/* reexport */ modifierNames),
-  modifiers: () => (/* reexport */ modifierNames),
-  supportsColor: () => (/* binding */ stdoutColor),
-  supportsColorStderr: () => (/* binding */ stderrColor)
-});
+/***/ })
 
+/******/ });
+/************************************************************************/
+/******/ // The module cache
+/******/ var __webpack_module_cache__ = {};
+/******/ 
+/******/ // The require function
+/******/ function __nccwpck_require__(moduleId) {
+/******/ 	// Check if module is in cache
+/******/ 	var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 	if (cachedModule !== undefined) {
+/******/ 		return cachedModule.exports;
+/******/ 	}
+/******/ 	// Create a new module (and put it into the cache)
+/******/ 	var module = __webpack_module_cache__[moduleId] = {
+/******/ 		// no module.id needed
+/******/ 		// no module.loaded needed
+/******/ 		exports: {}
+/******/ 	};
+/******/ 
+/******/ 	// Execute the module function
+/******/ 	var threw = true;
+/******/ 	try {
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __nccwpck_require__);
+/******/ 		threw = false;
+/******/ 	} finally {
+/******/ 		if(threw) delete __webpack_module_cache__[moduleId];
+/******/ 	}
+/******/ 
+/******/ 	// Return the exports of the module
+/******/ 	return module.exports;
+/******/ }
+/******/ 
+/************************************************************************/
+/******/ /* webpack/runtime/create fake namespace object */
+/******/ (() => {
+/******/ 	var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
+/******/ 	var leafPrototypes;
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 16: return value when it's Promise-like
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__nccwpck_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = this(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if(typeof value === 'object' && value) {
+/******/ 			if((mode & 4) && value.__esModule) return value;
+/******/ 			if((mode & 16) && typeof value.then === 'function') return value;
+/******/ 		}
+/******/ 		var ns = Object.create(null);
+/******/ 		__nccwpck_require__.r(ns);
+/******/ 		var def = {};
+/******/ 		leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
+/******/ 		for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
+/******/ 			Object.getOwnPropertyNames(current).forEach((key) => (def[key] = () => (value[key])));
+/******/ 		}
+/******/ 		def['default'] = () => (value);
+/******/ 		__nccwpck_require__.d(ns, def);
+/******/ 		return ns;
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/define property getters */
+/******/ (() => {
+/******/ 	// define getter functions for harmony exports
+/******/ 	__nccwpck_require__.d = (exports, definition) => {
+/******/ 		for(var key in definition) {
+/******/ 			if(__nccwpck_require__.o(definition, key) && !__nccwpck_require__.o(exports, key)) {
+/******/ 				Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 			}
+/******/ 		}
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/hasOwnProperty shorthand */
+/******/ (() => {
+/******/ 	__nccwpck_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/make namespace object */
+/******/ (() => {
+/******/ 	// define __esModule on exports
+/******/ 	__nccwpck_require__.r = (exports) => {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/compat */
+/******/ 
+/******/ if (typeof __nccwpck_require__ !== 'undefined') __nccwpck_require__.ab = new URL('.', import.meta.url).pathname.slice(import.meta.url.match(/^file:\/\/\/\w:/) ? 1 : 0, -1) + "/";
+/******/ 
+/************************************************************************/
+var __webpack_exports__ = {};
+
+// EXTERNAL MODULE: ./node_modules/commander/index.js
+var commander = __nccwpck_require__(6150);
+;// CONCATENATED MODULE: ./node_modules/commander/esm.mjs
+
+
+// wrapper to provide named exports for ESM.
+const {
+  /* program */ "DM": program,
+  /* createCommand */ "gu": createCommand,
+  /* createArgument */ "er": createArgument,
+  /* createOption */ "Ww": createOption,
+  /* CommanderError */ "b7": CommanderError,
+  /* InvalidArgumentError */ "Di": InvalidArgumentError,
+  /* InvalidOptionArgumentError */ "a2": InvalidOptionArgumentError, // deprecated old name
+  /* Command */ "uB": Command,
+  /* Argument */ "ef": Argument,
+  /* Option */ "c$": Option,
+  /* Help */ "_V": Help,
+} = commander;
+
+// EXTERNAL MODULE: ./node_modules/winston/lib/winston.js
+var winston = __nccwpck_require__(7561);
 ;// CONCATENATED MODULE: ./node_modules/chalk/source/vendor/ansi-styles/index.js
 const ANSI_BACKGROUND_OFFSET = 10;
 
@@ -25684,9 +21508,9 @@ const ansiStyles = assembleStyles();
 // EXTERNAL MODULE: external "node:process"
 var external_node_process_ = __nccwpck_require__(1708);
 ;// CONCATENATED MODULE: external "node:os"
-const external_node_os_namespaceObject = require("node:os");
+const external_node_os_namespaceObject = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:os");
 ;// CONCATENATED MODULE: external "node:tty"
-const external_node_tty_namespaceObject = require("node:tty");
+const external_node_tty_namespaceObject = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:tty");
 ;// CONCATENATED MODULE: ./node_modules/chalk/source/vendor/supports-color/index.js
 
 
@@ -26116,126 +21940,3914 @@ const chalkStderr = createChalk({level: stderrColor ? stderrColor.level : 0});
 
 /* harmony default export */ const source = (chalk);
 
+;// CONCATENATED MODULE: ./src/utils/logger/index.js
+/**
+ * High-Performance Logger Implementation
+ * 
+ * Optimized logger with minimal overhead and maximum performance
+ * for production environments.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
 
-/***/ }),
 
-/***/ 6256:
-/***/ ((module) => {
 
-"use strict";
-module.exports = {"version":"3.13.1"};
 
-/***/ })
+/**
+ * Optimized logger configuration for high performance
+ */
+const createOptimizedLogger = () => {
+    // Simplified console transport for maximum performance
+    const consoleTransport = new winston.transports.Console({
+        format: winston.format.combine(
+            winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
+            winston.format.printf(({ level, message, timestamp }) => {
+                const colorMap = {
+                    error: source.red,
+                    warn: source.yellow,
+                    info: source.blue,
+                    debug: source.gray
+                };
+                
+                const color = colorMap[level] || source.white;
+                return `${source.gray(`[${timestamp}]`)} ${color(level.toUpperCase())}: ${message}`;
+            })
+        )
+    });
 
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __nccwpck_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		var threw = true;
-/******/ 		try {
-/******/ 			__webpack_modules__[moduleId].call(module.exports, module, module.exports, __nccwpck_require__);
-/******/ 			threw = false;
-/******/ 		} finally {
-/******/ 			if(threw) delete __webpack_module_cache__[moduleId];
-/******/ 		}
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__nccwpck_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__nccwpck_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/create fake namespace object */
-/******/ 	(() => {
-/******/ 		var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
-/******/ 		var leafPrototypes;
-/******/ 		// create a fake namespace object
-/******/ 		// mode & 1: value is a module id, require it
-/******/ 		// mode & 2: merge all properties of value into the ns
-/******/ 		// mode & 4: return value when already ns object
-/******/ 		// mode & 16: return value when it's Promise-like
-/******/ 		// mode & 8|1: behave like require
-/******/ 		__nccwpck_require__.t = function(value, mode) {
-/******/ 			if(mode & 1) value = this(value);
-/******/ 			if(mode & 8) return value;
-/******/ 			if(typeof value === 'object' && value) {
-/******/ 				if((mode & 4) && value.__esModule) return value;
-/******/ 				if((mode & 16) && typeof value.then === 'function') return value;
-/******/ 			}
-/******/ 			var ns = Object.create(null);
-/******/ 			__nccwpck_require__.r(ns);
-/******/ 			var def = {};
-/******/ 			leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
-/******/ 			for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
-/******/ 				Object.getOwnPropertyNames(current).forEach((key) => (def[key] = () => (value[key])));
-/******/ 			}
-/******/ 			def['default'] = () => (value);
-/******/ 			__nccwpck_require__.d(ns, def);
-/******/ 			return ns;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__nccwpck_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__nccwpck_require__.o(definition, key) && !__nccwpck_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__nccwpck_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__nccwpck_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/compat */
-/******/ 	
-/******/ 	if (typeof __nccwpck_require__ !== 'undefined') __nccwpck_require__.ab = __dirname + "/";
-/******/ 	
-/************************************************************************/
-var __webpack_exports__ = {};
+    // Create optimized logger instance
+    return winston.createLogger({
+        level: process.env.LOG_LEVEL || 'info',
+        format: winston.format.combine(
+            winston.format.timestamp(),
+            winston.format.errors({ stack: true }),
+            winston.format.splat()
+        ),
+        transports: [consoleTransport],
+        // Disable exit on error for better error handling
+        exitOnError: false
+    });
+};
+
+// Create singleton logger instance
+const logger = createOptimizedLogger();
+
+/**
+ * Optimized logging function with performance improvements
+ * @param {string} level - The log level
+ * @param {string} message - The message to log
+ */
+const log = (level, message) => {
+    // Optimized level mapping
+    const levelMap = {
+        'ERROR': 'error',
+        'WARN': 'warn', 
+        'INFO': 'info',
+        'DEBUG': 'debug'
+    };
+    
+    const mappedLevel = levelMap[level.toUpperCase()] || 'info';
+    logger.log({ level: mappedLevel, message });
+};
+
+/**
+ * Performance-optimized logging methods
+ */
+const loggerUtils = {
+    error: (message) => log('ERROR', message),
+    warn: (message) => log('WARN', message),
+    info: (message) => log('INFO', message),
+    debug: (message) => log('DEBUG', message)
+};
+
+/* harmony default export */ const utils_logger = ((/* unused pure expression or super */ null && (log)));
+
+;// CONCATENATED MODULE: ./src/modules/create/ICreateCommand.js
+/**
+ * Interface for CreateCommand.
+ * @interface
+ */
+class ICreateCommand {
+  /**
+   * Executes the command.
+   * @param {Object} options - Options for executing the command.
+   */
+  execute(options) {
+    throw new Error('Method not implemented');
+  }
+}
+
+/* harmony default export */ const create_ICreateCommand = (ICreateCommand);
+
+;// CONCATENATED MODULE: ./src/domain/entities/AppConfig.js
+/**
+ * Application Configuration Domain Entity
+ * 
+ * Optimized domain entity for application configuration validation
+ * with O(1) time complexity for critical operations.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+class AppConfig {
+    constructor(configData) {
+        this.validateConfigData(configData);
+        this.initializeFromConfig(configData);
+    }
+
+    /**
+     * Validate configuration data with optimized structure checking
+     * @param {Object} configData - Configuration data to validate
+     * @throws {Error} If validation fails
+     */
+    validateConfigData(configData) {
+        if (!configData || typeof configData !== 'object') {
+            throw new Error('Configuration data is required and must be an object');
+        }
+
+        // Check for required app section
+        if (!configData.app || typeof configData.app !== 'object') {
+            throw new Error('Missing required "app" section in configuration');
+        }
+
+        const app = configData.app;
+
+        // Validate required fields (lines 3, 7, 8 from app-config.json)
+        const requiredFields = [
+            { field: 'name', line: 3 },
+            { field: 'bundleId', line: 7 },
+            { field: 'androidPackageName', line: 8 }
+        ];
+
+        for (const { field, line } of requiredFields) {
+            if (!app[field] || typeof app[field] !== 'string' || app[field].trim() === '') {
+                throw new Error(`Missing or empty required field "app.${field}" (line ${line})`);
+            }
+        }
+
+        // Validate structure matches expected format
+        this.validateStructure(configData);
+    }
+
+    /**
+     * Validate the overall structure of the configuration
+     * @param {Object} configData - Configuration data
+     * @throws {Error} If structure is invalid
+     */
+    validateStructure(configData) {
+        const expectedSections = ['app', 'build', 'theme', 'features', 'api', 'logging', 'ui', 'metadata'];
+        
+        for (const section of expectedSections) {
+            if (!(section in configData)) {
+                throw new Error(`Missing required section: "${section}"`);
+            }
+        }
+
+        // Validate app section structure
+        const requiredAppFields = ['name', 'version', 'buildNumber', 'environment', 'bundleId', 'androidPackageName', 'displayName'];
+        for (const field of requiredAppFields) {
+            if (!(field in configData.app)) {
+                throw new Error(`Missing required field in app section: "${field}"`);
+            }
+        }
+    }
+
+    /**
+     * Initialize properties from validated configuration
+     * @param {Object} configData - Validated configuration data
+     */
+    initializeFromConfig(configData) {
+        const app = configData.app;
+        
+        // Core properties (O(1) access)
+        this.projectName = app.name;
+        this.appName = app.displayName || app.name;
+        this.bundleIdentifier = app.bundleId;
+        this.androidPackageName = app.androidPackageName;
+        this.version = app.version;
+        this.buildNumber = app.buildNumber;
+        this.environment = app.environment;
+
+        // Nested properties with default values
+        this.theme = configData.theme || {};
+        this.features = configData.features || {};
+        this.build = configData.build || {};
+        this.api = configData.api || {};
+        this.logging = configData.logging || {};
+        this.ui = configData.ui || {};
+        this.metadata = configData.metadata || {};
+
+        // Pre-compute frequently accessed values for O(1) access
+        this.webviewUrl = this.getWebviewUrl();
+        this.isAnalyticsEnabled = this.isFeatureEnabled('analytics');
+        this.isOfflineEnabled = this.isFeatureEnabled('offline');
+    }
+
+    /**
+     * Get WebView URL with fallback
+     * @returns {string} WebView URL
+     */
+    getWebviewUrl() {
+        return this.features?.webview?.url;
+    }
+
+    /**
+     * Check if feature is enabled (O(1) operation)
+     * @param {string} featureName - Name of the feature
+     * @returns {boolean} True if feature is enabled
+     */
+    isFeatureEnabled(featureName) {
+        return this.features?.[featureName]?.enabled === true;
+    }
+
+    /**
+     * Get theme color with fallback (O(1) operation)
+     * @param {string} colorName - Name of the color
+     * @param {string} mode - Theme mode (light/dark)
+     * @returns {string} Color value or default
+     */
+    getThemeColor(colorName, mode = 'light') {
+        return this.theme?.[mode]?.colors?.[colorName];
+    }
+
+    /**
+     * Convert to cookiecutter configuration format
+     * @returns {Object} Cookiecutter configuration object
+     */
+    toCookiecutterConfig() {
+        return {
+            project_name: this.projectName,
+            app_name: this.appName,
+            bundle_identifier: this.bundleIdentifier,
+            android_package_name: this.androidPackageName
+        };
+    }
+
+    /**
+     * Get project directory name
+     * @returns {string} Project directory name
+     */
+    getProjectDirectory() {
+        return this.projectName;
+    }
+
+    /**
+     * Get configuration summary for logging
+     * @returns {Object} Configuration summary
+     */
+    getSummary() {
+        return {
+            projectName: this.projectName,
+            appName: this.appName,
+            bundleId: this.bundleIdentifier,
+            androidPackage: this.androidPackageName,
+            version: this.version,
+            webviewUrl: this.webviewUrl,
+            analyticsEnabled: this.isAnalyticsEnabled,
+            offlineEnabled: this.isOfflineEnabled
+        };
+    }
+
+    /**
+     * Validate bundle identifier format
+     * @param {string} bundleId - Bundle identifier to validate
+     * @returns {boolean} True if valid
+     */
+    static isValidBundleIdentifier(bundleId) {
+        return /^[a-z][a-z0-9_]*(\.[a-z][a-z0-9_]*)+$/.test(bundleId);
+    }
+
+    /**
+     * Validate package name format
+     * @param {string} packageName - Package name to validate
+     * @returns {boolean} True if valid
+     */
+    static isValidPackageName(packageName) {
+        return /^[a-z][a-z0-9_]*(\.[a-z][a-z0-9_]*)+$/.test(packageName);
+    }
+
+    /**
+     * Validate project name format
+     * @param {string} projectName - Project name to validate
+     * @returns {boolean} True if valid
+     */
+    static isValidProjectName(projectName) {
+        return /^[a-zA-Z][a-zA-Z0-9_]*$/.test(projectName);
+    }
+}
+
+;// CONCATENATED MODULE: external "fs/promises"
+const promises_namespaceObject = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("fs/promises");
+// EXTERNAL MODULE: external "path"
+var external_path_ = __nccwpck_require__(6928);
+;// CONCATENATED MODULE: ./src/application/services/AppGenerationService.js
+/**
+ * Application Generation Service
+ * 
+ * High-performance service that orchestrates the application generation process
+ * with parallel operations, optimized progress tracking, and comprehensive error handling.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+class AppGenerationService {
+    constructor(configRepository, templateRepository, executorRepository) {
+        this.configRepository = configRepository;
+        this.templateRepository = templateRepository;
+        this.executorRepository = executorRepository;
+        this.progressCache = new Map(); // Cache for progress tracking
+        this.currentProgress = 0; // Track current progress to ensure it only increases
+    }
+
+    /**
+     * Generate application from configuration file with optimized execution
+     * @param {string} configFilePath - Path to configuration file
+     * @param {string} outputPath - Path where the project should be created (optional)
+     * @param {Function} progressCallback - Progress callback function
+     * @returns {Promise<Object>} Generation result
+     * @throws {Error} If generation fails
+     */
+    async generateApp(configFilePath, outputPath, progressCallback) {
+        const startTime = Date.now();
+        let appConfig = null;
+        
+        try {
+            // Step 1: Load and validate configuration (O(1) with caching)
+            await this.updateProgress(progressCallback, 5, 'Loading and validating configuration');
+            const configData = await this.configRepository.loadConfig(configFilePath);
+            appConfig = new AppConfig(configData);
+
+            // Step 2: Sequential operations for proper progress tracking
+            await this.updateProgress(progressCallback, 10, 'Preparing environment');
+            
+            // Ensure cookiecutter is available
+            await this.updateProgress(progressCallback, 15, 'Ensuring cookiecutter is available');
+            await this.executorRepository.installCookiecutter(
+                (progress, message) => this.updateProgress(progressCallback, 15 + progress * 0.05, message)
+            );
+
+            // Prepare template
+            await this.updateProgress(progressCallback, 20, 'Locating and validating template');
+            const templatePath = await this.templateRepository.getTemplatePath();
+
+            await this.updateProgress(progressCallback, 25, 'Preparing template configuration');
+            const cookiecutterConfig = appConfig.toCookiecutterConfig();
+            await this.templateRepository.prepareTemplate(templatePath, cookiecutterConfig, configFilePath);
+
+            // Step 3: Prepare output directory
+            await this.updateProgress(progressCallback, 30, 'Preparing output directory');
+            const finalOutputPath = outputPath || process.cwd();
+            
+            // Create output directory if it doesn't exist
+            try {
+                await promises_namespaceObject.access(finalOutputPath);
+            } catch (error) {
+                await this.updateProgress(progressCallback, 32, 'Creating output directory');
+                await promises_namespaceObject.mkdir(finalOutputPath, { recursive: true });
+            }
+
+            // Step 4: Execute cookiecutter (main operation)
+            await this.updateProgress(progressCallback, 35, 'Generating project with cookiecutter');
+            
+            await this.executorRepository.executeCookiecutter(
+                templatePath,
+                finalOutputPath,
+                (progress, message) => this.updateProgress(progressCallback, 35 + progress * 0.55, message)
+            );
+
+            // Step 5: Post-process and validate
+            await this.updateProgress(progressCallback, 90, 'Post-processing generated project');
+            const projectPath = external_path_.join(finalOutputPath, appConfig.getProjectDirectory());
+            await this.validateGeneratedProject(projectPath);
+
+            // Step 6: Cleanup
+            await this.updateProgress(progressCallback, 95, 'Cleaning up temporary files');
+            await this.templateRepository.cleanupTemplate(templatePath);
+
+            const duration = Date.now() - startTime;
+            await this.updateProgress(progressCallback, 100, `Project generation completed successfully in ${duration}ms`);
+
+            return {
+                success: true,
+                projectPath,
+                projectName: appConfig.projectName,
+                duration,
+                config: appConfig.getSummary()
+            };
+
+        } catch (error) {
+            // Optimized cleanup on error
+            if (appConfig) {
+                const finalOutputPath = outputPath || process.cwd();
+                const projectPath = external_path_.join(finalOutputPath, appConfig.getProjectDirectory());
+                await this.executorRepository.cleanupOnError(projectPath);
+            }
+            
+            throw new Error(`App generation failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Update progress with optimized bounds checking and caching
+     * @param {Function} progressCallback - Progress callback function
+     * @param {number} progress - Progress percentage
+     * @param {string} message - Progress message
+     */
+    async updateProgress(progressCallback, progress, message) {
+        if (!progressCallback) return;
+
+        // Ensure progress only increases
+        const boundedProgress = Math.min(100, Math.max(this.currentProgress, Math.round(progress)));
+        this.currentProgress = boundedProgress;
+        
+        // Cache progress to avoid duplicate updates
+        const cacheKey = `${boundedProgress}_${message}`;
+        if (this.progressCache.has(cacheKey)) {
+            return;
+        }
+        
+        this.progressCache.set(cacheKey, true);
+        progressCallback(boundedProgress, message);
+    }
+
+    /**
+     * Validate generated project with optimized checks
+     * @param {string} projectPath - Path to generated project
+     * @throws {Error} If validation fails
+     */
+    async validateGeneratedProject(projectPath) {
+        try {
+            // Check if project directory exists
+            const stats = await promises_namespaceObject.stat(projectPath);
+            if (!stats.isDirectory()) {
+                throw new Error('Generated project directory was not created');
+            }
+
+            // Check for essential project files
+            const essentialFiles = ['package.json', 'app.json', 'index.js'];
+            const missingFiles = [];
+
+            for (const file of essentialFiles) {
+                try {
+                    await promises_namespaceObject.access(external_path_.join(projectPath, file));
+                } catch (error) {
+                    missingFiles.push(file);
+                }
+            }
+
+            if (missingFiles.length > 0) {
+                throw new Error(`Generated project is missing essential files: ${missingFiles.join(', ')}`);
+            }
+
+        } catch (error) {
+            if (error.code === 'ENOENT') {
+                throw new Error('Generated project directory was not created');
+            }
+            throw error;
+        }
+    }
+
+    /**
+     * Get service statistics
+     * @returns {Object} Service statistics
+     */
+    getStats() {
+        return {
+            progressCacheSize: this.progressCache.size,
+            currentProgress: this.currentProgress,
+            configCacheStats: this.configRepository.getCacheStats(),
+            templateCacheStats: this.templateRepository.getCacheStats(),
+            executorCacheStats: this.executorRepository.getCacheStats()
+        };
+    }
+
+    /**
+     * Clear all caches
+     */
+    clearCaches() {
+        this.progressCache.clear();
+        this.currentProgress = 0;
+        this.configRepository.clearCache();
+        this.templateRepository.clearCache();
+        this.executorRepository.clearCache();
+    }
+}
+
+;// CONCATENATED MODULE: ./src/domain/repositories/IConfigRepository.js
+/**
+ * Configuration Repository Interface
+ * 
+ * Defines the contract for configuration data access operations
+ * following the repository pattern for clean separation of concerns.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+class IConfigRepository {
+    /**
+     * Load configuration from file
+     * @param {string} configPath - Path to configuration file
+     * @returns {Promise<Object>} Configuration data
+     * @throws {Error} If loading fails
+     */
+    async loadConfig(configPath) {
+        throw new Error('Method not implemented');
+    }
+
+    /**
+     * Save configuration to file
+     * @param {string} configPath - Path to save configuration
+     * @param {Object} configData - Configuration data to save
+     * @returns {Promise<void>}
+     * @throws {Error} If saving fails
+     */
+    async saveConfig(configPath, configData) {
+        throw new Error('Method not implemented');
+    }
+
+    /**
+     * Validate configuration file exists
+     * @param {string} configPath - Path to configuration file
+     * @returns {Promise<boolean>} True if file exists
+     */
+    async configExists(configPath) {
+        throw new Error('Method not implemented');
+    }
+}
+
+;// CONCATENATED MODULE: ./src/infrastructure/repositories/ConfigRepository.js
+/**
+ * Configuration Repository Implementation
+ * 
+ * High-performance implementation of configuration data access operations
+ * with caching, optimized error handling, and O(1) file operations.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+class ConfigRepository extends IConfigRepository {
+    constructor() {
+        super();
+        this.cache = new Map(); // O(1) cache for file existence checks
+        this.maxCacheSize = 100;
+    }
+
+    /**
+     * Load configuration from file with optimized caching
+     * @param {string} configPath - Path to configuration file
+     * @returns {Promise<Object>} Configuration data
+     * @throws {Error} If loading fails
+     */
+    async loadConfig(configPath) {
+        const resolvedPath = external_path_.resolve(configPath);
+        
+        try {
+            // Use cached file content if available
+            if (this.cache.has(resolvedPath)) {
+                return this.cache.get(resolvedPath);
+            }
+
+            const configContent = await promises_namespaceObject.readFile(resolvedPath, 'utf8');
+            const configData = JSON.parse(configContent);
+
+            // Cache the result for O(1) subsequent access
+            this.cacheResult(resolvedPath, configData);
+            
+            return configData;
+        } catch (error) {
+            this.handleLoadError(error, configPath);
+        }
+    }
+
+    /**
+     * Save configuration to file with optimized error handling
+     * @param {string} configPath - Path to save configuration
+     * @param {Object} configData - Configuration data to save
+     * @returns {Promise<void>}
+     * @throws {Error} If saving fails
+     */
+    async saveConfig(configPath, configData) {
+        const resolvedPath = external_path_.resolve(configPath);
+        
+        try {
+            const configDir = external_path_.dirname(resolvedPath);
+            
+            // Ensure directory exists (single operation)
+            await promises_namespaceObject.mkdir(configDir, { recursive: true });
+            
+            // Optimized JSON stringification with proper formatting
+            const configContent = JSON.stringify(configData, null, 2);
+            await promises_namespaceObject.writeFile(resolvedPath, configContent, 'utf8');
+
+            // Update cache
+            this.cacheResult(resolvedPath, configData);
+        } catch (error) {
+            throw new Error(`Failed to save configuration: ${error.message}`);
+        }
+    }
+
+    /**
+     * Validate configuration file exists with O(1) cache lookup
+     * @param {string} configPath - Path to configuration file
+     * @returns {Promise<boolean>} True if file exists
+     */
+    async configExists(configPath) {
+        const resolvedPath = external_path_.resolve(configPath);
+        
+        // Check cache first (O(1))
+        if (this.cache.has(resolvedPath)) {
+            return true;
+        }
+
+        try {
+            await promises_namespaceObject.access(resolvedPath);
+            this.cache.set(resolvedPath, true);
+            return true;
+        } catch (error) {
+            return false;
+        }
+    }
+
+    /**
+     * Cache result with size management
+     * @param {string} key - Cache key
+     * @param {any} value - Value to cache
+     */
+    cacheResult(key, value) {
+        // Implement LRU cache eviction
+        if (this.cache.size >= this.maxCacheSize) {
+            const firstKey = this.cache.keys().next().value;
+            this.cache.delete(firstKey);
+        }
+        this.cache.set(key, value);
+    }
+
+    /**
+     * Handle load errors with specific error types
+     * @param {Error} error - Error object
+     * @param {string} configPath - Configuration file path
+     * @throws {Error} Specific error message
+     */
+    handleLoadError(error, configPath) {
+        if (error.code === 'ENOENT') {
+            throw new Error(`Configuration file not found: ${configPath}`);
+        }
+        if (error instanceof SyntaxError) {
+            throw new Error(`Invalid JSON format in configuration file: ${configPath}`);
+        }
+        if (error.code === 'EACCES') {
+            throw new Error(`Permission denied accessing configuration file: ${configPath}`);
+        }
+        throw new Error(`Failed to load configuration: ${error.message}`);
+    }
+
+    /**
+     * Clear cache for testing or memory management
+     */
+    clearCache() {
+        this.cache.clear();
+    }
+
+    /**
+     * Get cache statistics
+     * @returns {Object} Cache statistics
+     */
+    getCacheStats() {
+        return {
+            size: this.cache.size,
+            maxSize: this.maxCacheSize,
+            hitRate: this.cache.size / this.maxCacheSize
+        };
+    }
+}
+
+;// CONCATENATED MODULE: external "url"
+const external_url_namespaceObject = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("url");
+;// CONCATENATED MODULE: ./src/domain/repositories/ITemplateRepository.js
+/**
+ * Template Repository Interface
+ * 
+ * Defines the contract for template management operations
+ * including template discovery, validation, and configuration.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+class ITemplateRepository {
+    /**
+     * Get template path
+     * @returns {Promise<string>} Path to template directory
+     * @throws {Error} If template not found
+     */
+    async getTemplatePath() {
+        throw new Error('Method not implemented');
+    }
+
+    /**
+     * Validate template exists and is valid
+     * @param {string} templatePath - Path to template
+     * @returns {Promise<boolean>} True if template is valid
+     */
+    async validateTemplate(templatePath) {
+        throw new Error('Method not implemented');
+    }
+
+    /**
+     * Prepare template configuration
+     * @param {string} templatePath - Path to template
+     * @param {Object} cookiecutterConfig - Cookiecutter configuration
+     * @param {string} appConfigPath - Path to app config file
+     * @returns {Promise<void>}
+     * @throws {Error} If preparation fails
+     */
+    async prepareTemplate(templatePath, cookiecutterConfig, appConfigPath) {
+        throw new Error('Method not implemented');
+    }
+
+    /**
+     * Clean up template after use
+     * @param {string} templatePath - Path to template
+     * @returns {Promise<void>}
+     */
+    async cleanupTemplate(templatePath) {
+        throw new Error('Method not implemented');
+    }
+}
+
+;// CONCATENATED MODULE: ./src/infrastructure/repositories/TemplateRepository.js
+/**
+ * Template Repository Implementation
+ * 
+ * High-performance implementation of template management operations
+ * with caching, optimized file operations, and O(1) template discovery.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+// ES Module compatibility
+const TemplateRepository_filename = (0,external_url_namespaceObject.fileURLToPath)(import.meta.url);
+const TemplateRepository_dirname = external_path_.dirname(TemplateRepository_filename);
+
+class TemplateRepository extends ITemplateRepository {
+    constructor() {
+        super();
+        this.templateCache = new Map(); // O(1) cache for template paths
+        this.requiredFiles = new Set(['cookiecutter.json', '{{cookiecutter.project_name}}']);
+        
+                            // Generic template paths with hidden directory structure
+                    this.possibleTemplatePaths = [
+                        external_path_.join(process.cwd(), '.template'), // Primary hidden template location
+                        external_path_.join(TemplateRepository_dirname, '..', '..', '.template'), // Fallback from src
+                        external_path_.join(process.cwd(), 'template'), // Legacy fallback
+                        external_path_.join(process.cwd(), 'templates', 'aas-app-template') // Alternative location
+                    ];
+    }
+
+    /**
+     * Get template path with O(1) cache lookup
+     * @returns {Promise<string>} Path to template directory
+     * @throws {Error} If template not found
+     */
+    async getTemplatePath() {
+        // Check cache first (O(1))
+        if (this.templateCache.has('templatePath')) {
+            return this.templateCache.get('templatePath');
+        }
+
+        // Find template with optimized search
+        const templatePath = await this.findTemplatePath();
+        
+        if (!templatePath) {
+            throw new Error('Template not found. Please ensure the template is available in the "template" directory within the project.');
+        }
+
+        // Cache the result
+        this.templateCache.set('templatePath', templatePath);
+        return templatePath;
+    }
+
+    /**
+     * Find template path with optimized search
+     * @returns {Promise<string|null>} Template path or null
+     */
+    async findTemplatePath() {
+        // Use Promise.all for parallel validation
+        const validationPromises = this.possibleTemplatePaths.map(async (templatePath) => {
+            if (await this.validateTemplate(templatePath)) {
+                return templatePath;
+            }
+            return null;
+        });
+
+        try {
+            const results = await Promise.all(validationPromises);
+            return results.find(result => result !== null) || null;
+        } catch (error) {
+            return null;
+        }
+    }
+
+    /**
+     * Validate template exists and is valid with optimized checks
+     * @param {string} templatePath - Path to template
+     * @returns {Promise<boolean>} True if template is valid
+     */
+    async validateTemplate(templatePath) {
+        const cacheKey = `template_${templatePath}`;
+        
+        // Check cache first (O(1))
+        if (this.templateCache.has(cacheKey)) {
+            return this.templateCache.get(cacheKey);
+        }
+
+        try {
+            const resolvedPath = external_path_.resolve(templatePath);
+            
+            // Single stat operation to check if directory exists
+            const stats = await promises_namespaceObject.stat(resolvedPath);
+            if (!stats.isDirectory()) {
+                this.cacheValidationResult(cacheKey, false);
+                return false;
+            }
+
+            // Optimized file existence check
+            const exists = await this.checkRequiredFiles(resolvedPath);
+            this.cacheValidationResult(cacheKey, exists);
+            return exists;
+        } catch (error) {
+            this.cacheValidationResult(cacheKey, false);
+            return false;
+        }
+    }
+
+    /**
+     * Check required files with optimized batch operation
+     * @param {string} templatePath - Template directory path
+     * @returns {Promise<boolean>} True if all required files exist
+     */
+    async checkRequiredFiles(templatePath) {
+        try {
+            // Batch check all required files
+            const checkPromises = Array.from(this.requiredFiles).map(async (file) => {
+                const filePath = external_path_.join(templatePath, file);
+                try {
+                    await promises_namespaceObject.access(filePath);
+                    return true;
+                } catch (error) {
+                    return false;
+                }
+            });
+
+            const results = await Promise.all(checkPromises);
+            return results.every(exists => exists);
+        } catch (error) {
+            return false;
+        }
+    }
+
+    /**
+     * Prepare template configuration with optimized file operations
+     * @param {string} templatePath - Path to template
+     * @param {Object} cookiecutterConfig - Cookiecutter configuration
+     * @param {string} appConfigPath - Path to app config file
+     * @returns {Promise<void>}
+     * @throws {Error} If preparation fails
+     */
+    async prepareTemplate(templatePath, cookiecutterConfig, appConfigPath) {
+        const resolvedTemplatePath = external_path_.resolve(templatePath);
+        
+        try {
+            // Parallel file operations for maximum performance
+            await Promise.all([
+                this.writeCookiecutterConfig(resolvedTemplatePath, cookiecutterConfig),
+                this.copyAppConfig(resolvedTemplatePath, appConfigPath)
+            ]);
+        } catch (error) {
+            throw new Error(`Template preparation failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Write cookiecutter configuration with optimized JSON handling
+     * @param {string} templatePath - Template directory path
+     * @param {Object} cookiecutterConfig - Configuration to write
+     * @returns {Promise<void>}
+     */
+    async writeCookiecutterConfig(templatePath, cookiecutterConfig) {
+        const cookiecutterPath = external_path_.join(templatePath, 'cookiecutter.json');
+        const configContent = JSON.stringify(cookiecutterConfig, null, 2);
+        await promises_namespaceObject.writeFile(cookiecutterPath, configContent, 'utf8');
+    }
+
+    /**
+     * Copy app config with optimized directory creation
+     * @param {string} templatePath - Template directory path
+     * @param {string} appConfigPath - Source app config path
+     * @returns {Promise<void>}
+     */
+    async copyAppConfig(templatePath, appConfigPath) {
+        const appConfigTargetPath = external_path_.join(templatePath, 'hooks', 'source', 'app-config.json');
+        const appConfigTargetDir = external_path_.dirname(appConfigTargetPath);
+        
+        // Ensure target directory exists (single operation)
+        await promises_namespaceObject.mkdir(appConfigTargetDir, { recursive: true });
+        
+        // Copy file with optimized operation
+        await promises_namespaceObject.copyFile(appConfigPath, appConfigTargetPath);
+    }
+
+    /**
+     * Clean up template after use
+     * @param {string} templatePath - Path to template
+     * @returns {Promise<void>}
+     */
+    async cleanupTemplate(templatePath) {
+        try {
+            // Clear template cache
+            this.templateCache.clear();
+        } catch (error) {
+            // Ignore cleanup errors silently
+            console.warn('Template cleanup failed:', error.message);
+        }
+    }
+
+    /**
+     * Cache validation result
+     * @param {string} key - Cache key
+     * @param {boolean} result - Validation result
+     */
+    cacheValidationResult(key, result) {
+        this.templateCache.set(key, result);
+    }
+
+    /**
+     * Get template cache statistics
+     * @returns {Object} Cache statistics
+     */
+    getCacheStats() {
+        return {
+            size: this.templateCache.size,
+            templatePath: this.templateCache.has('templatePath'),
+            validationResults: Array.from(this.templateCache.entries())
+                .filter(([key]) => key.startsWith('template_'))
+                .length
+        };
+    }
+
+    /**
+     * Clear template cache
+     */
+    clearCache() {
+        this.templateCache.clear();
+    }
+}
+
+// EXTERNAL MODULE: external "child_process"
+var external_child_process_ = __nccwpck_require__(5317);
+;// CONCATENATED MODULE: ./src/domain/repositories/IExecutorRepository.js
+/**
+ * Executor Repository Interface
+ * 
+ * Defines the contract for external command execution operations
+ * including cookiecutter execution and dependency management.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+class IExecutorRepository {
+    /**
+     * Execute cookiecutter command
+     * @param {string} templatePath - Path to template
+     * @param {string} outputPath - Output directory path
+     * @param {Function} progressCallback - Progress callback function
+     * @returns {Promise<void>}
+     * @throws {Error} If execution fails
+     */
+    async executeCookiecutter(templatePath, outputPath, progressCallback) {
+        throw new Error('Method not implemented');
+    }
+
+    /**
+     * Check if cookiecutter is installed
+     * @returns {Promise<boolean>} True if cookiecutter is available
+     */
+    async isCookiecutterInstalled() {
+        throw new Error('Method not implemented');
+    }
+
+    /**
+     * Install cookiecutter if not available
+     * @param {Function} progressCallback - Progress callback function
+     * @returns {Promise<void>}
+     * @throws {Error} If installation fails
+     */
+    async installCookiecutter(progressCallback) {
+        throw new Error('Method not implemented');
+    }
+
+    /**
+     * Clean up generated files on error
+     * @param {string} projectPath - Path to generated project
+     * @returns {Promise<void>}
+     */
+    async cleanupOnError(projectPath) {
+        throw new Error('Method not implemented');
+    }
+}
+
+;// CONCATENATED MODULE: ./src/infrastructure/repositories/ExecutorRepository.js
+/**
+ * Executor Repository Implementation
+ * 
+ * High-performance implementation of external command execution operations
+ * with optimized process management, timeout handling, and error recovery.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+class ExecutorRepository extends IExecutorRepository {
+    constructor() {
+        super();
+        this.timeoutMs = 300000; // 5 minutes
+        this.maxRetries = 3;
+        this.processCache = new Map(); // Cache for process status
+    }
+
+    /**
+     * Execute cookiecutter command with optimized process management
+     * @param {string} templatePath - Path to template
+     * @param {string} outputPath - Output directory path
+     * @param {Function} progressCallback - Progress callback function
+     * @returns {Promise<void>}
+     * @throws {Error} If execution fails
+     */
+    async executeCookiecutter(templatePath, outputPath, progressCallback) {
+        return new Promise((resolve, reject) => {
+            // Validate inputs with early return
+            if (!templatePath || !outputPath) {
+                reject(new Error('Template path and output path are required'));
+                return;
+            }
+
+            // Store original working directory
+            const originalCwd = process.cwd();
+            
+            // Execute cookiecutter command with optimized options
+            // Use the specified output path to create the project
+            const cookiecutterProcess = (0,external_child_process_.spawn)('cookiecutter', [templatePath, '--no-input'], {
+                stdio: ['pipe', 'pipe', 'pipe'],
+                shell: true,
+                cwd: outputPath, // Use the specified output path
+                env: { ...process.env, PYTHONUNBUFFERED: '1' } // Optimize Python output
+            });
+
+            let stdout = '';
+            let stderr = '';
+            let isCompleted = false;
+            let timeoutId = null;
+
+            // Optimized progress tracking
+            const updateProgress = (progress, message) => {
+                if (progressCallback && !isCompleted) {
+                    progressCallback(progress, message);
+                }
+            };
+
+            // Handle stdout with buffered processing
+            cookiecutterProcess.stdout.on('data', (data) => {
+                stdout += data.toString();
+                updateProgress(60, 'Generating project structure...');
+            });
+
+            // Handle stderr (non-blocking)
+            cookiecutterProcess.stderr.on('data', (data) => {
+                stderr += data.toString();
+                // Don't treat stderr as error for cookiecutter
+            });
+
+            // Handle process completion
+            cookiecutterProcess.on('close', (code) => {
+                isCompleted = true;
+                process.chdir(originalCwd);
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+
+                if (code === 0) {
+                    updateProgress(100, 'Project generation completed successfully');
+                    resolve();
+                } else {
+                    reject(new Error(`Cookiecutter failed with code ${code}. Stderr: ${stderr}`));
+                }
+            });
+
+            // Handle process errors
+            cookiecutterProcess.on('error', (error) => {
+                isCompleted = true;
+                process.chdir(originalCwd);
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+                
+                reject(new Error(`Failed to execute cookiecutter: ${error.message}`));
+            });
+
+            // Set optimized timeout
+            timeoutId = setTimeout(() => {
+                if (!isCompleted) {
+                    isCompleted = true;
+                    cookiecutterProcess.kill('SIGTERM');
+                    process.chdir(originalCwd);
+                    reject(new Error('Cookiecutter execution timed out'));
+                }
+            }, this.timeoutMs);
+        });
+    }
+
+    /**
+     * Check if cookiecutter is installed with optimized check
+     * @returns {Promise<boolean>} True if cookiecutter is available
+     */
+    async isCookiecutterInstalled() {
+        const cacheKey = 'cookiecutter_installed';
+        
+        // Check cache first (O(1))
+        if (this.processCache.has(cacheKey)) {
+            return this.processCache.get(cacheKey);
+        }
+
+        return new Promise((resolve) => {
+            const checkProcess = (0,external_child_process_.spawn)('cookiecutter', ['--version'], {
+                stdio: 'pipe',
+                shell: true,
+                timeout: 5000 // 5 second timeout
+            });
+
+            const timeoutId = setTimeout(() => {
+                checkProcess.kill('SIGTERM');
+                this.processCache.set(cacheKey, false);
+                resolve(false);
+            }, 5000);
+
+            checkProcess.on('close', (code) => {
+                clearTimeout(timeoutId);
+                const isInstalled = code === 0;
+                this.processCache.set(cacheKey, isInstalled);
+                resolve(isInstalled);
+            });
+
+            checkProcess.on('error', () => {
+                clearTimeout(timeoutId);
+                this.processCache.set(cacheKey, false);
+                resolve(false);
+            });
+        });
+    }
+
+    /**
+     * Install cookiecutter if not available with optimized installation
+     * @param {Function} progressCallback - Progress callback function
+     * @returns {Promise<void>}
+     * @throws {Error} If installation fails
+     */
+    async installCookiecutter(progressCallback) {
+        const isInstalled = await this.isCookiecutterInstalled();
+        
+        if (isInstalled) {
+            if (progressCallback) {
+                progressCallback(20, 'Cookiecutter is already installed');
+            }
+            return;
+        }
+
+        if (progressCallback) {
+            progressCallback(10, 'Installing cookiecutter...');
+        }
+
+        return new Promise((resolve, reject) => {
+            const installProcess = (0,external_child_process_.spawn)('pip', ['install', 'cookiecutter'], {
+                stdio: 'pipe',
+                shell: true,
+                timeout: 120000 // 2 minutes timeout
+            });
+
+            let timeoutId = setTimeout(() => {
+                installProcess.kill('SIGTERM');
+                reject(new Error('Cookiecutter installation timed out'));
+            }, 120000);
+
+            installProcess.on('close', (code) => {
+                clearTimeout(timeoutId);
+                if (code === 0) {
+                    // Clear cache to force re-check
+                    this.processCache.delete('cookiecutter_installed');
+                    
+                    if (progressCallback) {
+                        progressCallback(20, 'Cookiecutter installed successfully');
+                    }
+                    resolve();
+                } else {
+                    reject(new Error('Failed to install cookiecutter'));
+                }
+            });
+
+            installProcess.on('error', (error) => {
+                clearTimeout(timeoutId);
+                reject(new Error(`Failed to install cookiecutter: ${error.message}`));
+            });
+        });
+    }
+
+    /**
+     * Clean up generated files on error with optimized cleanup
+     * @param {string} projectPath - Path to generated project
+     * @returns {Promise<void>}
+     */
+    async cleanupOnError(projectPath) {
+        try {
+            const resolvedPath = external_path_.resolve(projectPath);
+            
+            // Check if directory exists before attempting removal
+            try {
+                const stats = await promises_namespaceObject.stat(resolvedPath);
+                if (stats.isDirectory()) {
+                    await promises_namespaceObject.rm(resolvedPath, { recursive: true, force: true });
+                }
+            } catch (error) {
+                // Directory doesn't exist, nothing to clean up
+            }
+        } catch (error) {
+            // Ignore cleanup errors silently
+            console.warn('Failed to cleanup project directory:', error.message);
+        }
+    }
+
+    /**
+     * Get process cache statistics
+     * @returns {Object} Cache statistics
+     */
+    getCacheStats() {
+        return {
+            size: this.processCache.size,
+            entries: Array.from(this.processCache.entries())
+        };
+    }
+
+    /**
+     * Clear process cache
+     */
+    clearCache() {
+        this.processCache.clear();
+    }
+}
+
+;// CONCATENATED MODULE: ./src/modules/create/CreateCommand.js
+/**
+ * Create Command Implementation
+ * 
+ * High-performance command implementation that uses the application service
+ * to generate applications with optimized progress tracking and error handling.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+
+class CreateCommand extends create_ICreateCommand {
+    constructor(errorHandler) {
+        super();
+        this.errorHandler = errorHandler;
+        
+        // Initialize repositories with optimized instances
+        this.configRepository = new ConfigRepository();
+        this.templateRepository = new TemplateRepository();
+        this.executorRepository = new ExecutorRepository();
+        
+        // Initialize application service
+        this.appGenerationService = new AppGenerationService(
+            this.configRepository,
+            this.templateRepository,
+            this.executorRepository
+        );
+
+        // Performance tracking
+        this.executionStats = {
+            startTime: 0,
+            endTime: 0,
+            duration: 0
+        };
+    }
+
+    /**
+     * Execute the create command with optimized performance
+     * @param {Object} options - Command options
+     * @throws {Error} If execution fails
+     */
+    async execute(options) {
+        this.executionStats.startTime = Date.now();
+        
+        try {
+            // Validate required options with optimized validation
+            this.validateOptions(options);
+
+            // Execute app generation with performance tracking
+            const result = await this.appGenerationService.generateApp(
+                options.configFile,
+                options.outputPath,
+                (progress, message) => this.printProgress(progress, message)
+            );
+
+            // Log success with performance metrics (no duplicate 100% message)
+            this.executionStats.endTime = Date.now();
+            this.executionStats.duration = this.executionStats.endTime - this.executionStats.startTime;
+            
+            // Return result for potential use by calling code
+            return result;
+
+        } catch (error) {
+            // Handle error through error handler with performance tracking
+            this.executionStats.endTime = Date.now();
+            this.executionStats.duration = this.executionStats.endTime - this.executionStats.startTime;
+            
+            this.errorHandler.handleError(error);
+            throw error;
+        }
+    }
+
+    /**
+     * Validate command options with optimized validation
+     * @param {Object} options - Command options to validate
+     * @throws {Error} If validation fails
+     */
+    validateOptions(options) {
+        // Optimized validation with early returns
+        if (!options) {
+            throw new Error('Command options are required');
+        }
+
+        if (!options.configFile) {
+            throw new Error('Configuration file path is required');
+        }
+
+        if (typeof options.configFile !== 'string') {
+            throw new Error('Configuration file path must be a string');
+        }
+
+        if (options.configFile.trim() === '') {
+            throw new Error('Configuration file path cannot be empty');
+        }
+
+        // Validate output path if provided
+        if (options.outputPath && typeof options.outputPath !== 'string') {
+            throw new Error('Output path must be a string');
+        }
+
+        if (options.outputPath && options.outputPath.trim() === '') {
+            throw new Error('Output path cannot be empty');
+        }
+
+        // Additional validation for file path format
+        if (!options.configFile.includes('.json')) {
+            throw new Error('Configuration file must be a JSON file');
+        }
+    }
+
+    /**
+     * Print progress with optimized timestamp and caching
+     * @param {number} percentage - Progress percentage
+     * @param {string} message - Progress message
+     */
+    printProgress(percentage, message) {
+        const timestamp = new Date().toISOString();
+        const boundedPercentage = Math.min(100, Math.max(0, Math.round(percentage)));
+        
+        console.log(`[${timestamp}] Progress: ${boundedPercentage}% - ${message}`);
+    }
+
+    /**
+     * Get execution statistics
+     * @returns {Object} Execution statistics
+     */
+    getExecutionStats() {
+        return {
+            ...this.executionStats,
+            serviceStats: this.appGenerationService.getStats()
+        };
+    }
+
+    /**
+     * Clear all caches and reset statistics
+     */
+    clearCaches() {
+        this.appGenerationService.clearCaches();
+        this.executionStats = {
+            startTime: 0,
+            endTime: 0,
+            duration: 0
+        };
+    }
+}
+
+/* harmony default export */ const create_CreateCommand = ((/* unused pure expression or super */ null && (CreateCommand)));
+;// CONCATENATED MODULE: ./src/modules/build/IBuildCommand.js
+/**
+ * Interface for BuildCommand.
+ * @interface
+ */
+class IBuildCommand {
+  /**
+   * Executes the build command.
+   * @param {Object} options - Options for executing the build command.
+   */
+  execute(options) {
+    throw new Error('Method not implemented');
+  }
+}
+
+/* harmony default export */ const build_IBuildCommand = (IBuildCommand);
+
+;// CONCATENATED MODULE: ./src/infrastructure/repositories/AndroidBuildRepository.js
+/**
+ * Android Build Repository Implementation
+ * 
+ * High-performance implementation of Android build operations
+ * with optimized process management, keystore integration, and build automation.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+class AndroidBuildRepository {
+    constructor() {
+        this.timeoutMs = 600000; // 10 minutes
+        this.maxRetries = 3;
+        this.buildCache = new Map();
+    }
+
+    /**
+     * Build Android debug APK
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} options - Build options
+     * @returns {Promise<Object>} Build result
+     */
+    async buildDebugAPK(projectPath, appConfig, options) {
+        const startTime = Date.now();
+        const progressCallback = options.progressCallback || (() => {});
+        
+        try {
+            progressCallback(40, 'Validating Android project structure...');
+            // Validate Android project structure
+            await this.validateAndroidProject(projectPath);
+            
+            progressCallback(50, 'Preparing build environment...');
+            // Prepare build environment
+            await this.prepareBuildEnvironment(projectPath, appConfig, 'debug');
+            
+            progressCallback(60, 'Executing Gradle debug build...');
+            // Execute debug build
+            const result = await this.executeGradleBuild(projectPath, 'assembleDebug', {
+                ...options,
+                progressCallback: (progress, message) => {
+                    // Map progress from 60-85% for the gradle build
+                    const mappedProgress = 60 + (progress * 0.25);
+                    progressCallback(mappedProgress, message);
+                }
+            });
+            
+            progressCallback(85, 'Copying APK to output directory...');
+            // Get output file information
+            const outputPath = external_path_.join(projectPath, 'build', 'android', 'debug');
+            const apkPath = external_path_.join(outputPath, `${appConfig.projectName}-debug.apk`);
+            
+            // Ensure output directory exists
+            await promises_namespaceObject.mkdir(outputPath, { recursive: true });
+            
+            // Copy APK to output directory
+            const sourceApkPath = external_path_.join(projectPath, 'android', 'app', 'build', 'outputs', 'apk', 'debug', 'app-debug.apk');
+            await promises_namespaceObject.copyFile(sourceApkPath, apkPath);
+            
+            // Get file size
+            const stats = await promises_namespaceObject.stat(apkPath);
+            const fileSize = this.formatFileSize(stats.size);
+            
+            progressCallback(90, 'Debug APK build completed successfully');
+            
+            const duration = Date.now() - startTime;
+            
+            return {
+                success: true,
+                outputPath: apkPath,
+                fileSize,
+                duration
+            };
+        } catch (error) {
+            throw new Error(`Debug APK build failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Build Android release APK
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} options - Build options
+     * @returns {Promise<Object>} Build result
+     */
+    async buildReleaseAPK(projectPath, appConfig, options) {
+        const startTime = Date.now();
+        
+        try {
+            // Validate Android project structure
+            await this.validateAndroidProject(projectPath);
+            
+            // Prepare build environment with keystore
+            await this.prepareBuildEnvironment(projectPath, appConfig, 'release');
+            
+            // Execute release build
+            const result = await this.executeGradleBuild(projectPath, 'assembleRelease', options);
+            
+            // Get output file information
+            const outputPath = external_path_.join(projectPath, 'build', 'android', 'release');
+            const apkPath = external_path_.join(outputPath, `${appConfig.projectName}-release.apk`);
+            
+            // Ensure output directory exists
+            await promises_namespaceObject.mkdir(outputPath, { recursive: true });
+            
+            // Copy APK to output directory
+            const sourceApkPath = external_path_.join(projectPath, 'android', 'app', 'build', 'outputs', 'apk', 'release', 'app-release.apk');
+            await promises_namespaceObject.copyFile(sourceApkPath, apkPath);
+            
+            // Get file size
+            const stats = await promises_namespaceObject.stat(apkPath);
+            const fileSize = this.formatFileSize(stats.size);
+            
+            const duration = Date.now() - startTime;
+            
+            return {
+                success: true,
+                outputPath: apkPath,
+                fileSize,
+                duration,
+                keystoreUsed: `${appConfig.projectName}-release-key.keystore`
+            };
+        } catch (error) {
+            throw new Error(`Release APK build failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Build Android AAB bundle
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} options - Build options
+     * @returns {Promise<Object>} Build result
+     */
+    async buildAABBundle(projectPath, appConfig, options) {
+        const startTime = Date.now();
+        
+        try {
+            // Validate Android project structure
+            await this.validateAndroidProject(projectPath);
+            
+            // Prepare build environment with keystore
+            await this.prepareBuildEnvironment(projectPath, appConfig, 'release');
+            
+            // Execute AAB build
+            const result = await this.executeGradleBuild(projectPath, 'bundleRelease', options);
+            
+            // Get output file information
+            const outputPath = external_path_.join(projectPath, 'build', 'android', 'aab');
+            const aabPath = external_path_.join(outputPath, `${appConfig.projectName}-release.aab`);
+            
+            // Ensure output directory exists
+            await promises_namespaceObject.mkdir(outputPath, { recursive: true });
+            
+            // Copy AAB to output directory
+            const sourceAabPath = external_path_.join(projectPath, 'android', 'app', 'build', 'outputs', 'bundle', 'release', 'app-release.aab');
+            await promises_namespaceObject.copyFile(sourceAabPath, aabPath);
+            
+            // Get file size
+            const stats = await promises_namespaceObject.stat(aabPath);
+            const fileSize = this.formatFileSize(stats.size);
+            
+            const duration = Date.now() - startTime;
+            
+            return {
+                success: true,
+                outputPath: aabPath,
+                fileSize,
+                duration,
+                keystoreUsed: `${appConfig.projectName}-release-key.keystore`
+            };
+        } catch (error) {
+            throw new Error(`AAB bundle build failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Validate Android project structure
+     * @param {string} projectPath - Path to the project
+     * @throws {Error} If project structure is invalid
+     */
+    async validateAndroidProject(projectPath) {
+        const requiredFiles = [
+            'android/app/build.gradle',
+            'android/gradle.properties',
+            'android/gradlew',
+            'android/settings.gradle'
+        ];
+
+        for (const file of requiredFiles) {
+            const filePath = external_path_.join(projectPath, file);
+            try {
+                await promises_namespaceObject.access(filePath);
+            } catch (error) {
+                throw new Error(`Required Android file not found: ${file}`);
+            }
+        }
+    }
+
+    /**
+     * Prepare build environment
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {string} buildType - Build type (debug/release)
+     */
+    async prepareBuildEnvironment(projectPath, appConfig, buildType) {
+        // Update gradle.properties with build configuration
+        await this.updateGradleProperties(projectPath, appConfig, buildType);
+        
+        // Update build.gradle with signing configuration for release builds
+        if (buildType === 'release') {
+            await this.updateBuildGradle(projectPath, appConfig);
+        }
+    }
+
+    /**
+     * Update gradle.properties with build configuration
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {string} buildType - Build type
+     */
+    async updateGradleProperties(projectPath, appConfig, buildType) {
+        const gradlePropertiesPath = external_path_.join(projectPath, 'android', 'gradle.properties');
+        const buildConfig = appConfig.build?.android || {};
+        
+        let gradleProperties = await promises_namespaceObject.readFile(gradlePropertiesPath, 'utf8');
+        
+        // Only add signing configuration for release builds
+        if (buildType === 'release') {
+            const keystoreConfig = buildConfig.keystore || {};
+            const signingConfigLines = [
+                '',
+                '# AppAnySite Release Signing Configuration',
+                `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
+                `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
+                `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
+                `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
+            ];
+            
+            gradleProperties += signingConfigLines.join('\n');
+            await promises_namespaceObject.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
+        }
+    }
+
+    /**
+     * Update build.gradle with signing configuration
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     */
+    async updateBuildGradle(projectPath, appConfig) {
+        const buildGradlePath = external_path_.join(projectPath, 'android', 'app', 'build.gradle');
+        let buildGradle = await promises_namespaceObject.readFile(buildGradlePath, 'utf8');
+        
+        // Add signing configuration if not exists
+        if (!buildGradle.includes('signingConfigs.release')) {
+            const signingConfig = `
+        release {
+            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file(MYAPP_UPLOAD_STORE_FILE)
+                storePassword MYAPP_UPLOAD_STORE_PASSWORD
+                keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+            }
+        }`;
+            
+            // Insert signing config after debug config
+            buildGradle = buildGradle.replace(
+                /(signingConfigs\s*\{\s*debug\s*\{[^}]*\})/,
+                `$1${signingConfig}`
+            );
+            
+            // Update release buildType to use release signing
+            buildGradle = buildGradle.replace(
+                /signingConfig signingConfigs\.debug/,
+                'signingConfig signingConfigs.release'
+            );
+            
+            await promises_namespaceObject.writeFile(buildGradlePath, buildGradle, 'utf8');
+        }
+    }
+
+    /**
+     * Execute Gradle build command
+     * @param {string} projectPath - Path to the project
+     * @param {string} task - Gradle task to execute
+     * @param {Object} options - Build options
+     * @returns {Promise<Object>} Build result
+     */
+    async executeGradleBuild(projectPath, task, options) {
+        return new Promise((resolve, reject) => {
+            const gradlewPath = external_path_.join(projectPath, 'android', 'gradlew');
+            const androidPath = external_path_.join(projectPath, 'android');
+            const progressCallback = options.progressCallback || (() => {});
+            
+            const gradleProcess = (0,external_child_process_.spawn)('./gradlew', [task], {
+                stdio: ['pipe', 'pipe', 'pipe'],
+                shell: true,
+                cwd: androidPath,
+                env: { ...process.env, JAVA_HOME: process.env.JAVA_HOME }
+            });
+
+            let stdout = '';
+            let stderr = '';
+            let isCompleted = false;
+            let timeoutId = null;
+            let progressCounter = 0;
+
+            // Handle stdout
+            gradleProcess.stdout.on('data', (data) => {
+                stdout += data.toString();
+                progressCounter++;
+                if (progressCounter % 10 === 0) {
+                    // Cap progress at 95% during build, 100% will be called on completion
+                    const cappedProgress = Math.min(progressCounter, 95);
+                    progressCallback(cappedProgress, 'Gradle build in progress...');
+                }
+            });
+
+            // Handle stderr
+            gradleProcess.stderr.on('data', (data) => {
+                stderr += data.toString();
+            });
+
+            // Handle process completion
+            gradleProcess.on('close', (code) => {
+                isCompleted = true;
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+
+                if (code === 0) {
+                    progressCallback(100, 'Gradle build completed successfully');
+                    resolve({ success: true, stdout, stderr });
+                } else {
+                    reject(new Error(`Gradle build failed with code ${code}. Stderr: ${stderr}`));
+                }
+            });
+
+            // Handle process errors
+            gradleProcess.on('error', (error) => {
+                isCompleted = true;
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+                
+                reject(new Error(`Failed to execute Gradle build: ${error.message}`));
+            });
+
+            // Set timeout
+            timeoutId = setTimeout(() => {
+                if (!isCompleted) {
+                    isCompleted = true;
+                    gradleProcess.kill('SIGTERM');
+                    reject(new Error('Gradle build timed out'));
+                }
+            }, this.timeoutMs);
+        });
+    }
+
+    /**
+     * Format file size for display
+     * @param {number} bytes - File size in bytes
+     * @returns {string} Formatted file size
+     */
+    formatFileSize(bytes) {
+        const sizes = ['B', 'KB', 'MB', 'GB'];
+        if (bytes === 0) return '0 B';
+        const i = Math.floor(Math.log(bytes) / Math.log(1024));
+        return Math.round(bytes / Math.pow(1024, i) * 100) / 100 + ' ' + sizes[i];
+    }
+
+    /**
+     * Get repository statistics
+     * @returns {Object} Repository statistics
+     */
+    getStats() {
+        return {
+            buildCacheSize: this.buildCache.size,
+            timeoutMs: this.timeoutMs,
+            maxRetries: this.maxRetries
+        };
+    }
+
+    /**
+     * Clear build cache
+     */
+    clearCache() {
+        this.buildCache.clear();
+    }
+}
+
+;// CONCATENATED MODULE: ./src/infrastructure/repositories/KeystoreRepository.js
+/**
+ * Keystore Repository Implementation
+ * 
+ * High-performance implementation of keystore management
+ * with automatic keystore creation and configuration.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+class KeystoreRepository {
+    constructor() {
+        this.timeoutMs = 60000; // 1 minute
+        this.maxRetries = 3;
+        this.keystoreCache = new Map();
+    }
+
+    /**
+     * Create keystore for project
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @returns {Promise<Object>} Keystore result
+     */
+    async createKeystore(projectPath, appConfig) {
+        const startTime = Date.now();
+        
+        try {
+            // Get keystore configuration
+            const keystoreConfig = appConfig.build?.android?.keystore || {};
+            
+            // Prepare keystore path
+            const keystoreDir = external_path_.join(projectPath, 'build', 'android', 'keystores');
+            const keystorePath = external_path_.join(keystoreDir, `${appConfig.projectName}-release-key.keystore`);
+            
+            // Ensure keystore directory exists
+            await promises_namespaceObject.mkdir(keystoreDir, { recursive: true });
+            
+            // Create keystore using keytool
+            await this.executeKeytoolCommand(keystorePath, appConfig, keystoreConfig);
+            
+            // Update gradle.properties with keystore configuration
+            await this.updateGradleProperties(projectPath, appConfig, keystorePath);
+            
+            const duration = Date.now() - startTime;
+            
+            return {
+                success: true,
+                keystorePath,
+                projectName: appConfig.projectName,
+                duration
+            };
+        } catch (error) {
+            throw new Error(`Keystore creation failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Execute keytool command to create keystore
+     * @param {string} keystorePath - Path to keystore file
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} keystoreConfig - Keystore configuration
+     * @returns {Promise<void>}
+     */
+    async executeKeytoolCommand(keystorePath, appConfig, keystoreConfig) {
+        return new Promise((resolve, reject) => {
+            const certInfo = keystoreConfig.certificateInfo || {};
+            
+            const args = [
+                '-genkeypair',
+                '-v',
+                '-storetype', keystoreConfig.storeType,
+                '-keystore', keystorePath,
+                '-alias', keystoreConfig.defaultAlias,
+                '-keyalg', keystoreConfig.keyAlgorithm,
+                '-keysize', keystoreConfig.keySize.toString(),
+                '-validity', keystoreConfig.validity.toString(),
+                '-storepass', keystoreConfig.defaultPassword,
+                '-keypass', keystoreConfig.defaultPassword,
+                '-dname', `"CN=${certInfo.commonName},OU=${certInfo.organizationalUnit},O=${certInfo.organization},L=${certInfo.locality},ST=${certInfo.state},C=${certInfo.country}"`,
+                '-noprompt'
+            ];
+            
+            const keytoolProcess = (0,external_child_process_.spawn)('keytool', args, {
+                stdio: ['pipe', 'pipe', 'pipe'],
+                shell: true,
+                env: { ...process.env }
+            });
+
+            let stdout = '';
+            let stderr = '';
+            let isCompleted = false;
+            let timeoutId = null;
+
+            // Handle stdout
+            keytoolProcess.stdout.on('data', (data) => {
+                stdout += data.toString();
+            });
+
+            // Handle stderr
+            keytoolProcess.stderr.on('data', (data) => {
+                stderr += data.toString();
+            });
+
+            // Handle process completion
+            keytoolProcess.on('close', (code) => {
+                isCompleted = true;
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+
+                if (code === 0) {
+                    resolve({ success: true, stdout, stderr });
+                } else {
+                    reject(new Error(`Keytool failed with code ${code}. Stderr: ${stderr}`));
+                }
+            });
+
+            // Handle process errors
+            keytoolProcess.on('error', (error) => {
+                isCompleted = true;
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+                
+                reject(new Error(`Failed to execute keytool: ${error.message}`));
+            });
+
+            // Set timeout
+            timeoutId = setTimeout(() => {
+                if (!isCompleted) {
+                    isCompleted = true;
+                    keytoolProcess.kill('SIGTERM');
+                    reject(new Error('Keytool execution timed out'));
+                }
+            }, this.timeoutMs);
+        });
+    }
+
+    /**
+     * Update gradle.properties with keystore configuration
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {string} keystorePath - Path to keystore file
+     */
+    async updateGradleProperties(projectPath, appConfig, keystorePath) {
+        const gradlePropertiesPath = external_path_.join(projectPath, 'android', 'gradle.properties');
+        const keystoreConfig = appConfig.build?.android?.keystore || {};
+        
+        let gradleProperties = '';
+        
+        try {
+            gradleProperties = await promises_namespaceObject.readFile(gradlePropertiesPath, 'utf8');
+        } catch (error) {
+            // File doesn't exist, start with empty content
+        }
+        
+        // Add keystore configuration
+        const keystoreConfigLines = [
+            '',
+            '# AppAnySite Keystore Configuration',
+            `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
+            `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
+            `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
+            `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
+        ];
+        
+        gradleProperties += keystoreConfigLines.join('\n');
+        await promises_namespaceObject.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
+    }
+
+    /**
+     * Get repository statistics
+     * @returns {Object} Repository statistics
+     */
+    getStats() {
+        return {
+            keystoreCacheSize: this.keystoreCache.size,
+            timeoutMs: this.timeoutMs,
+            maxRetries: this.maxRetries
+        };
+    }
+
+    /**
+     * Clear keystore cache
+     */
+    clearCache() {
+        this.keystoreCache.clear();
+    }
+}
+
+;// CONCATENATED MODULE: ./src/application/services/BuildService.js
+/**
+ * Build Service
+ * 
+ * High-performance service that orchestrates Android build operations
+ * with automatic keystore management and optimized build processes.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+
+
+class BuildService {
+    constructor() {
+        this.androidBuildRepository = new AndroidBuildRepository();
+        this.keystoreRepository = new KeystoreRepository();
+        this.configRepository = new ConfigRepository();
+        this.buildCache = new Map();
+        this.currentProgress = 0;
+    }
+
+    /**
+     * Build Android debug APK
+     * @param {string} projectPath - Path to the project
+     * @param {Object} options - Build options
+     * @returns {Promise<Object>} Build result
+     */
+    async buildAndroidDebug(projectPath, options) {
+        const startTime = Date.now();
+        
+        try {
+            const progressCallback = options.progressCallback || (() => {});
+            
+            progressCallback(20, 'Loading project configuration...');
+            // Load project configuration
+            const configData = await this.loadProjectConfig(projectPath);
+            const appConfig = new AppConfig(configData);
+            
+            progressCallback(25, 'Validating project structure...');
+            // Validate project structure
+            await this.validateProjectStructure(projectPath);
+            
+            progressCallback(30, 'Building Android debug APK...');
+            // Build debug APK
+            const result = await this.androidBuildRepository.buildDebugAPK(projectPath, appConfig, {
+                ...options,
+                progressCallback: (progress, message) => {
+                    // Map progress from 30-100% for the build process
+                    const mappedProgress = 30 + (progress * 0.70);
+                    progressCallback(mappedProgress, message);
+                }
+            });
+            
+            progressCallback(100, 'Debug build completed successfully');
+            
+            const duration = Date.now() - startTime;
+            return {
+                success: true,
+                buildType: 'debug',
+                projectName: appConfig.projectName,
+                duration,
+                outputPath: result.outputPath,
+                fileSize: result.fileSize
+            };
+        } catch (error) {
+            throw new Error(`Debug APK build failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Build Android release APK
+     * @param {string} projectPath - Path to the project
+     * @param {Object} options - Build options
+     * @returns {Promise<Object>} Build result
+     */
+    async buildAndroidRelease(projectPath, options) {
+        const startTime = Date.now();
+        
+        try {
+            const progressCallback = options.progressCallback || (() => {});
+            
+            progressCallback(20, 'Loading project configuration...');
+            // Load project configuration
+            const configData = await this.loadProjectConfig(projectPath);
+            const appConfig = new AppConfig(configData);
+            
+            progressCallback(25, 'Validating project structure...');
+            // Validate project structure
+            await this.validateProjectStructure(projectPath);
+            
+            progressCallback(30, 'Ensuring keystore exists...');
+            // Ensure keystore exists
+            await this.ensureKeystoreExists(projectPath, appConfig);
+            
+            progressCallback(35, 'Building Android release APK...');
+            // Build release APK
+            const result = await this.androidBuildRepository.buildReleaseAPK(projectPath, appConfig, {
+                ...options,
+                progressCallback: (progress, message) => {
+                    // Map progress from 35-100% for the build process
+                    const mappedProgress = 35 + (progress * 0.65);
+                    progressCallback(mappedProgress, message);
+                }
+            });
+            
+            progressCallback(100, 'Release build completed successfully');
+            
+            const duration = Date.now() - startTime;
+            return {
+                success: true,
+                buildType: 'release',
+                projectName: appConfig.projectName,
+                duration,
+                outputPath: result.outputPath,
+                fileSize: result.fileSize,
+                keystoreUsed: result.keystoreUsed
+            };
+        } catch (error) {
+            throw new Error(`Release APK build failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Build Android AAB bundle
+     * @param {string} projectPath - Path to the project
+     * @param {Object} options - Build options
+     * @returns {Promise<Object>} Build result
+     */
+    async buildAndroidAAB(projectPath, options) {
+        const startTime = Date.now();
+        
+        try {
+            // Load project configuration
+            const configData = await this.loadProjectConfig(projectPath);
+            const appConfig = new AppConfig(configData);
+            
+            // Validate project structure
+            await this.validateProjectStructure(projectPath);
+            
+            // Ensure keystore exists
+            await this.ensureKeystoreExists(projectPath, appConfig);
+            
+            // Build AAB bundle
+            const result = await this.androidBuildRepository.buildAABBundle(projectPath, appConfig, options);
+            
+            const duration = Date.now() - startTime;
+            return {
+                success: true,
+                buildType: 'aab',
+                projectName: appConfig.projectName,
+                duration,
+                outputPath: result.outputPath,
+                fileSize: result.fileSize,
+                keystoreUsed: result.keystoreUsed
+            };
+        } catch (error) {
+            throw new Error(`AAB bundle build failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Build all Android artifacts (debug, release, AAB)
+     * @param {string} projectPath - Path to the project
+     * @param {Object} options - Build options
+     * @returns {Promise<Object>} Build result
+     */
+    async buildAndroidAll(projectPath, options) {
+        const startTime = Date.now();
+        
+        try {
+            // Load project configuration
+            const configData = await this.loadProjectConfig(projectPath);
+            const appConfig = new AppConfig(configData);
+            
+            // Validate project structure
+            await this.validateProjectStructure(projectPath);
+            
+            // Ensure keystore exists for release builds
+            await this.ensureKeystoreExists(projectPath, appConfig);
+            
+            // Build all artifacts in parallel
+            const [debugResult, releaseResult, aabResult] = await Promise.all([
+                this.androidBuildRepository.buildDebugAPK(projectPath, appConfig, options),
+                this.androidBuildRepository.buildReleaseAPK(projectPath, appConfig, options),
+                this.androidBuildRepository.buildAABBundle(projectPath, appConfig, options)
+            ]);
+            
+            const duration = Date.now() - startTime;
+            return {
+                success: true,
+                buildType: 'all',
+                projectName: appConfig.projectName,
+                duration,
+                artifacts: {
+                    debug: {
+                        outputPath: debugResult.outputPath,
+                        fileSize: debugResult.fileSize
+                    },
+                    release: {
+                        outputPath: releaseResult.outputPath,
+                        fileSize: releaseResult.fileSize,
+                        keystoreUsed: releaseResult.keystoreUsed
+                    },
+                    aab: {
+                        outputPath: aabResult.outputPath,
+                        fileSize: aabResult.fileSize,
+                        keystoreUsed: aabResult.keystoreUsed
+                    }
+                }
+            };
+        } catch (error) {
+            throw new Error(`All Android builds failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Load project configuration
+     * @param {string} projectPath - Path to the project
+     * @returns {Promise<Object>} Configuration data
+     */
+    async loadProjectConfig(projectPath) {
+        const configPath = external_path_.join(projectPath, 'app-config.json');
+        
+        try {
+            return await this.configRepository.loadConfig(configPath);
+        } catch (error) {
+            throw new Error(`Failed to load project configuration: ${error.message}`);
+        }
+    }
+
+    /**
+     * Validate project structure
+     * @param {string} projectPath - Path to the project
+     * @throws {Error} If project structure is invalid
+     */
+    async validateProjectStructure(projectPath) {
+        const requiredFiles = [
+            'package.json',
+            'android/app/build.gradle',
+            'android/gradle.properties',
+            'app-config.json'
+        ];
+
+        for (const file of requiredFiles) {
+            const filePath = external_path_.join(projectPath, file);
+            try {
+                await promises_namespaceObject.access(filePath);
+            } catch (error) {
+                throw new Error(`Required file not found: ${file}`);
+            }
+        }
+    }
+
+    /**
+     * Ensure keystore exists for the project
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     */
+    async ensureKeystoreExists(projectPath, appConfig) {
+        const keystorePath = external_path_.join(projectPath, 'build', 'android', 'keystores', `${appConfig.projectName}-release-key.keystore`);
+        
+        try {
+            await promises_namespaceObject.access(keystorePath);
+        } catch (error) {
+            // Keystore doesn't exist, create it
+            await this.keystoreRepository.createKeystore(projectPath, appConfig);
+        }
+    }
+
+    /**
+     * Get service statistics
+     * @returns {Object} Service statistics
+     */
+    getStats() {
+        return {
+            buildCacheSize: this.buildCache.size,
+            currentProgress: this.currentProgress,
+            androidBuildStats: this.androidBuildRepository.getStats(),
+            keystoreStats: this.keystoreRepository.getStats()
+        };
+    }
+
+    /**
+     * Clear build cache
+     */
+    clearCaches() {
+        this.buildCache.clear();
+        this.currentProgress = 0;
+        this.androidBuildRepository.clearCache();
+        this.keystoreRepository.clearCache();
+    }
+}
+
+;// CONCATENATED MODULE: ./src/infrastructure/repositories/BundleRepository.js
+/**
+ * Bundle Repository Implementation
+ * 
+ * High-performance implementation of React Native bundle generation
+ * with optimized asset management and universal bundle creation.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+class BundleRepository {
+    constructor() {
+        this.timeoutMs = 300000; // 5 minutes
+        this.maxRetries = 3;
+        this.bundleCache = new Map();
+    }
+
+    /**
+     * Generate React Native bundle
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} bundleConfig - Bundle configuration
+     * @returns {Promise<Object>} Bundle result
+     */
+    async generateBundle(projectPath, appConfig, bundleConfig) {
+        const startTime = Date.now();
+        
+        try {
+            // Validate project structure
+            await this.validateProjectStructure(projectPath);
+            
+            // Prepare bundle environment
+            await this.prepareBundleEnvironment(projectPath, appConfig, bundleConfig);
+            
+            // Execute bundle generation
+            const result = await this.executeBundleCommand(projectPath, appConfig, bundleConfig);
+            
+            // Get output file information AFTER bundle generation
+            const outputPath = external_path_.join(projectPath, bundleConfig.output, appConfig.projectName);
+            const bundlePath = external_path_.join(outputPath, bundleConfig.bundleName);
+            const assetsPath = external_path_.join(outputPath, bundleConfig.assetsDest);
+            
+            // Get file size (now the bundle should exist)
+            let fileSize = '0 B';
+            let assetsCount = 0;
+            
+            try {
+                const stats = await promises_namespaceObject.stat(bundlePath);
+                fileSize = this.formatFileSize(stats.size);
+            } catch (error) {
+                console.warn('Bundle file not found after generation:', error.message);
+            }
+            
+            // Count assets
+            try {
+                assetsCount = await this.countAssets(assetsPath);
+            } catch (error) {
+                console.warn('Assets directory not found:', error.message);
+            }
+            
+            const duration = Date.now() - startTime;
+            
+            return {
+                success: true,
+                outputPath,
+                bundlePath,
+                assetsPath,
+                fileSize,
+                assetsCount,
+                duration
+            };
+        } catch (error) {
+            throw new Error(`Bundle generation failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Validate project structure
+     * @param {string} projectPath - Path to the project
+     * @throws {Error} If project structure is invalid
+     */
+    async validateProjectStructure(projectPath) {
+        const requiredFiles = [
+            'package.json',
+            'index.js',
+            'node_modules'
+        ];
+
+        for (const file of requiredFiles) {
+            const filePath = external_path_.join(projectPath, file);
+            try {
+                await promises_namespaceObject.access(filePath);
+            } catch (error) {
+                throw new Error(`Required file not found: ${file}`);
+            }
+        }
+    }
+
+    /**
+     * Prepare bundle environment
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} bundleConfig - Bundle configuration
+     */
+    async prepareBundleEnvironment(projectPath, appConfig, bundleConfig) {
+        // Create output directory structure
+        const outputPath = external_path_.join(projectPath, bundleConfig.output, appConfig.projectName);
+        await promises_namespaceObject.mkdir(outputPath, { recursive: true });
+        
+        // Create assets directory
+        const assetsPath = external_path_.join(outputPath, bundleConfig.assetsDest);
+        await promises_namespaceObject.mkdir(assetsPath, { recursive: true });
+    }
+
+    /**
+     * Execute React Native bundle command
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} bundleConfig - Bundle configuration
+     * @returns {Promise<Object>} Bundle result
+     */
+    async executeBundleCommand(projectPath, appConfig, bundleConfig) {
+        return new Promise((resolve, reject) => {
+            // Use relative paths for React Native bundle command
+            const outputPath = external_path_.join(bundleConfig.output, appConfig.projectName);
+            const bundlePath = external_path_.join(outputPath, bundleConfig.bundleName);
+            const assetsPath = external_path_.join(outputPath, bundleConfig.assetsDest);
+            
+            // Prepare bundle command arguments
+            const args = [
+                'react-native', 'bundle',
+                '--platform', bundleConfig.platform,
+                '--dev', bundleConfig.dev.toString(),
+                '--entry-file', bundleConfig.entryFile,
+                '--bundle-output', bundlePath,
+                '--assets-dest', assetsPath
+            ];
+            
+            // Add optional arguments
+            if (bundleConfig.sourceMap) {
+                args.push('--sourcemap-output', `${bundlePath}.map`);
+            }
+            
+            if (bundleConfig.resetCache) {
+                args.push('--reset-cache');
+            }
+            
+            const bundleProcess = (0,external_child_process_.spawn)('npx', args, {
+                stdio: ['pipe', 'pipe', 'pipe'],
+                shell: true,
+                cwd: projectPath,
+                env: { ...process.env, NODE_ENV: bundleConfig.dev ? 'development' : 'production' }
+            });
+
+            let stdout = '';
+            let stderr = '';
+            let isCompleted = false;
+            let timeoutId = null;
+
+            // Handle stdout
+            bundleProcess.stdout.on('data', (data) => {
+                stdout += data.toString();
+            });
+
+            // Handle stderr
+            bundleProcess.stderr.on('data', (data) => {
+                stderr += data.toString();
+            });
+
+            // Handle process completion
+            bundleProcess.on('close', (code) => {
+                isCompleted = true;
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+
+                if (code === 0) {
+                    resolve({ success: true, stdout, stderr });
+                } else {
+                    reject(new Error(`Bundle generation failed with code ${code}. Stderr: ${stderr}`));
+                }
+            });
+
+            // Handle process errors
+            bundleProcess.on('error', (error) => {
+                isCompleted = true;
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+                
+                reject(new Error(`Failed to execute bundle generation: ${error.message}`));
+            });
+
+            // Set timeout
+            timeoutId = setTimeout(() => {
+                if (!isCompleted) {
+                    isCompleted = true;
+                    bundleProcess.kill('SIGTERM');
+                    reject(new Error('Bundle generation timed out'));
+                }
+            }, this.timeoutMs);
+        });
+    }
+
+    /**
+     * Count assets in assets directory
+     * @param {string} assetsPath - Path to assets directory
+     * @returns {Promise<number>} Number of assets
+     */
+    async countAssets(assetsPath) {
+        try {
+            const files = await promises_namespaceObject.readdir(assetsPath, { recursive: true });
+            return files.length;
+        } catch (error) {
+            return 0;
+        }
+    }
+
+    /**
+     * Format file size for display
+     * @param {number} bytes - File size in bytes
+     * @returns {string} Formatted file size
+     */
+    formatFileSize(bytes) {
+        const sizes = ['B', 'KB', 'MB', 'GB'];
+        if (bytes === 0) return '0 B';
+        const i = Math.floor(Math.log(bytes) / Math.log(1024));
+        return Math.round(bytes / Math.pow(1024, i) * 100) / 100 + ' ' + sizes[i];
+    }
+
+    /**
+     * Get repository statistics
+     * @returns {Object} Repository statistics
+     */
+    getStats() {
+        return {
+            bundleCacheSize: this.bundleCache.size,
+            timeoutMs: this.timeoutMs,
+            maxRetries: this.maxRetries
+        };
+    }
+
+    /**
+     * Clear bundle cache
+     */
+    clearCache() {
+        this.bundleCache.clear();
+    }
+}
+
+;// CONCATENATED MODULE: ./src/application/services/BundleService.js
+/**
+ * Bundle Service
+ * 
+ * High-performance service that handles React Native bundle generation
+ * with optimized asset management and universal bundle creation.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+
+
+class BundleService {
+    constructor() {
+        this.bundleRepository = new BundleRepository();
+        this.configRepository = new ConfigRepository();
+        this.bundleCache = new Map();
+        this.currentProgress = 0;
+    }
+
+    /**
+     * Generate React Native bundle
+     * @param {string} projectPath - Path to the project
+     * @param {Object} options - Bundle options
+     * @returns {Promise<Object>} Bundle result
+     */
+    async generateBundle(projectPath, options) {
+        const startTime = Date.now();
+        
+        try {
+            // Load project configuration
+            if (options.progressCallback) {
+                options.progressCallback(5, 'Loading project configuration...');
+            }
+            const configData = await this.loadProjectConfig(projectPath);
+            const appConfig = new AppConfig(configData);
+            
+            // Validate project structure and install dependencies if needed
+            if (options.progressCallback) {
+                options.progressCallback(10, 'Validating project structure...');
+            }
+            await this.validateProjectStructure(projectPath, { progressCallback: options.progressCallback });
+            
+            // Get bundle configuration
+            if (options.progressCallback) {
+                options.progressCallback(25, 'Preparing bundle configuration...');
+            }
+            const bundleConfig = this.getBundleConfig(appConfig, options);
+            
+            // Generate bundle
+            if (options.progressCallback) {
+                options.progressCallback(30, 'Generating React Native bundle...');
+            }
+            const result = await this.bundleRepository.generateBundle(projectPath, appConfig, bundleConfig);
+            
+            if (options.progressCallback) {
+                options.progressCallback(90, 'Bundle generation completed');
+            }
+            
+            if (options.progressCallback) {
+                options.progressCallback(100, 'Bundle generation completed successfully');
+            }
+            
+            const duration = Date.now() - startTime;
+            return {
+                success: true,
+                projectName: appConfig.projectName,
+                duration,
+                outputPath: result.outputPath,
+                bundlePath: result.bundlePath,
+                assetsPath: result.assetsPath,
+                fileSize: result.fileSize,
+                assetsCount: result.assetsCount
+            };
+        } catch (error) {
+            throw new Error(`Bundle generation failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Load project configuration
+     * @param {string} projectPath - Path to the project
+     * @returns {Promise<Object>} Configuration data
+     */
+    async loadProjectConfig(projectPath) {
+        const configPath = external_path_.join(projectPath, 'app-config.json');
+        
+        try {
+            return await this.configRepository.loadConfig(configPath);
+        } catch (error) {
+            throw new Error(`Failed to load project configuration: ${error.message}`);
+        }
+    }
+
+    /**
+     * Validate project structure and install dependencies if needed
+     * @param {string} projectPath - Path to the project
+     * @param {Object} options - Bundle options with progress callback
+     * @throws {Error} If project structure is invalid
+     */
+    async validateProjectStructure(projectPath, options = {}) {
+        const requiredFiles = [
+            'package.json',
+            'index.js',
+            'app-config.json'
+        ];
+
+        // Check required files
+        for (const file of requiredFiles) {
+            const filePath = external_path_.join(projectPath, file);
+            try {
+                await promises_namespaceObject.access(filePath);
+            } catch (error) {
+                throw new Error(`Required file not found: ${file}`);
+            }
+        }
+
+        // Check if node_modules exists
+        const nodeModulesPath = external_path_.join(projectPath, 'node_modules');
+        try {
+            await promises_namespaceObject.access(nodeModulesPath);
+            // node_modules exists, no need to install
+            if (options.progressCallback) {
+                options.progressCallback(20, 'Dependencies already installed');
+            }
+        } catch (error) {
+            // node_modules doesn't exist, install dependencies
+            if (options.progressCallback) {
+                options.progressCallback(10, 'Installing project dependencies...');
+            }
+            await this.installDependencies(projectPath, options.progressCallback);
+        }
+    }
+
+    /**
+     * Install project dependencies
+     * @param {string} projectPath - Path to the project
+     * @param {Function} progressCallback - Progress callback function
+     * @returns {Promise<void>}
+     */
+    async installDependencies(projectPath, progressCallback) {
+        return new Promise((resolve, reject) => {
+            const installProcess = (0,external_child_process_.spawn)('npm', ['install'], {
+                stdio: ['pipe', 'pipe', 'pipe'],
+                shell: true,
+                cwd: projectPath,
+                env: { ...process.env, NODE_ENV: 'production' }
+            });
+
+            let stdout = '';
+            let stderr = '';
+            let isCompleted = false;
+            let timeoutId = null;
+
+            // Handle stdout
+            installProcess.stdout.on('data', (data) => {
+                stdout += data.toString();
+                if (progressCallback) {
+                    progressCallback(15, 'Installing dependencies...');
+                }
+            });
+
+            // Handle stderr
+            installProcess.stderr.on('data', (data) => {
+                stderr += data.toString();
+                // Don't treat npm warnings as errors
+            });
+
+            // Handle process completion
+            installProcess.on('close', (code) => {
+                isCompleted = true;
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+
+                if (code === 0) {
+                    if (progressCallback) {
+                        progressCallback(20, 'Dependencies installed successfully');
+                    }
+                    resolve();
+                } else {
+                    reject(new Error(`npm install failed with code ${code}. Stderr: ${stderr}`));
+                }
+            });
+
+            // Handle process errors
+            installProcess.on('error', (error) => {
+                isCompleted = true;
+                
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+                
+                reject(new Error(`Failed to install dependencies: ${error.message}`));
+            });
+
+            // Set timeout (5 minutes)
+            timeoutId = setTimeout(() => {
+                if (!isCompleted) {
+                    isCompleted = true;
+                    installProcess.kill('SIGTERM');
+                    reject(new Error('Dependency installation timed out'));
+                }
+            }, 300000);
+        });
+    }
+
+    /**
+     * Get bundle configuration from app config and options
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} options - Bundle options
+     * @returns {Object} Bundle configuration
+     */
+    getBundleConfig(appConfig, options) {
+        const buildConfig = appConfig.build?.bundle || {};
+        
+        return {
+            dev: options.dev !== undefined ? options.dev : buildConfig.dev || false,
+            platform: buildConfig.platform || 'android',
+            entryFile: buildConfig.entryFile || 'index.js',
+            bundleName: buildConfig.bundleName || 'complete-app.bundle',
+            assetsDest: buildConfig.assetsDest || 'assets',
+            sourceMap: buildConfig.sourceMap || false,
+            resetCache: buildConfig.resetCache || false,
+            output: buildConfig.output || 'build/bundles'
+        };
+    }
+
+    /**
+     * Get service statistics
+     * @returns {Object} Service statistics
+     */
+    getStats() {
+        return {
+            bundleCacheSize: this.bundleCache.size,
+            currentProgress: this.currentProgress,
+            bundleStats: this.bundleRepository.getStats()
+        };
+    }
+
+    /**
+     * Clear bundle cache
+     */
+    clearCaches() {
+        this.bundleCache.clear();
+        this.currentProgress = 0;
+        this.bundleRepository.clearCache();
+    }
+}
+
+;// CONCATENATED MODULE: ./src/infrastructure/repositories/CleanupRepository.js
+/**
+ * Cleanup Repository Implementation
+ * 
+ * High-performance implementation of cleanup operations
+ * for build artifacts, bundles, and temporary files.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+class CleanupRepository {
+    constructor() {
+        this.cleanupCache = new Map();
+    }
+
+    /**
+     * Clean all build artifacts
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} cleanupConfig - Cleanup configuration
+     * @returns {Promise<Object>} Cleanup result
+     */
+    async cleanAll(projectPath, appConfig, cleanupConfig) {
+        const startTime = Date.now();
+        
+        try {
+            const cleanedArtifacts = [];
+            let freedSpace = 0;
+            
+            // Clean Android artifacts
+            if (cleanupConfig.removeBuildArtifacts) {
+                const androidResult = await this.cleanAndroidArtifacts(projectPath, appConfig);
+                cleanedArtifacts.push(...androidResult.cleanedArtifacts);
+                freedSpace += androidResult.freedSpace;
+            }
+            
+            // Clean bundle artifacts
+            if (cleanupConfig.removeBundles) {
+                const bundleResult = await this.cleanBundleArtifacts(projectPath, appConfig);
+                cleanedArtifacts.push(...bundleResult.cleanedArtifacts);
+                freedSpace += bundleResult.freedSpace;
+            }
+            
+            // Clean node_modules if requested
+            if (cleanupConfig.removeNodeModules) {
+                const nodeResult = await this.cleanNodeModules(projectPath);
+                cleanedArtifacts.push(...nodeResult.cleanedArtifacts);
+                freedSpace += nodeResult.freedSpace;
+            }
+            
+            const duration = Date.now() - startTime;
+            
+            return {
+                success: true,
+                cleanedArtifacts,
+                freedSpace,
+                duration
+            };
+        } catch (error) {
+            throw new Error(`Cleanup failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Clean Android build artifacts
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} cleanupConfig - Cleanup configuration
+     * @returns {Promise<Object>} Cleanup result
+     */
+    async cleanAndroid(projectPath, appConfig, cleanupConfig) {
+        const startTime = Date.now();
+        
+        try {
+            const result = await this.cleanAndroidArtifacts(projectPath, appConfig);
+            
+            const duration = Date.now() - startTime;
+            
+            return {
+                success: true,
+                cleanedArtifacts: result.cleanedArtifacts,
+                freedSpace: result.freedSpace,
+                duration
+            };
+        } catch (error) {
+            throw new Error(`Android cleanup failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Clean bundle artifacts
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} cleanupConfig - Cleanup configuration
+     * @returns {Promise<Object>} Cleanup result
+     */
+    async cleanBundles(projectPath, appConfig, cleanupConfig) {
+        const startTime = Date.now();
+        
+        try {
+            const result = await this.cleanBundleArtifacts(projectPath, appConfig);
+            
+            const duration = Date.now() - startTime;
+            
+            return {
+                success: true,
+                cleanedArtifacts: result.cleanedArtifacts,
+                freedSpace: result.freedSpace,
+                duration
+            };
+        } catch (error) {
+            throw new Error(`Bundle cleanup failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Clean Android artifacts
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @returns {Promise<Object>} Cleanup result
+     */
+    async cleanAndroidArtifacts(projectPath, appConfig) {
+        const cleanedArtifacts = [];
+        let freedSpace = 0;
+        
+        const androidPaths = [
+            external_path_.join(projectPath, 'android', 'app', 'build'),
+            external_path_.join(projectPath, 'android', 'build'),
+            external_path_.join(projectPath, 'build', 'android')
+        ];
+        
+        for (const androidPath of androidPaths) {
+            try {
+                const stats = await promises_namespaceObject.stat(androidPath);
+                if (stats.isDirectory()) {
+                    await this.removeDirectory(androidPath);
+                    cleanedArtifacts.push(androidPath);
+                    freedSpace += stats.size;
+                }
+            } catch (error) {
+                // Directory doesn't exist, skip
+            }
+        }
+        
+        return { cleanedArtifacts, freedSpace };
+    }
+
+    /**
+     * Clean bundle artifacts
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     * @returns {Promise<Object>} Cleanup result
+     */
+    async cleanBundleArtifacts(projectPath, appConfig) {
+        const cleanedArtifacts = [];
+        let freedSpace = 0;
+        
+        const bundlePaths = [
+            external_path_.join(projectPath, 'build', 'bundles'),
+            external_path_.join(projectPath, 'build', 'bundles', appConfig.projectName)
+        ];
+        
+        for (const bundlePath of bundlePaths) {
+            try {
+                const stats = await promises_namespaceObject.stat(bundlePath);
+                if (stats.isDirectory()) {
+                    await this.removeDirectory(bundlePath);
+                    cleanedArtifacts.push(bundlePath);
+                    freedSpace += stats.size;
+                }
+            } catch (error) {
+                // Directory doesn't exist, skip
+            }
+        }
+        
+        return { cleanedArtifacts, freedSpace };
+    }
+
+    /**
+     * Clean node_modules
+     * @param {string} projectPath - Path to the project
+     * @returns {Promise<Object>} Cleanup result
+     */
+    async cleanNodeModules(projectPath) {
+        const cleanedArtifacts = [];
+        let freedSpace = 0;
+        
+        const nodeModulesPath = external_path_.join(projectPath, 'node_modules');
+        
+        try {
+            const stats = await promises_namespaceObject.stat(nodeModulesPath);
+            if (stats.isDirectory()) {
+                await this.removeDirectory(nodeModulesPath);
+                cleanedArtifacts.push(nodeModulesPath);
+                freedSpace += stats.size;
+            }
+        } catch (error) {
+            // Directory doesn't exist, skip
+        }
+        
+        return { cleanedArtifacts, freedSpace };
+    }
+
+    /**
+     * Remove directory recursively
+     * @param {string} dirPath - Directory path to remove
+     */
+    async removeDirectory(dirPath) {
+        try {
+            await promises_namespaceObject.rm(dirPath, { recursive: true, force: true });
+        } catch (error) {
+            // Ignore errors during cleanup
+        }
+    }
+
+    /**
+     * Get repository statistics
+     * @returns {Object} Repository statistics
+     */
+    getStats() {
+        return {
+            cleanupCacheSize: this.cleanupCache.size
+        };
+    }
+
+    /**
+     * Clear cleanup cache
+     */
+    clearCache() {
+        this.cleanupCache.clear();
+    }
+}
+
+;// CONCATENATED MODULE: ./src/application/services/CleanupService.js
+/**
+ * Cleanup Service
+ * 
+ * High-performance service that handles cleanup operations
+ * for build artifacts, bundles, and temporary files.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+
+class CleanupService {
+    constructor() {
+        this.cleanupRepository = new CleanupRepository();
+        this.configRepository = new ConfigRepository();
+        this.cleanupCache = new Map();
+        this.currentProgress = 0;
+    }
+
+    /**
+     * Clean all build artifacts
+     * @param {string} projectPath - Path to the project
+     * @param {Object} options - Cleanup options
+     * @returns {Promise<Object>} Cleanup result
+     */
+    async cleanAll(projectPath, options) {
+        const startTime = Date.now();
+        
+        try {
+            // Load project configuration
+            const configData = await this.loadProjectConfig(projectPath);
+            const appConfig = new AppConfig(configData);
+            
+            // Validate project structure
+            await this.validateProjectStructure(projectPath);
+            
+            // Get cleanup configuration
+            const cleanupConfig = this.getCleanupConfig(appConfig, options);
+            
+            // Clean all artifacts
+            const result = await this.cleanupRepository.cleanAll(projectPath, appConfig, cleanupConfig);
+            
+            const duration = Date.now() - startTime;
+            return {
+                success: true,
+                projectName: appConfig.projectName,
+                duration,
+                cleanedArtifacts: result.cleanedArtifacts,
+                freedSpace: result.freedSpace
+            };
+        } catch (error) {
+            throw new Error(`Cleanup failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Clean Android build artifacts
+     * @param {string} projectPath - Path to the project
+     * @param {Object} options - Cleanup options
+     * @returns {Promise<Object>} Cleanup result
+     */
+    async cleanAndroid(projectPath, options) {
+        const startTime = Date.now();
+        
+        try {
+            // Load project configuration
+            const configData = await this.loadProjectConfig(projectPath);
+            const appConfig = new AppConfig(configData);
+            
+            // Validate project structure
+            await this.validateProjectStructure(projectPath);
+            
+            // Get cleanup configuration
+            const cleanupConfig = this.getCleanupConfig(appConfig, options);
+            
+            // Clean Android artifacts
+            const result = await this.cleanupRepository.cleanAndroid(projectPath, appConfig, cleanupConfig);
+            
+            const duration = Date.now() - startTime;
+            return {
+                success: true,
+                projectName: appConfig.projectName,
+                duration,
+                cleanedArtifacts: result.cleanedArtifacts,
+                freedSpace: result.freedSpace
+            };
+        } catch (error) {
+            throw new Error(`Android cleanup failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Clean bundle artifacts
+     * @param {string} projectPath - Path to the project
+     * @param {Object} options - Cleanup options
+     * @returns {Promise<Object>} Cleanup result
+     */
+    async cleanBundles(projectPath, options) {
+        const startTime = Date.now();
+        
+        try {
+            // Load project configuration
+            const configData = await this.loadProjectConfig(projectPath);
+            const appConfig = new AppConfig(configData);
+            
+            // Validate project structure
+            await this.validateProjectStructure(projectPath);
+            
+            // Get cleanup configuration
+            const cleanupConfig = this.getCleanupConfig(appConfig, options);
+            
+            // Clean bundle artifacts
+            const result = await this.cleanupRepository.cleanBundles(projectPath, appConfig, cleanupConfig);
+            
+            const duration = Date.now() - startTime;
+            return {
+                success: true,
+                projectName: appConfig.projectName,
+                duration,
+                cleanedArtifacts: result.cleanedArtifacts,
+                freedSpace: result.freedSpace
+            };
+        } catch (error) {
+            throw new Error(`Bundle cleanup failed: ${error.message}`);
+        }
+    }
+
+    /**
+     * Load project configuration
+     * @param {string} projectPath - Path to the project
+     * @returns {Promise<Object>} Configuration data
+     */
+    async loadProjectConfig(projectPath) {
+        const configPath = external_path_.join(projectPath, 'app-config.json');
+        
+        try {
+            return await this.configRepository.loadConfig(configPath);
+        } catch (error) {
+            throw new Error(`Failed to load project configuration: ${error.message}`);
+        }
+    }
+
+    /**
+     * Validate project structure
+     * @param {string} projectPath - Path to the project
+     * @throws {Error} If project structure is invalid
+     */
+    async validateProjectStructure(projectPath) {
+        const requiredFiles = [
+            'package.json',
+            'app-config.json'
+        ];
+
+        for (const file of requiredFiles) {
+            const filePath = external_path_.join(projectPath, file);
+            try {
+                await promises_namespaceObject.access(filePath);
+            } catch (error) {
+                throw new Error(`Required file not found: ${file}`);
+            }
+        }
+    }
+
+    /**
+     * Get cleanup configuration from app config and options
+     * @param {AppConfig} appConfig - App configuration
+     * @param {Object} options - Cleanup options
+     * @returns {Object} Cleanup configuration
+     */
+    getCleanupConfig(appConfig, options) {
+        const buildConfig = appConfig.build?.cleanup || {};
+        
+        return {
+            removeNodeModules: buildConfig.removeNodeModules || false,
+            removeBuildArtifacts: buildConfig.removeBuildArtifacts || true,
+            removeBundles: buildConfig.removeBundles || false,
+            force: options.force || false
+        };
+    }
+
+    /**
+     * Get service statistics
+     * @returns {Object} Service statistics
+     */
+    getStats() {
+        return {
+            cleanupCacheSize: this.cleanupCache.size,
+            currentProgress: this.currentProgress,
+            cleanupStats: this.cleanupRepository.getStats()
+        };
+    }
+
+    /**
+     * Clear cleanup cache
+     */
+    clearCaches() {
+        this.cleanupCache.clear();
+        this.currentProgress = 0;
+        this.cleanupRepository.clearCache();
+    }
+}
+
+;// CONCATENATED MODULE: ./src/modules/build/BuildCommand.js
+/**
+ * Build Command Implementation
+ * 
+ * High-performance build command implementation that orchestrates
+ * Android builds, bundle generation, and cleanup operations.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+class BuildCommand extends build_IBuildCommand {
+    constructor(errorHandler) {
+        super();
+        this.errorHandler = errorHandler;
+        
+        // Initialize services
+        this.buildService = new BuildService();
+        this.bundleService = new BundleService();
+        this.cleanupService = new CleanupService();
+
+        // Performance tracking
+        this.executionStats = {
+            startTime: 0,
+            endTime: 0,
+            duration: 0
+        };
+    }
+
+    /**
+     * Execute the build command with optimized performance
+     * @param {Object} options - Command options
+     * @throws {Error} If execution fails
+     */
+    async execute(options) {
+        this.executionStats.startTime = Date.now();
+        
+        try {
+            // Validate required options
+            this.validateOptions(options);
+
+            const { command, platform, buildType, projectPath } = options;
+
+            // Execute based on command type
+            switch (command) {
+                case 'android':
+                    await this.executeAndroidBuild(platform, buildType, projectPath, options);
+                    break;
+                case 'bundle':
+                    await this.executeBundleGeneration(projectPath, options);
+                    break;
+                case 'clean':
+                    await this.executeCleanup(platform, projectPath, options);
+                    break;
+                default:
+                    throw new Error(`Unknown build command: ${command}`);
+            }
+
+            // Log success with performance metrics
+            this.executionStats.endTime = Date.now();
+            this.executionStats.duration = this.executionStats.endTime - this.executionStats.startTime;
+            
+            return { success: true, duration: this.executionStats.duration };
+
+        } catch (error) {
+            // Handle error through error handler with performance tracking
+            this.executionStats.endTime = Date.now();
+            this.executionStats.duration = this.executionStats.endTime - this.executionStats.startTime;
+            
+            this.errorHandler.handleError(error);
+            throw error;
+        }
+    }
+
+    /**
+     * Execute Android build operations
+     * @param {string} platform - Platform (android)
+     * @param {string} buildType - Build type (debug, release, aab, all)
+     * @param {string} projectPath - Project path
+     * @param {Object} options - Build options
+     */
+    async executeAndroidBuild(platform, buildType, projectPath, options) {
+        if (platform !== 'android') {
+            throw new Error(`Unsupported platform: ${platform}`);
+        }
+
+        // Install dependencies first
+        await this.installDependencies(projectPath, options);
+
+        switch (buildType) {
+            case 'debug':
+                await this.buildService.buildAndroidDebug(projectPath, {
+                    ...options,
+                    progressCallback: (progress, message) => this.printProgress(progress, message)
+                });
+                break;
+            case 'release':
+                await this.buildService.buildAndroidRelease(projectPath, {
+                    ...options,
+                    progressCallback: (progress, message) => this.printProgress(progress, message)
+                });
+                break;
+            case 'aab':
+                await this.buildService.buildAndroidAAB(projectPath, {
+                    ...options,
+                    progressCallback: (progress, message) => this.printProgress(progress, message)
+                });
+                break;
+            case 'all':
+                await this.buildService.buildAndroidAll(projectPath, {
+                    ...options,
+                    progressCallback: (progress, message) => this.printProgress(progress, message)
+                });
+                break;
+            default:
+                throw new Error(`Unknown Android build type: ${buildType}`);
+        }
+    }
+
+    /**
+     * Install project dependencies
+     * @param {string} projectPath - Project path
+     * @param {Object} options - Build options
+     */
+    async installDependencies(projectPath, options) {
+        const { spawn } = await Promise.resolve(/* import() */).then(__nccwpck_require__.t.bind(__nccwpck_require__, 5317, 19));
+        
+        return new Promise((resolve, reject) => {
+            this.printProgress(5, 'Installing project dependencies...');
+            
+            const npmProcess = spawn('npm', ['install'], {
+                stdio: ['pipe', 'pipe', 'pipe'],
+                shell: true,
+                cwd: projectPath
+            });
+
+            let stdout = '';
+            let stderr = '';
+
+            npmProcess.stdout.on('data', (data) => {
+                stdout += data.toString();
+                this.printProgress(10, 'Installing dependencies...');
+            });
+
+            npmProcess.stderr.on('data', (data) => {
+                stderr += data.toString();
+            });
+
+            npmProcess.on('close', (code) => {
+                if (code === 0) {
+                    this.printProgress(15, 'Dependencies installed successfully');
+                    resolve();
+                } else {
+                    reject(new Error(`npm install failed with code ${code}. Stderr: ${stderr}`));
+                }
+            });
+
+            npmProcess.on('error', (error) => {
+                reject(new Error(`Failed to execute npm install: ${error.message}`));
+            });
+        });
+    }
+
+    /**
+     * Execute bundle generation
+     * @param {string} projectPath - Project path
+     * @param {Object} options - Bundle options
+     */
+    async executeBundleGeneration(projectPath, options) {
+        await this.bundleService.generateBundle(projectPath, {
+            ...options,
+            progressCallback: (progress, message) => this.printProgress(progress, message)
+        });
+    }
+
+    /**
+     * Print progress with optimized timestamp and caching
+     * @param {number} percentage - Progress percentage
+     * @param {string} message - Progress message
+     */
+    printProgress(percentage, message) {
+        const timestamp = new Date().toISOString();
+        const boundedPercentage = Math.min(100, Math.max(0, Math.round(percentage)));
+        
+        console.log(`[${timestamp}] Progress: ${boundedPercentage}% - ${message}`);
+    }
+
+    /**
+     * Execute cleanup operations
+     * @param {string} platform - Platform (android, bundles, or null for all)
+     * @param {string} projectPath - Project path
+     * @param {Object} options - Cleanup options
+     */
+    async executeCleanup(platform, projectPath, options) {
+        if (!platform) {
+            await this.cleanupService.cleanAll(projectPath, options);
+        } else {
+            switch (platform) {
+                case 'android':
+                    await this.cleanupService.cleanAndroid(projectPath, options);
+                    break;
+                case 'bundles':
+                    await this.cleanupService.cleanBundles(projectPath, options);
+                    break;
+                default:
+                    throw new Error(`Unknown cleanup target: ${platform}`);
+            }
+        }
+    }
+
+    /**
+     * Validate command options with optimized validation
+     * @param {Object} options - Command options to validate
+     * @throws {Error} If validation fails
+     */
+    validateOptions(options) {
+        if (!options) {
+            throw new Error('Command options are required');
+        }
+
+        if (!options.command) {
+            throw new Error('Build command is required (android, bundle, clean)');
+        }
+
+        if (!options.projectPath) {
+            throw new Error('Project path is required');
+        }
+
+        if (typeof options.projectPath !== 'string') {
+            throw new Error('Project path must be a string');
+        }
+
+        if (options.projectPath.trim() === '') {
+            throw new Error('Project path cannot be empty');
+        }
+
+        // Validate platform for android commands
+        if (options.command === 'android' && options.platform !== 'android') {
+            throw new Error('Android builds require platform to be "android"');
+        }
+
+        // Validate build type for android commands
+        if (options.command === 'android' && !options.buildType) {
+            throw new Error('Android build type is required (debug, release, aab, all)');
+        }
+    }
+
+    /**
+     * Get execution statistics
+     * @returns {Object} Execution statistics
+     */
+    getExecutionStats() {
+        return {
+            ...this.executionStats,
+            buildStats: this.buildService.getStats(),
+            bundleStats: this.bundleService.getStats(),
+            cleanupStats: this.cleanupService.getStats()
+        };
+    }
+
+    /**
+     * Clear all caches and reset statistics
+     */
+    clearCaches() {
+        this.buildService.clearCaches();
+        this.bundleService.clearCaches();
+        this.cleanupService.clearCaches();
+        this.executionStats = {
+            startTime: 0,
+            endTime: 0,
+            duration: 0
+        };
+    }
+}
+
+/* harmony default export */ const build_BuildCommand = (BuildCommand);
+
+;// CONCATENATED MODULE: ./src/utils/errorHandler/index.js
+/**
+ * High-Performance Error Handler
+ * 
+ * Optimized error handler with minimal overhead and maximum performance
+ * for production environments.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+/**
+ * High-performance error handler class
+ * Handles errors with optimized logging and minimal overhead
+ */
+class ErrorHandler {
+    constructor() {
+        this.errorCount = 0;
+        this.maxErrors = 100; // Prevent infinite error loops
+    }
+
+    /**
+     * Handle an error with optimized processing
+     * @param {Error} error - The error to handle
+     * @param {boolean} [exit=false] - Whether to exit the process
+     * @param {Object} [context={}] - Additional context information
+     */
+    handleError(error, exit = false, context = {}) {
+        // Prevent infinite error loops
+        if (this.errorCount >= this.maxErrors) {
+            console.error('Maximum error count reached. Exiting to prevent infinite loops.');
+            process.exit(1);
+        }
+
+        this.errorCount++;
+
+        // Optimized error message construction
+        const errorMessage = this.formatErrorMessage(error, context);
+        
+        // Log error with optimized logging
+        log('ERROR', errorMessage);
+
+        // Exit if requested
+        if (exit) {
+            process.exit(1);
+        }
+    }
+
+    /**
+     * Format error message with optimized string construction
+     * @param {Error} error - The error object
+     * @param {Object} context - Additional context
+     * @returns {string} Formatted error message
+     */
+    formatErrorMessage(error, context) {
+        const parts = [];
+
+        // Add error message
+        if (error.message) {
+            parts.push(error.message);
+        }
+
+        // Add context information if available
+        if (context.file) {
+            parts.push(`File: ${context.file}`);
+        }
+
+        if (context.line) {
+            parts.push(`Line: ${context.line}`);
+        }
+
+        // Add stack trace only in development or verbose mode
+        if (process.env.NODE_ENV === 'development' || process.env.VERBOSE) {
+            parts.push(`Stack: ${error.stack}`);
+        }
+
+        return parts.join(' | ');
+    }
+
+    /**
+     * Handle specific error types with optimized handling
+     * @param {Error} error - The error to handle
+     * @param {string} type - Error type for specific handling
+     */
+    handleSpecificError(error, type) {
+        const errorHandlers = {
+            'VALIDATION': () => this.handleValidationError(error),
+            'CONFIGURATION': () => this.handleConfigurationError(error),
+            'TEMPLATE': () => this.handleTemplateError(error),
+            'EXECUTION': () => this.handleExecutionError(error)
+        };
+
+        const handler = errorHandlers[type.toUpperCase()];
+        if (handler) {
+            handler();
+        } else {
+            this.handleError(error);
+        }
+    }
+
+    /**
+     * Handle validation errors
+     * @param {Error} error - Validation error
+     */
+    handleValidationError(error) {
+        log('ERROR', `Validation Error: ${error.message}`);
+    }
+
+    /**
+     * Handle configuration errors
+     * @param {Error} error - Configuration error
+     */
+    handleConfigurationError(error) {
+        log('ERROR', `Configuration Error: ${error.message}`);
+    }
+
+    /**
+     * Handle template errors
+     * @param {Error} error - Template error
+     */
+    handleTemplateError(error) {
+        log('ERROR', `Template Error: ${error.message}`);
+    }
+
+    /**
+     * Handle execution errors
+     * @param {Error} error - Execution error
+     */
+    handleExecutionError(error) {
+        log('ERROR', `Execution Error: ${error.message}`);
+    }
+
+    /**
+     * Reset error count (useful for testing)
+     */
+    resetErrorCount() {
+        this.errorCount = 0;
+    }
+
+    /**
+     * Get error statistics
+     * @returns {Object} Error statistics
+     */
+    getErrorStats() {
+        return {
+            errorCount: this.errorCount,
+            maxErrors: this.maxErrors
+        };
+    }
+}
+
+/* harmony default export */ const errorHandler = (ErrorHandler);
+
+;// CONCATENATED MODULE: ./src/diContainer.js
+/**
+ * Dependency Injection Container
+ * 
+ * Professional DI container for managing service dependencies
+ * with proper lifecycle management and error handling.
+ * 
+ * @author AAS Development Team
+ * @version 1.0.0
+ * @license MIT
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class DIContainer {
+    constructor() {
+        this.services = new Map();
+        this.singletons = new Map();
+        this.initializeServices();
+    }
+
+    /**
+     * Initialize all services with their dependencies
+     */
+    initializeServices() {
+        // Register repositories
+        this.register('ConfigRepository', ConfigRepository);
+        this.register('TemplateRepository', TemplateRepository);
+        this.register('ExecutorRepository', ExecutorRepository);
+        this.register('AndroidBuildRepository', AndroidBuildRepository);
+        this.register('BundleRepository', BundleRepository);
+        this.register('KeystoreRepository', KeystoreRepository);
+        this.register('CleanupRepository', CleanupRepository);
+
+        // Register application services
+        this.register('AppGenerationService', AppGenerationService, [
+            'ConfigRepository',
+            'TemplateRepository',
+            'ExecutorRepository'
+        ]);
+
+        this.register('BuildService', BuildService, [
+            'AndroidBuildRepository',
+            'KeystoreRepository',
+            'ConfigRepository'
+        ]);
+
+        this.register('BundleService', BundleService, [
+            'BundleRepository',
+            'ConfigRepository'
+        ]);
+
+        this.register('CleanupService', CleanupService, [
+            'CleanupRepository',
+            'ConfigRepository'
+        ]);
+
+        // Register commands with dependencies
+        this.register('CreateCommand', CreateCommand, ['ErrorHandler']);
+        this.register('BuildCommand', build_BuildCommand, ['ErrorHandler']);
+
+        // Register utilities
+        this.register('ErrorHandler', errorHandler);
+    }
+
+    /**
+     * Register a service with optional dependencies
+     * @param {string} name - Service name
+     * @param {Function} Constructor - Service constructor
+     * @param {Array<string>} dependencies - Service dependencies
+     */
+    register(name, Constructor, dependencies = []) {
+        this.services.set(name, { Constructor, dependencies });
+    }
+
+    /**
+     * Get a service instance
+     * @param {string} name - Service name
+     * @returns {Object} Service instance
+     * @throws {Error} If service not found
+     */
+    get(name) {
+        // Check if singleton already exists
+        if (this.singletons.has(name)) {
+            return this.singletons.get(name);
+        }
+
+        const service = this.services.get(name);
+        if (!service) {
+            throw new Error(`Service ${name} not found`);
+        }
+
+        const { Constructor, dependencies } = service;
+        const resolvedDependencies = dependencies.map(dep => this.get(dep));
+        const instance = new Constructor(...resolvedDependencies);
+
+        // Store as singleton
+        this.singletons.set(name, instance);
+        return instance;
+    }
+
+    /**
+     * Clear all service instances (useful for testing)
+     */
+    clear() {
+        this.singletons.clear();
+    }
+
+    /**
+     * Get all registered service names
+     * @returns {Array<string>} Service names
+     */
+    getRegisteredServices() {
+        return Array.from(this.services.keys());
+    }
+}
+
+// Create and export singleton instance
+const container = new DIContainer();
+/* harmony default export */ const diContainer = (container);
+;// CONCATENATED MODULE: ./src/main.js
 
 /**
  * High-Performance CLI Entry Point
@@ -26248,19 +25860,19 @@ var __webpack_exports__ = {};
  * @license MIT
  */
 
-const { Command } = __nccwpck_require__(6150);
-const chalk = __nccwpck_require__(3412);
-const { log } = __nccwpck_require__(1149);
-const container = __nccwpck_require__(804);
+
+
+
+
 
 // Performance tracking
 const startTime = Date.now();
 
 // Create optimized command program
-const program = new Command();
+const main_program = new Command();
 
 // Configure program with performance optimizations
-program
+main_program
     .name('aas-core-appgen')
     .description('High-performance CLI tool for generating React Native apps using cookiecutter templates')
     .version('v00.03.00')
@@ -26269,7 +25881,7 @@ program
     .option('--no-cache', 'Disable caching for debugging');
 
 // Create command with optimized options
-program
+main_program
     .command('create')
     .description('Create a new project using config file')
     .requiredOption('-c, --config-file <configFile>', 'Path to JSON configuration file')
@@ -26292,7 +25904,7 @@ program
             }
 
             // Get command instance from container
-            const createCommand = container.get('CreateCommand');
+            const createCommand = diContainer.get('CreateCommand');
             
             // Execute with performance tracking
             const result = await createCommand.execute(options);
@@ -26307,7 +25919,7 @@ program
 
         } catch (error) {
             // Handle errors with optimized error handling
-            const errorHandler = container.get('ErrorHandler');
+            const errorHandler = diContainer.get('ErrorHandler');
             errorHandler.handleError(error, true, {
                 file: 'main.js',
                 line: 'command execution'
@@ -26316,7 +25928,7 @@ program
     });
 
 // Build command with optimized options
-program
+main_program
     .command('build')
     .description('Build Android artifacts and generate bundles')
     .argument('<platform>', 'Platform (android)')
@@ -26337,7 +25949,7 @@ program
             }
 
             // Get command instance from container
-            const buildCommand = container.get('BuildCommand');
+            const buildCommand = diContainer.get('BuildCommand');
             
             // Prepare build options
             const buildOptions = {
@@ -26363,7 +25975,7 @@ program
 
         } catch (error) {
             // Handle errors with optimized error handling
-            const errorHandler = container.get('ErrorHandler');
+            const errorHandler = diContainer.get('ErrorHandler');
             errorHandler.handleError(error, true, {
                 file: 'main.js',
                 line: 'build command execution'
@@ -26372,7 +25984,7 @@ program
     });
 
 // Bundle command with optimized options
-program
+main_program
     .command('bundle')
     .description('Generate React Native bundle')
     .requiredOption('-p, --project-path <projectPath>', 'Path to the project directory')
@@ -26394,7 +26006,7 @@ program
             }
 
             // Get command instance from container
-            const buildCommand = container.get('BuildCommand');
+            const buildCommand = diContainer.get('BuildCommand');
             
             // Prepare bundle options
             const bundleOptions = {
@@ -26418,7 +26030,7 @@ program
 
         } catch (error) {
             // Handle errors with optimized error handling
-            const errorHandler = container.get('ErrorHandler');
+            const errorHandler = diContainer.get('ErrorHandler');
             errorHandler.handleError(error, true, {
                 file: 'main.js',
                 line: 'bundle command execution'
@@ -26427,7 +26039,7 @@ program
     });
 
 // Clean command with optimized options
-program
+main_program
     .command('clean')
     .description('Clean build artifacts')
     .requiredOption('-p, --project-path <projectPath>', 'Path to the project directory')
@@ -26447,7 +26059,7 @@ program
             }
 
             // Get command instance from container
-            const buildCommand = container.get('BuildCommand');
+            const buildCommand = diContainer.get('BuildCommand');
             
             // Prepare clean options
             const cleanOptions = {
@@ -26472,7 +26084,7 @@ program
 
         } catch (error) {
             // Handle errors with optimized error handling
-            const errorHandler = container.get('ErrorHandler');
+            const errorHandler = diContainer.get('ErrorHandler');
             errorHandler.handleError(error, true, {
                 file: 'main.js',
                 line: 'clean command execution'
@@ -26482,7 +26094,7 @@ program
 
 // Handle uncaught exceptions
 process.on('uncaughtException', (error) => {
-    const errorHandler = container.get('ErrorHandler');
+    const errorHandler = diContainer.get('ErrorHandler');
     errorHandler.handleError(error, true, {
         file: 'main.js',
         line: 'uncaught exception'
@@ -26491,7 +26103,7 @@ process.on('uncaughtException', (error) => {
 
 // Handle unhandled promise rejections
 process.on('unhandledRejection', (reason, promise) => {
-    const errorHandler = container.get('ErrorHandler');
+    const errorHandler = diContainer.get('ErrorHandler');
     errorHandler.handleError(new Error(`Unhandled Promise Rejection: ${reason}`), true, {
         file: 'main.js',
         line: 'unhandled rejection'
@@ -26500,14 +26112,18 @@ process.on('unhandledRejection', (reason, promise) => {
 
 // Parse command line arguments with error handling
 try {
-    program.parse(process.argv);
+    main_program.parse(process.argv);
 } catch (error) {
-    const errorHandler = container.get('ErrorHandler');
+    const errorHandler = diContainer.get('ErrorHandler');
     errorHandler.handleError(error, true, {
         file: 'main.js',
         line: 'argument parsing'
     });
 }
-module.exports = __webpack_exports__;
-/******/ })()
-;
+;// CONCATENATED MODULE: ./index.js
+
+
+process.on('unhandledRejection', (error) => {
+  console.error('Unhandled Rejection:', error);
+});
+
