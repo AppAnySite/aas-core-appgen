@@ -1,4 +1,4 @@
-# AAS Core AppGen
+ # AAS Core AppGen
 
 High-performance CLI tool for generating React Native apps using cookiecutter templates with Clean Architecture.
 
