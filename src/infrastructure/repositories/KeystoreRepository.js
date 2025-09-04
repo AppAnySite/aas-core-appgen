@@ -174,6 +174,34 @@ export class KeystoreRepository {
         
         gradleProperties += keystoreConfigLines.join('\n');
         await fs.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
+        
+        // Update Hermes path in build.gradle with absolute path
+        await this.updateHermesPath(projectPath, appConfig);
+    }
+    
+    /**
+     * Update Hermes path in build.gradle with absolute path
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     */
+    async updateHermesPath(projectPath, appConfig) {
+        const buildGradlePath = path.join(projectPath, 'android', 'app', 'build.gradle');
+        
+        try {
+            let buildGradle = await fs.readFile(buildGradlePath, 'utf8');
+            
+            // Update Hermes path with absolute path
+            const hermesPath = path.join(projectPath, 'node_modules', 'react-native', 'sdks', 'hermesc', 'linux64-bin', 'hermesc');
+            const hermesPlaceholder = `${appConfig.projectName}_HERMES_PATH_PLACEHOLDER`;
+            
+            if (buildGradle.includes(hermesPlaceholder)) {
+                buildGradle = buildGradle.replace(hermesPlaceholder, hermesPath);
+                await fs.writeFile(buildGradlePath, buildGradle, 'utf8');
+            }
+        } catch (error) {
+            // If build.gradle doesn't exist yet, that's okay - it will be created later
+            console.warn('Could not update Hermes path:', error.message);
+        }
     }
 
     /**
