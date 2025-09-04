@@ -23645,21 +23645,13 @@ class AndroidBuildRepository {
         
         let gradleProperties = await promises_namespaceObject.readFile(gradlePropertiesPath, 'utf8');
         
-        // Only add signing configuration for release builds
-        if (buildType === 'release') {
-            const keystoreConfig = buildConfig.keystore || {};
-            const signingConfigLines = [
-                '',
-                '# AppAnySite Release Signing Configuration',
-                `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
-                `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
-                `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
-                `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
-            ];
-            
-            gradleProperties += signingConfigLines.join('\n');
-            await promises_namespaceObject.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
-        }
+        // Note: Keystore configuration is handled by KeystoreRepository.createKeystore()
+        // This method only handles other build-specific gradle.properties updates
+        
+        // Add any other build-specific configuration here if needed
+        // (Currently no additional configuration needed beyond keystore)
+        
+        await promises_namespaceObject.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
     }
 
     /**
@@ -23979,10 +23971,16 @@ class KeystoreRepository {
         // Add keystore configuration
         const keystoreConfigLines = [
             '',
+            '# ================================================',
             '# AppAnySite Keystore Configuration',
-            `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
+            '# ================================================',
+            '# Keystore file path (relative to android/ directory)',
+            `MYAPP_UPLOAD_STORE_FILE=../build/android/keystores/${appConfig.projectName}-release-key.keystore`,
+            '# Keystore alias for the signing key',
             `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
+            '# Keystore password',
             `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
+            '# Key password (usually same as keystore password)',
             `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
         ];
         
