@@ -23645,21 +23645,8 @@ class AndroidBuildRepository {
         
         let gradleProperties = await promises_namespaceObject.readFile(gradlePropertiesPath, 'utf8');
         
-        // Only add signing configuration for release builds
-        if (buildType === 'release') {
-            const keystoreConfig = buildConfig.keystore || {};
-            const signingConfigLines = [
-                '',
-                '# AppAnySite Release Signing Configuration',
-                `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
-                `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
-                `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
-                `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
-            ];
-            
-            gradleProperties += signingConfigLines.join('\n');
-            await promises_namespaceObject.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
-        }
+        // Keystore configuration is handled by KeystoreRepository.js
+        // No need to add it here to avoid duplication
     }
 
     /**
@@ -23695,15 +23682,6 @@ class AndroidBuildRepository {
                 'signingConfig signingConfigs.release'
             );
             
-            await promises_namespaceObject.writeFile(buildGradlePath, buildGradle, 'utf8');
-        }
-        
-        // Update Hermes path with absolute path
-        const hermesPath = external_path_.join(projectPath, 'node_modules', 'react-native', 'sdks', 'hermesc', 'linux64-bin', 'hermesc');
-        const hermesPlaceholder = `${appConfig.projectName}_HERMES_PATH_PLACEHOLDER`;
-        
-        if (buildGradle.includes(hermesPlaceholder)) {
-            buildGradle = buildGradle.replace(hermesPlaceholder, hermesPath);
             await promises_namespaceObject.writeFile(buildGradlePath, buildGradle, 'utf8');
         }
     }
@@ -23989,7 +23967,7 @@ class KeystoreRepository {
         const keystoreConfigLines = [
             '',
             '# AppAnySite Keystore Configuration',
-            `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
+            `MYAPP_UPLOAD_STORE_FILE=../build/android/keystores/${appConfig.projectName}-release-key.keystore`,
             `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
             `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
             `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
@@ -23997,6 +23975,34 @@ class KeystoreRepository {
         
         gradleProperties += keystoreConfigLines.join('\n');
         await promises_namespaceObject.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
+        
+        // Update Hermes path in build.gradle with absolute path
+        await this.updateHermesPath(projectPath, appConfig);
+    }
+    
+    /**
+     * Update Hermes path in build.gradle with absolute path
+     * @param {string} projectPath - Path to the project
+     * @param {AppConfig} appConfig - App configuration
+     */
+    async updateHermesPath(projectPath, appConfig) {
+        const buildGradlePath = external_path_.join(projectPath, 'android', 'app', 'build.gradle');
+        
+        try {
+            let buildGradle = await promises_namespaceObject.readFile(buildGradlePath, 'utf8');
+            
+            // Update Hermes path with absolute path
+            const hermesPath = external_path_.join(projectPath, 'node_modules', 'react-native', 'sdks', 'hermesc', 'linux64-bin', 'hermesc');
+            const hermesPlaceholder = `${appConfig.projectName}_HERMES_PATH_PLACEHOLDER`;
+            
+            if (buildGradle.includes(hermesPlaceholder)) {
+                buildGradle = buildGradle.replace(hermesPlaceholder, hermesPath);
+                await promises_namespaceObject.writeFile(buildGradlePath, buildGradle, 'utf8');
+            }
+        } catch (error) {
+            // If build.gradle doesn't exist yet, that's okay - it will be created later
+            console.warn('Could not update Hermes path:', error.message);
+        }
     }
 
     /**
