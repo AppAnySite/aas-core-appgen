@@ -232,21 +232,8 @@ export class AndroidBuildRepository {
         
         let gradleProperties = await fs.readFile(gradlePropertiesPath, 'utf8');
         
-        // Only add signing configuration for release builds
-        if (buildType === 'release') {
-            const keystoreConfig = buildConfig.keystore || {};
-            const signingConfigLines = [
-                '',
-                '# AppAnySite Release Signing Configuration',
-                `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
-                `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
-                `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
-                `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
-            ];
-            
-            gradleProperties += signingConfigLines.join('\n');
-            await fs.writeFile(gradlePropertiesPath, gradleProperties, 'utf8');
-        }
+        // Keystore configuration is handled by KeystoreRepository.js
+        // No need to add it here to avoid duplication
     }
 
     /**

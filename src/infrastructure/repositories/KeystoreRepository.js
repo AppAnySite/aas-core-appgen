@@ -166,7 +166,7 @@ export class KeystoreRepository {
         const keystoreConfigLines = [
             '',
             '# AppAnySite Keystore Configuration',
-            `MYAPP_UPLOAD_STORE_FILE=${appConfig.projectName}-release-key.keystore`,
+            `MYAPP_UPLOAD_STORE_FILE=../build/android/keystores/${appConfig.projectName}-release-key.keystore`,
             `MYAPP_UPLOAD_KEY_ALIAS=${keystoreConfig.defaultAlias}`,
             `MYAPP_UPLOAD_STORE_PASSWORD=${keystoreConfig.defaultPassword}`,
             `MYAPP_UPLOAD_KEY_PASSWORD=${keystoreConfig.defaultPassword}`
