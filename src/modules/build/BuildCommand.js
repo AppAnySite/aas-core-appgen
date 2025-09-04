@@ -13,6 +13,7 @@ import IBuildCommand from './IBuildCommand.js';
 import { BuildService } from '../../application/services/BuildService.js';
 import { BundleService } from '../../application/services/BundleService.js';
 import { CleanupService } from '../../application/services/CleanupService.js';
+import path from 'path';
 
 class BuildCommand extends IBuildCommand {
     constructor(errorHandler) {
@@ -129,6 +130,15 @@ class BuildCommand extends IBuildCommand {
      */
     async installDependencies(projectPath, options) {
         const { spawn } = await import('child_process');
+        const fs = await import('fs/promises');
+        
+        // Check if package.json exists before running npm install
+        const packageJsonPath = path.join(projectPath, 'package.json');
+        try {
+            await fs.access(packageJsonPath);
+        } catch (error) {
+            throw new Error(`package.json not found in project directory: ${projectPath}. Make sure the project is properly generated.`);
+        }
         
         return new Promise((resolve, reject) => {
             this.printProgress(5, 'Installing project dependencies...');

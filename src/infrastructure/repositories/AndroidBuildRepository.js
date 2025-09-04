@@ -290,7 +290,12 @@ export class AndroidBuildRepository {
                 stdio: ['pipe', 'pipe', 'pipe'],
                 shell: true,
                 cwd: androidPath,
-                env: { ...process.env, JAVA_HOME: process.env.JAVA_HOME }
+                env: { 
+                    ...process.env, 
+                    JAVA_HOME: process.env.JAVA_HOME || '/usr/lib/jvm/java-17-openjdk-amd64',
+                    ANDROID_HOME: process.env.ANDROID_HOME || '/opt/android',
+                    ANDROID_SDK_ROOT: process.env.ANDROID_SDK_ROOT || '/opt/android'
+                }
             });
 
             let stdout = '';
