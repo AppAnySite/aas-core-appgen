@@ -64,11 +64,47 @@ export class AppConfig {
         }
 
         // Validate app section structure
-        const requiredAppFields = ['name', 'version', 'buildNumber', 'environment', 'bundleId', 'androidPackageName', 'displayName'];
+        const requiredAppFields = ['name', 'environment', 'bundleId', 'androidPackageName', 'displayName'];
         for (const field of requiredAppFields) {
             if (!(field in configData.app)) {
                 throw new Error(`Missing required field in app section: "${field}"`);
             }
+        }
+
+        this.validateVersioning(configData.app);
+    }
+
+    /**
+     * Validate versionCode/versionName according to Android standards
+     * @param {Object} app - App section of the configuration
+     */
+    validateVersioning(app) {
+        const hasVersionName = Object.prototype.hasOwnProperty.call(app, 'versionName');
+        const hasVersionCode = Object.prototype.hasOwnProperty.call(app, 'versionCode');
+
+        if (!hasVersionName) {
+            throw new Error('Missing required field in app section: "versionName"');
+        }
+
+        if (!hasVersionCode) {
+            throw new Error('Missing required field in app section: "versionCode"');
+        }
+
+        if (typeof app.versionName !== 'string' || app.versionName.trim() === '') {
+            throw new Error('Field "app.versionName" must be a non-empty string');
+        }
+
+        const versionNamePattern = /^(\d+)(\.\d+){0,2}$/;
+        if (!versionNamePattern.test(app.versionName.trim())) {
+            throw new Error('Field "app.versionName" should follow the format "{major}.{minor}" or "{major}.{minor}.{patch}"');
+        }
+
+        if (!Number.isInteger(app.versionCode)) {
+            throw new Error('Field "app.versionCode" must be an integer');
+        }
+
+        if (app.versionCode <= 0 || app.versionCode > 2100000000) {
+            throw new Error('Field "app.versionCode" must be a positive integer up to 2,100,000,000');
         }
     }
 
@@ -84,8 +120,9 @@ export class AppConfig {
         this.appName = app.displayName || app.name;
         this.bundleIdentifier = app.bundleId;
         this.androidPackageName = app.androidPackageName;
-        this.version = app.version;
-        this.buildNumber = app.buildNumber;
+        this.versionName = app.versionName.trim();
+        this.versionCode = app.versionCode;
+       
         this.environment = app.environment;
 
         // Nested properties with default values
@@ -160,8 +197,8 @@ export class AppConfig {
             projectName: this.projectName,
             appName: this.appName,
             bundleId: this.bundleIdentifier,
-            androidPackage: this.androidPackageName,
-            version: this.version,
+            versionName: this.versionName,
+            versionCode: this.versionCode,
             webviewUrl: this.webviewUrl,
             analyticsEnabled: this.isAnalyticsEnabled,
             offlineEnabled: this.isOfflineEnabled
