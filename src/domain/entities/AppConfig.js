@@ -197,6 +197,7 @@ export class AppConfig {
             projectName: this.projectName,
             appName: this.appName,
             bundleId: this.bundleIdentifier,
+            androidPackage: this.androidPackageName,
             versionName: this.versionName,
             versionCode: this.versionCode,
             webviewUrl: this.webviewUrl,
